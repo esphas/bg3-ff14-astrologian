@@ -1,0 +1,6 @@
+new entry "EK_FF14_TIME_DILATION_{{ index }}"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Icon" "Icon_EK_FF14_AST_F_TimeDilation"
+data "OnApplyFunctors" "{{ functors }}"

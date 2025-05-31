@@ -1,0 +1,31 @@
+
+
+// ========= 福星 Benefic II =========
+
+new entry "EK_FF14_BeneficPlus"
+type "PassiveData"
+data "Icon" "Icon_EK_FF14_AST_BeneficPlus"
+data "DisplayName" "h57cd1587g6bc1g4c56g94b0g70e48f133d4e"
+data "Description" "h8e708bcdg9374g4ae7g99b2g9cd4e10f2991"
+
+new entry "EK_FF14_BeneficII"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Icon" "Icon_EK_FF14_AST_F_BeneficII"
+data "DisplayName" "h3c771a95g302dg44acg83bcg1431235bd785"
+data "Description" "h920a4c6dgbcdbg4b59g8a6fgb129f1ed435c"
+data "Boosts" "UnlockSpell(Target_EK_FF14_BeneficII,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+
+new entry "Target_EK_FF14_BeneficII"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EK_FF14_Benefic"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
+data "Level" "{{ power }}"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:{{ power }}"
+data "SpellProperties" "RegainHitPoints({{ potency }})"
+data "Icon" "Icon_EK_FF14_AST_F_BeneficII"
+data "DisplayName" "h3c771a95g302dg44acg83bcg1431235bd785"
+data "Description" "h920a4c6dgbcdbg4b59g8a6fgb129f1ed435c"
+data "TooltipDamageList" "RegainHitPoints({{ potency }})"
+data "TooltipUpcastDescriptionParams" "RegainHitPoints({{ potencyUpcast }})"

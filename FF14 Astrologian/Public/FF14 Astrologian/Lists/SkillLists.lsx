@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="0"/>
+    <region id="SkillLists">
+        <node id="root">
+            <children>
+                <node id="SkillList">
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Skill List"/>
+                    <attribute id="Skills" type="LSString" value="Arcana, History, Nature, Insight, Medicine, Perception, Survival, Deception, Performance, Persuasion"/>
+                    <attribute id="UUID" type="guid" value="122ad112-158c-4160-968e-3f7a5d5e8466"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

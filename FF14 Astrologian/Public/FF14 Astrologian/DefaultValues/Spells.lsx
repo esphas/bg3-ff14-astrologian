@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="325" />
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="TableUUID" type="guid" value="38d4f3f4-802d-489e-9f64-cd0765d6c6ac" />
+                    <attribute id="UUID" type="guid" value="c77618bd-09ab-495e-8f00-458d6cc0a1f2" />
+                    <attribute id="Level" type="int32" value="1" />
+                    <attribute id="Add" type="LSString" value="Target_MageHand;Target_Guidance;Target_Light;Target_MinorIllusion;Projectile_ChromaticOrb;Target_MageArmor;Target_Longstrider;Target_Jump;Shout_FeatherFall;Shout_DisguiseSelf;Shout_Shield_Wizard" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="5" revision="0" build="0" />
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="ProgressionTableId" type="guid" value="38d4f3f4-802d-489e-9f64-cd0765d6c6ac" />
+                    <attribute id="UUID" type="guid" value="08da4ac7-864c-4eec-b2d6-905740e0bf74" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha3c9e1ddg14c1g46a5g8d55g491c437ab98f" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h904f54e6gfc88g4d53g8f40g23def2271498" version="1" />
+                    <attribute id="Type" type="FixedString" value="EK_FF14_Astrologian" />
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="ProgressionTableId" type="guid" value="793e3e49-2bec-419b-99a1-9b4820710dc8" />
+                    <attribute id="UUID" type="guid" value="0075cb07-44b7-4f2f-9dfe-20a37fe883dc" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hd3bc6d6cgdd15g41a6g9d2cg9af68a72b01d" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h35ede46ag1bb1g4fa6g9679g8bf1ec334ad9" version="1" />
+                    <attribute id="Type" type="FixedString" value="EK_FF14_DiurnalSect" />
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="ProgressionTableId" type="guid" value="ba848402-bf17-4616-a656-72e7c4ed3ca4" />
+                    <attribute id="UUID" type="guid" value="48aa0aab-926c-4c70-b0f0-92c59690bdd9" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h89b1151dg5cdag40c8g9317gceeac0b72530" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h271f2ea5g6d2bg4985ga85cg71d71fcb46d5" version="1" />
+                    <attribute id="Type" type="FixedString" value="EK_FF14_NocturnalSect" />
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="ProgressionTableId" type="guid" value="38d4f3f4-802d-489e-9f64-cd0765d6c6ac" />
+                    <attribute id="UUID" type="guid" value="e8747e1f-f6f4-4993-92f3-722cdd17b46f" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb7f9b573g29d0g4581g8217gff4efbfe762b" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h91b31197g455eg4e3cg8172g32b65e1951f5" version="1" />
+                    <attribute id="Type" type="FixedString" value="ActionResource" />
+                    <attribute id="ParamMatch" type="FixedString" value="0:SpellSlot;1:1" />
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="ProgressionTableId" type="guid" value="38d4f3f4-802d-489e-9f64-cd0765d6c6ac" />
+                    <attribute id="UUID" type="guid" value="5f754b65-c590-43ba-8c18-89a747d420d5" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc24e5cbcg11e6g44e7gb7abg5fffea5a0dd8" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h09b31492g952bg4e5fg8f84ged1ace0ccf5e" version="1" />
+                    <attribute id="Type" type="FixedString" value="ActionResource" />
+                    <attribute id="ParamMatch" type="FixedString" value="0:SpellSlot" />
+                </node>
+                <node id="ProgressionDescription">
+                    <attribute id="ProgressionTableId" type="guid" value="38d4f3f4-802d-489e-9f64-cd0765d6c6ac" />
+                    <attribute id="UUID" type="guid" value="e08ce9dc-1609-4e9d-af4e-1ae77c36064f" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="he30ec050g15f1g44fag87d3g60b12a155166" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="heaf498f5g7f00g451fg90a1g349ee0f9313d" version="1" />
+                    <attribute id="Type" type="FixedString" value="ActionResource" />
+                    <attribute id="ParamMatch" type="FixedString" value="0:EK_FF14_Arcana" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

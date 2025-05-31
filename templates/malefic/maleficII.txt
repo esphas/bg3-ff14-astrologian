@@ -1,0 +1,71 @@
+
+
+// ========= 灾星 Malefic II =========
+
+new entry "EK_FF14_MaleficPlus"
+type "PassiveData"
+data "Icon" "Icon_EK_FF14_AST_MaleficPlus"
+data "DisplayName" "hd3829facg5728g4842gb08cgb89f4318f6ca"
+data "Description" "hf8448576g6478g4ed3g94a2g81dd96018a56"
+
+new entry "EK_FF14_MaleficII"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Icon" "Icon_EK_FF14_AST_F_MaleficII"
+data "DisplayName" "h27010aebg3d9bg4990g9bb6g5079a04ec10f"
+data "Description" "he7b1dab9gdb30g4114ga8a8g06505acd011d"
+data "Boosts" "UnlockSpell(Target_EK_FF14_MaleficII,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+
+new entry "Target_EK_FF14_MaleficII"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EK_FF14_Malefic"
+data "Level" "{{ power }}"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:{{ power }}"
+data "SpellSuccess" "DealDamage({{ damage1 }},Radiant,Magical);ApplyStatus(EK_FF14_MALEFIC_II_TARGET_{{ power }}S,100,0)"
+data "SpellFail" "DealDamage(({{ damage1 }})/2,Radiant,Magical);ApplyStatus(EK_FF14_MALEFIC_II_TARGET_{{ power }}F,100,0)"
+data "Icon" "Icon_EK_FF14_AST_F_MaleficII"
+data "DisplayName" "h27010aebg3d9bg4990g9bb6g5079a04ec10f"
+data "Description" "he7b1dab9gdb30g4114ga8a8g06505acd011d"
+data "TooltipDamageList" "DealDamage({{ damage1 }},Radiant);DealDamage({{ damage2 }},Fire)"
+data "TooltipUpcastDescription" "0ac74a56-a1eb-4b31-b8f6-4ebdf24a87d2"
+data "TooltipUpcastDescriptionParams" "DealDamage({{ damage1Upcast }},Radiant);DealDamage({{ damage2Upcast }},Fire)"
+
+new entry "EK_FF14_MALEFIC_II_DAMAGE_TYPE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "FreezeDuration;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyFunctors" "ApplyStatus(EK_FF14_MALEFIC_II_DAMAGE_DEALER,100,0)"
+
+new entry "EK_FF14_MALEFIC_II_DAMAGE_DEALER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "EK_FF14_MALEFIC_II_DAMAGE_FUNCTOR"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnRemoveFunctors" "RemoveStatus(EK_FF14_MALEFIC_II_DAMAGE_TYPE)"
+
+new entry "EK_FF14_MALEFIC_II_TARGET_{{ power }}S"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "EK_FF14_MALEFIC_II_TARGET_{{ power }}F"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "EK_FF14_MALEFIC_II_{{ power }}S"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EK_FF14_MALEFIC_II_DAMAGE_FUNCTOR"
+data "OnApplyFunctors" "IF(MaleficMatch(2,1)):DealDamage({{ damage2 }},Bludgeoning,Magical);IF(MaleficMatch(2,2)):DealDamage({{ damage2 }},Piercing,Magical);IF(MaleficMatch(2,3)):DealDamage({{ damage2 }},Slashing,Magical);IF(MaleficMatch(2,4)):DealDamage({{ damage2 }},Cold,Magical);IF(MaleficMatch(2,5)):DealDamage({{ damage2 }},Fire,Magical);IF(MaleficMatch(2,6)):DealDamage({{ damage2 }},Lightning,Magical);IF(MaleficMatch(2,7)):DealDamage({{ damage2 }},Thunder,Magical);IF(MaleficMatch(2,8)):DealDamage({{ damage2 }},Acid,Magical);IF(MaleficMatch(2,9)):DealDamage({{ damage2 }},Poison,Magical);IF(MaleficMatch(2,10)):DealDamage({{ damage2 }},Radiant,Magical);IF(MaleficMatch(2,11)):DealDamage({{ damage2 }},Necrotic,Magical);IF(MaleficMatch(2,12)):DealDamage({{ damage2 }},Force,Magical);IF(MaleficMatch(2,13)):DealDamage({{ damage2 }},Psychic,Magical)"
+
+new entry "EK_FF14_MALEFIC_II_{{ power }}F"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EK_FF14_MALEFIC_II_DAMAGE_FUNCTOR"
+data "OnApplyFunctors" "IF(MaleficMatch(2,1)):DealDamage(({{ damage2 }})/2,Bludgeoning,Magical);IF(MaleficMatch(2,2)):DealDamage(({{ damage2 }})/2,Piercing,Magical);IF(MaleficMatch(2,3)):DealDamage(({{ damage2 }})/2,Slashing,Magical);IF(MaleficMatch(2,4)):DealDamage(({{ damage2 }})/2,Cold,Magical);IF(MaleficMatch(2,5)):DealDamage(({{ damage2 }})/2,Fire,Magical);IF(MaleficMatch(2,6)):DealDamage(({{ damage2 }})/2,Lightning,Magical);IF(MaleficMatch(2,7)):DealDamage(({{ damage2 }})/2,Thunder,Magical);IF(MaleficMatch(2,8)):DealDamage(({{ damage2 }})/2,Acid,Magical);IF(MaleficMatch(2,9)):DealDamage(({{ damage2 }})/2,Poison,Magical);IF(MaleficMatch(2,10)):DealDamage(({{ damage2 }})/2,Radiant,Magical);IF(MaleficMatch(2,11)):DealDamage(({{ damage2 }})/2,Necrotic,Magical);IF(MaleficMatch(2,12)):DealDamage(({{ damage2 }})/2,Force,Magical);IF(MaleficMatch(2,13)):DealDamage(({{ damage2 }})/2,Psychic,Magical)"

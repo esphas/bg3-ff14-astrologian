@@ -1,0 +1,7 @@
+
+node_modules/
+
+.vscode/settings.json
+
+# generated
+FF14 Astrologian/Public/FF14 Astrologian/Stats/Generated/Data/

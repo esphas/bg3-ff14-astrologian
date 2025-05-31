@@ -1,0 +1,26 @@
+
+
+// ========= 生辰 Ascend =========
+
+new entry "Teleportation_EK_FF14_Ascend"
+type "SpellData"
+data "SpellType" "Teleportation"
+using "Teleportation_Resurrection"
+data "Level" "2"
+data "SpellSchool" "Divination"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:{{ power }}"
+data "OriginSpellProperties" "RegainHitPoints(1);Resurrect(100,1);RestoreResource(Movement,100%,0);UseActionResource(ActionPoint,100%,0);UseActionResource(BonusActionPoint,100%,0);ApplyStatus(RESURRECTING,100,1);ApplyStatus(EK_FF14_WEAKENED,100,3)"
+data "Icon" "Icon_EK_FF14_AST_F_Ascend"
+data "DisplayName" "h240202b0ge534g4cb1gb620g05812d6d9dd4"
+data "Description" "hc5b2a42cgb529g4c07gafd9g5cb00b23bfac"
+data "TooltipStatusApply" "ApplyStatus(EK_FF14_WEAKENED,100,3)"
+data "TooltipUpcastDescription" "1a8ca0c8-addb-442a-8aab-a896b84c30c2"
+
+new entry "EK_FF14_WEAKENED"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "Icon_EK_FF14_AST_Weakened"
+data "DisplayName" "he43d2c7agc19eg463eg9097gd99d74562555"
+data "Description" "h7c4c302dg4f6ag4aa8g8a52g534f7d9d701c"
+data "DescriptionParams" "DealDamage(-1d4)"
+data "Boosts" "DamageBonus(-1d4)"

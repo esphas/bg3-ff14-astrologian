@@ -1,0 +1,8 @@
+
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Icon_EK_FF14_AST_{{ nameKey }}" />
+                    <attribute id="U1" type="float" value="{{ u1 }}"/>
+                    <attribute id="U2" type="float" value="{{ u2 }}"/>
+                    <attribute id="V1" type="float" value="{{ v1 }}"/>
+                    <attribute id="V2" type="float" value="{{ v2 }}"/>
+                </node>
