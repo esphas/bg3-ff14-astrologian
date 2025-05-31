@@ -1,0 +1,71 @@
+
+
+// ========= 煞星 Malefic IV =========
+
+new entry "EK_FF14_MaleficPlusIII"
+type "PassiveData"
+data "Icon" "Icon_EK_FF14_AST_MaleficPlusIII"
+data "DisplayName" "hb81cb5b0g0453g4cc0gbbc7gf4592f39b362"
+data "Description" "h599e0b2ag1f67g4533g9201gf0506b05879a"
+
+new entry "EK_FF14_MaleficIV"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "Icon" "Icon_EK_FF14_AST_F_MaleficIV"
+data "DisplayName" "h1887ebcegc1f3g4f91g8001ga31880811f1b"
+data "Description" "ha6172f12g6d56g4c2dg9200g797ca5950280"
+data "Boosts" "UnlockSpell(Target_EK_FF14_MaleficIV,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+
+new entry "Target_EK_FF14_MaleficIV"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_EK_FF14_MaleficIII"
+data "Level" "{{ power }}"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:{{ power }}"
+data "SpellSuccess" "DealDamage({{ damage1 }},Radiant,Magical);ApplyStatus(EK_FF14_MALEFIC_II_TARGET_{{ power }}S,100,0);ApplyStatus(EK_FF14_MALEFIC_III_TARGET_{{ power }}S,100,0);ApplyStatus(EK_FF14_MALEFIC_IV_TARGET_{{ power }}S,100,0)"
+data "SpellFail" "DealDamage({{ damage1 }},Radiant,Magical);ApplyStatus(EK_FF14_MALEFIC_II_TARGET_{{ power }}F,100,0);ApplyStatus(EK_FF14_MALEFIC_III_TARGET_{{ power }}F,100,0);ApplyStatus(EK_FF14_MALEFIC_IV_TARGET_{{ power }}F,100,0)"
+data "Icon" "Icon_EK_FF14_AST_F_MaleficIV"
+data "DisplayName" "h1887ebcegc1f3g4f91g8001ga31880811f1b"
+data "Description" "ha6172f12g6d56g4c2dg9200g797ca5950280"
+data "TooltipDamageList" "DealDamage({{ damage1 }},Radiant);DealDamage({{ damage2 }},Fire);DealDamage({{ damage3 }},Cold);DealDamage({{ damage4 }},Lightning)"
+data "TooltipUpcastDescription" "9fc173fa-8d2a-4f7a-bb60-6b3b4103cfe8"
+data "TooltipUpcastDescriptionParams" "DealDamage({{ damage1Upcast }},Radiant);DealDamage({{ damage2Upcast }},Fire);DealDamage({{ damage3Upcast }},Cold);DealDamage({{ damage4Upcast }},Lightning)"
+
+new entry "EK_FF14_MALEFIC_IV_DAMAGE_TYPE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "FreezeDuration;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnApplyFunctors" "ApplyStatus(EK_FF14_MALEFIC_IV_DAMAGE_DEALER,100,0)"
+
+new entry "EK_FF14_MALEFIC_IV_DAMAGE_DEALER"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "EK_FF14_MALEFIC_IV_DAMAGE_FUNCTOR"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "OnRemoveFunctors" "RemoveStatus(EK_FF14_MALEFIC_IV_DAMAGE_TYPE)"
+
+new entry "EK_FF14_MALEFIC_IV_TARGET_{{ power }}S"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "EK_FF14_MALEFIC_IV_TARGET_{{ power }}F"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "EK_FF14_MALEFIC_IV_{{ power }}S"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EK_FF14_MALEFIC_IV_DAMAGE_FUNCTOR"
+data "OnApplyFunctors" "IF(MaleficMatch(4,1)):DealDamage({{ damage4 }},Bludgeoning,Magical);IF(MaleficMatch(4,2)):DealDamage({{ damage4 }},Piercing,Magical);IF(MaleficMatch(4,3)):DealDamage({{ damage4 }},Slashing,Magical);IF(MaleficMatch(4,4)):DealDamage({{ damage4 }},Cold,Magical);IF(MaleficMatch(4,5)):DealDamage({{ damage4 }},Fire,Magical);IF(MaleficMatch(4,6)):DealDamage({{ damage4 }},Lightning,Magical);IF(MaleficMatch(4,7)):DealDamage({{ damage4 }},Thunder,Magical);IF(MaleficMatch(4,8)):DealDamage({{ damage4 }},Acid,Magical);IF(MaleficMatch(4,9)):DealDamage({{ damage4 }},Poison,Magical);IF(MaleficMatch(4,10)):DealDamage({{ damage4 }},Radiant,Magical);IF(MaleficMatch(4,11)):DealDamage({{ damage4 }},Necrotic,Magical);IF(MaleficMatch(4,12)):DealDamage({{ damage4 }},Force,Magical);IF(MaleficMatch(4,13)):DealDamage({{ damage4 }},Psychic,Magical)"
+
+new entry "EK_FF14_MALEFIC_IV_{{ power }}F"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EK_FF14_MALEFIC_IV_DAMAGE_FUNCTOR"
+data "OnApplyFunctors" "IF(MaleficMatch(4,1)):DealDamage(({{ damage4 }})/2,Bludgeoning,Magical);IF(MaleficMatch(4,2)):DealDamage(({{ damage4 }})/2,Piercing,Magical);IF(MaleficMatch(4,3)):DealDamage(({{ damage4 }})/2,Slashing,Magical);IF(MaleficMatch(4,4)):DealDamage(({{ damage4 }})/2,Cold,Magical);IF(MaleficMatch(4,5)):DealDamage(({{ damage4 }})/2,Fire,Magical);IF(MaleficMatch(4,6)):DealDamage(({{ damage4 }})/2,Lightning,Magical);IF(MaleficMatch(4,7)):DealDamage(({{ damage4 }})/2,Thunder,Magical);IF(MaleficMatch(4,8)):DealDamage(({{ damage4 }})/2,Acid,Magical);IF(MaleficMatch(4,9)):DealDamage(({{ damage4 }})/2,Poison,Magical);IF(MaleficMatch(4,10)):DealDamage(({{ damage4 }})/2,Radiant,Magical);IF(MaleficMatch(4,11)):DealDamage(({{ damage4 }})/2,Necrotic,Magical);IF(MaleficMatch(4,12)):DealDamage(({{ damage4 }})/2,Force,Magical);IF(MaleficMatch(4,13)):DealDamage(({{ damage4 }})/2,Psychic,Magical)"

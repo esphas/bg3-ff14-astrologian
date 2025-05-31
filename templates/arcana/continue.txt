@@ -1,0 +1,58 @@
+
+
+// ========= 奥秘卡连续处理 =========
+
+new entry "EK_FF14_ArcanaContinueBreak"
+type "PassiveData"
+data "Properties" "IsHidden"
+data "StatsFunctorContext" "OnCast"
+data "Conditions" "EK_FF14_Check_ArcanaContinueBreak()"
+data "StatsFunctors" "ApplyStatus(EK_FF14_ARCANA_CONTINUE_NONE,100,1)"
+
+// 出奥秘卡、神圣路、出暂留卡、出小奥秘卡后: 结束连续处理
+new entry "EK_FF14_ARCANA_CONTINUE_NONE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "EK_FF14_ARCANA_CONTINUE"
+data "StackType" "Overwrite"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Description" "h2af1fc7bg9e8cg4660gae76g59bb5607754f"
+
+// 抽卡后: 出奥秘卡 神圣路 暂留 重抽 小奥秘卡
+new entry "EK_FF14_ARCANA_CONTINUE_DRAW"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EK_FF14_ARCANA_CONTINUE_NONE"
+data "DisplayName" "hf714d4e8g7876g4ac2ga108g955ca69438f3"
+data "Boosts" "UnlockSpellVariant(EK_FF14_Check_ArcanaContinueAfterDraw(),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint))"
+
+// 暂留后: 出暂留卡
+new entry "EK_FF14_ARCANA_CONTINUE_SPREAD"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EK_FF14_ARCANA_CONTINUE_NONE"
+data "DisplayName" "ha7e83c05g112cg474bgb2a9ge2c7f043e8bb"
+data "Boosts" "UnlockSpellVariant(EK_FF14_Check_ArcanaContinueAfterSpread(),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint))"
+
+// 小奥秘卡后: 出小奥秘卡
+new entry "EK_FF14_ARCANA_CONTINUE_MINOR_ARCANA"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EK_FF14_ARCANA_CONTINUE_NONE"
+data "DisplayName" "h79a62455g5ec5g49f2gb268gad8958ee0a05"
+data "Boosts" "UnlockSpellVariant(EK_FF14_Check_ArcanaContinueAfterMinorArcana(),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint))"
+
+// 重抽后：等同于抽卡
+new entry "EK_FF14_ARCANA_CONTINUE_REDRAW"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EK_FF14_ARCANA_CONTINUE_DRAW"
+data "DisplayName" "h8c7d9d24ga5a1g4963g92f6gad5aa1a98f84"
+
+// 袖内抽卡后: 出奥秘卡 神圣路 暂留 重抽 小奥秘卡 出暂留卡 出小奥秘卡
+new entry "EK_FF14_ARCANA_CONTINUE_SLEEVE_DRAW"
+type "StatusData"
+data "StatusType" "BOOST"
+using "EK_FF14_ARCANA_CONTINUE_NONE"
+data "DisplayName" "h60198cbage91bg42f0g8fd0gabb853452152"
+data "Boosts" "UnlockSpellVariant(EK_FF14_Check_ArcanaContinueAfterSleeveDraw(),ModifyIconGlow(),ModifyTooltipDescription(),ModifyUseCosts(Replace,BonusActionPoint,0,0,BonusActionPoint))"

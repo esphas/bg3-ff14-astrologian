@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="3" revision="0" build="302"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="UUID" type="guid" value="659f475d-6b02-453d-a199-de4146143f40" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_Arcana" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="he30ec050g15f1g44fag87d3g60b12a155166" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="heaf498f5g7f00g451fg90a1g349ee0f9313d" version="1" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="UUID" type="guid" value="fdbc0448-4464-4143-bfe4-9225ff8a96c3" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_Astrodyne" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2f0f0a2fg2eb9g43a1g9bebgea0d3db394ce" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hda48a77fg098bg4afegb006g04d1fffafbc6" version="1" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="ReplenishType" type="FixedString" value="Never" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="UUID" type="guid" value="a48507b9-53c9-4941-a7b2-f4f24809d338" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_SwiftcastPoint" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h67ef8ecbg0514g4d7cga950g196d91b38751" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h859ed864g5063g40cagbc55g78bada15eb6f" version="1" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="UUID" type="guid" value="0f23572b-b269-4177-b28c-e04b0fb70359" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_EssentialDignityCharge" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hddc2c0e3g73deg4c71gabdfg6824c707506e" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h4014f703gafb5g43ddgae3dge235d72499ad" version="1" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="UUID" type="guid" value="5b78025e-256f-418e-b7dd-9ab99e7c8159" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_SurecastCharge" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h850868begc187g43c0g8375g3f0f60385d50" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hea80ace1g7b8eg4d62gb72dg4da20ad3f626" version="1" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,11 @@
+{
+  "name": "ff14astrologian",
+  "private": true,
+  "scripts": {
+    "arrangeIcons": "node ./scripts/arrangeIcons.js",
+    "build": "node ./scripts/build.js"
+  },
+  "devDependencies": {
+    "liquidjs": "^10.18.0"
+  }
+}

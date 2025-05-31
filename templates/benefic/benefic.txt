@@ -1,0 +1,38 @@
+
+
+// ========= 吉星 Benefic =========
+
+new entry "EK_FF14_Benefic"
+type "PassiveData"
+data "Icon" "Icon_EK_FF14_AST_F_Benefic"
+data "DisplayName" "h928fc02dge64dg4e9cga3eag63882cffad68"
+data "Description" "hf3e2ffb8g5ea0g46aeg8dfdge6fc8db91518"
+data "Boosts" "UnlockSpell(Target_EK_FF14_Benefic,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+
+new entry "Target_EK_FF14_Benefic"
+type "SpellData"
+data "SpellType" "Target"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;RangeIgnoreVerticalThreshold"
+data "Level" "{{ power }}"
+data "SpellSchool" "Divination"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:{{ power }}"
+data "TargetRadius" "18"
+data "TargetConditions" "Character() and not Dead()"
+data "CycleConditions" "Ally() and not Dead()"
+data "SpellProperties" "RegainHitPoints({{ potency }})"
+data "Icon" "Icon_EK_FF14_AST_F_Benefic"
+data "DisplayName" "h928fc02dge64dg4e9cga3eag63882cffad68"
+data "Description" "hf3e2ffb8g5ea0g46aeg8dfdge6fc8db91518"
+data "TooltipDamageList" "RegainHitPoints({{ potency }})"
+data "TooltipUpcastDescription" "ef4fc937-9b23-4fcc-a67f-7706f86cfa44"
+data "TooltipUpcastDescriptionParams" "RegainHitPoints({{ potencyUpcast }})"
+// from: Target_HealingWord
+data "CastSound" "Spell_Cast_Healing_HealingWord_L1to3"
+data "TargetSound" "Spell_Impact_Healing_HealingWord_L1to3"
+data "CastTextEvent" "Cast"
+data "SpellAnimation" "414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;2f893fad-98eb-47cf-a524-dd4efd42bc2a,,;ca3147a8-2cf6-45a8-ac9a-1ce0fc11305f,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,"
+data "VerbalIntent" "Healing"
+data "HitAnimationType" "MagicalNonDamage"
+data "PrepareEffect" "96a51ac8-2e7e-4718-bb62-dcfd18964a02"
+data "CastEffect" "7a73fa11-81e8-44bc-8653-a0d0ebbecf4b"
+data "TargetEffect" "70319a43-6342-4996-811d-dd50df8b3fa1"

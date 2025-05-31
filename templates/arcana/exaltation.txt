@@ -1,0 +1,9 @@
+
+
+// ========= 擢升 =========
+new entry "EK_FF14_Exaltation"
+type "PassiveData"
+data "DisplayName" "h7df7ab05ge52cg4e42gaa5fg390fd678a07d"
+data "Description" "h356047c5gd481g483dg913bg713340b3e7ac"
+data "Icon" "Icon_EK_FF14_AST_Exaltation"
+data "Boosts" "ActionResourceReplenishTypeOverride(EK_FF14_Arcana,ShortRest)"

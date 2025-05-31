@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328" />
+    <region id="TextureAtlasInfo">
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int32" value="{{ iconSize }}" />
+                    <attribute id="Width" type="int32" value="{{ iconSize }}" />
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="string" value="{{ path }}" />
+                    <attribute id="UUID" type="FixedString" value="{{ uuid }}" />
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int32" value="{{ textureSize }}" />
+                    <attribute id="Width" type="int32" value="{{ textureSize }}" />
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="IconUVList">
+        <node id="root">
+            <children>{{ iconUVList }}
+            </children>
+        </node>
+    </region>
+</save>

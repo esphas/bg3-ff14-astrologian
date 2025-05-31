@@ -1,0 +1,31 @@
+
+
+// ========= 阳星 Helios =========
+
+new entry "Shout_EK_FF14_Helios"
+type "SpellData"
+data "SpellType" "Shout"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell"
+data "Level" "{{ power }}"
+data "SpellSchool" "Divination"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:{{ power }}"
+data "AreaRadius" "9"
+data "TargetConditions" "Ally() and not Dead()"
+data "SpellProperties" "RegainHitPoints({{ potency }});ApplyStatus(EK_FF14_HOROSCOPE_UPGRADE,100,0)"
+data "Icon" "Icon_EK_FF14_AST_F_Helios"
+data "DisplayName" "h082f5593g9841g42f9g9e14g9c5422122c69"
+data "Description" "hfaea0a52g184dg4535gba3agc14c29f9727d"
+data "TooltipDamageList" "RegainHitPoints({{ potency }})"
+data "TooltipUpcastDescription" "ef4fc937-9b23-4fcc-a67f-7706f86cfa44"
+data "TooltipUpcastDescriptionParams" "RegainHitPoints({{ potencyUpcast }})"
+// from: Shout_HealingWord_Mass
+data "CastSound" "Spell_Cast_Healing_MassHealingWord_L1to3"
+data "TargetSound" "Spell_Impact_Healing_MassHealingWord_L1to3"
+data "VocalComponentSound" "Vocal_Component_HealingHPMass"
+data "CastTextEvent" "Cast"
+data "SpellAnimation" "414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;,,;,,"
+data "VerbalIntent" "Healing"
+data "HitAnimationType" "MagicalNonDamage"
+data "PrepareEffect" "88532675-7be6-4a54-b750-90e6a8f2c012"
+data "CastEffect" "47f3994a-396b-40ac-a063-aa9ed71dc523"
+data "TargetEffect" "3c7b783e-d2ee-4125-9f94-0d48d44fe3e8"

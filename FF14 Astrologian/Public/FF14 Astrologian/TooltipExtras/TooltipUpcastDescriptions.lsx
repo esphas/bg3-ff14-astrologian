@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="0" revision="10" build="100" />
+    <region id="TooltipUpcastDescriptions">
+        <node id="root">
+            <children>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Additional damage with 1 extra" />
+                    <attribute id="Text" type="TranslatedString" handle="h79997b21gcbb8g4a24g8933g65d101da9feb" version="1" />
+                    <attribute id="UUID" type="guid" value="0ac74a56-a1eb-4b31-b8f6-4ebdf24a87d2" />
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Additional damage with 2 extra" />
+                    <attribute id="Text" type="TranslatedString" handle="h66373424g360ag4a95gb886gf023b93497ab" version="1" />
+                    <attribute id="UUID" type="guid" value="34007551-814f-46fc-a298-6eee3e27809c" />
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Additional damage with 3 extra" />
+                    <attribute id="Text" type="TranslatedString" handle="he7dc571dg7d26g47cagb0deg4384306f9f45" version="1" />
+                    <attribute id="UUID" type="guid" value="9fc173fa-8d2a-4f7a-bb60-6b3b4103cfe8" />
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Additional damage with 4 extra" />
+                    <attribute id="Text" type="TranslatedString" handle="h986d693egc99eg4707ga78cgc9e226c39361" version="1" />
+                    <attribute id="UUID" type="guid" value="8ed374fd-3562-41db-b53e-7a3c9bef77cb" />
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Ascend no negtive" />
+                    <attribute id="Text" type="TranslatedString" handle="h6aee3824g60bdg4821gab9bg31f0f9dfdf0b" version="1" />
+                    <attribute id="UUID" type="guid" value="1a8ca0c8-addb-442a-8aab-a896b84c30c2" />
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Aspected healing" />
+                    <attribute id="Text" type="TranslatedString" handle="heb439212g865ag40adg9002g64861bfa58b4" version="1" />
+                    <attribute id="UUID" type="guid" value="309181e7-457a-4d9e-a7be-7fe7b509569d" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

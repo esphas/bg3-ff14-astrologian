@@ -1,0 +1,32 @@
+
+
+// ========= 重抽 =========
+
+new entry "EK_FF14_ArcanaRedraw"
+type "PassiveData"
+data "Icon" "Icon_EK_FF14_AST_F_Redraw"
+data "DisplayName" "h8c7d9d24ga5a1g4963g92f6gad5aa1a98f84"
+data "Description" "h67f6d8b1g3d28g44e7ga0b8g78c73bf1d52b"
+
+new entry "Shout_EK_FF14_Redraw"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_EK_FF14_Draw"
+data "UseCosts" "BonusActionPoint:1"
+data "SpellProperties" "ApplyStatus(EK_FF14_REDRAW_SCRIPTING,100,0);RemoveStatus(EK_FF14_ARCANA_SLOT_REDRAW_AVAILABLE);ApplyStatus(EK_FF14_ARCANA_CONTINUE_REDRAW,100,1)"
+data "Icon" "Icon_EK_FF14_AST_F_Redraw"
+data "DisplayName" "h8c7d9d24ga5a1g4963g92f6gad5aa1a98f84"
+data "Description" "h67f6d8b1g3d28g44e7ga0b8g78c73bf1d52b"
+data "SpellFlags" "HasSomaticComponent;Temporary"
+
+new entry "EK_FF14_REDRAW_SCRIPTING"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "EK_FF14_ARCANA_SLOT_REDRAW_AVAILABLE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StackId" "EK_FF14_ARCANA_SLOT_REDRAW_AVAILABLE"
+data "StackType" "Overwrite"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"

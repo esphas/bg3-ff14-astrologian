@@ -1,0 +1,186 @@
+
+--[[
+    任意类型的抽卡
+    包括直接抽卡（抽卡、袖内 etc.）和转化抽卡（神圣路、暂留 etc.）
+--]]
+function EK_FF14_Check_AnyArcanaDraw()
+    return SpellId('Shout_EK_FF14_Draw')
+         | SpellId('Shout_EK_FF14_RoyalRoad')
+         | SpellId('Shout_EK_FF14_ArcanaSpread')
+         | SpellId('Shout_EK_FF14_Redraw')
+         | SpellId('Shout_EK_FF14_MinorArcana_4_0')
+         | SpellId('Shout_EK_FF14_MinorArcana_6_0')
+         | SpellId('Shout_EK_FF14_SleeveDraw')
+end
+
+--[[
+    出卡
+    仅包含通过抽卡获得的卡，不包含暂留卡、小奥秘卡
+--]]
+function EK_FF14_Check_ArcanaPlay()
+    return {{ checkArcanaPlay }}
+end
+
+--[[
+    会清空抽卡槽的技能
+--]]
+function EK_FF14_Check_ClearArcanaSlotDraw()
+    return SpellId('Shout_EK_FF14_Undraw')
+         | EK_FF14_Check_ArcanaPlay()
+         | SpellId('Shout_EK_FF14_RoyalRoad')
+         | SpellId('Shout_EK_FF14_ArcanaSpread')
+         | SpellId('Shout_EK_FF14_MinorArcana_4_0')
+end
+
+--[[
+    出暂留卡
+--]]
+function EK_FF14_Check_ArcanaPlaySpread()
+    return {{ checkArcanaPlaySpread }}
+end
+
+--[[
+    会清空暂留卡槽的技能
+--]]
+function EK_FF14_Check_ClearArcanaSlotSpread()
+    return SpellId('Shout_EK_FF14_UndrawSpread')
+         | EK_FF14_Check_ArcanaPlaySpread()
+end
+
+--[[
+    会清空神圣路卡槽的技能
+--]]
+function EK_FF14_Check_ClearArcanaSlotRoyalRoad()
+    return SpellId('Shout_EK_FF14_EmptyRoad')
+         | EK_FF14_Check_ArcanaPlay()
+         | EK_FF14_Check_ArcanaPlaySpread()
+end
+
+--[[
+    出小奥秘卡
+--]]
+function EK_FF14_Check_ArcanaPlayMinorArcana()
+    return SpellId('Shout_EK_FF14_CrownPlay_LordOfCrowns')
+         | SpellId('Shout_EK_FF14_CrownPlay_LadyOfCrowns')
+end
+
+--[[
+    会清空小奥秘卡槽的技能
+--]]
+function EK_FF14_Check_ClearArcanaSlotMinorArcana()
+    return EK_FF14_Check_ArcanaPlayMinorArcana()
+end
+
+--[[
+    任意类型的出卡
+--]]
+function EK_FF14_Check_AnyArcanaPlay()
+    return EK_FF14_Check_ArcanaPlay()
+         | EK_FF14_Check_ArcanaPlaySpread()
+         | EK_FF14_Check_ArcanaPlayMinorArcana()
+end
+
+--[[
+    奥秘卡连续处理: 抽卡后可以接续的技能
+--]]
+function EK_FF14_Check_ArcanaContinueAfterDraw()
+    return EK_FF14_Check_ArcanaPlay()
+         | SpellId('Shout_EK_FF14_RoyalRoad')
+         | SpellId('Shout_EK_FF14_ArcanaSpread')
+         | SpellId('Shout_EK_FF14_Redraw')
+         | SpellId('Shout_EK_FF14_MinorArcana_4_0')
+end
+
+--[[
+    奥秘卡连续处理: 暂留后可以接续的技能
+--]]
+function EK_FF14_Check_ArcanaContinueAfterSpread()
+    return EK_FF14_Check_ArcanaPlaySpread()
+end
+
+--[[
+    奥秘卡连续处理: 小奥秘卡后可以接续的技能
+--]]
+function EK_FF14_Check_ArcanaContinueAfterMinorArcana()
+    return EK_FF14_Check_ArcanaPlayMinorArcana()
+end
+
+--[[
+    奥秘卡连续处理: 袖内抽卡后可以接续的技能
+--]]
+function EK_FF14_Check_ArcanaContinueAfterSleeveDraw()
+    return EK_FF14_Check_ArcanaContinueAfterDraw()
+         | EK_FF14_Check_ArcanaContinueAfterSpread()
+         | EK_FF14_Check_ArcanaContinueAfterMinorArcana()
+end
+
+--[[
+    奥秘卡连续处理: 会中断连续处理的技能
+--]]
+function EK_FF14_Check_ArcanaContinueBreak()
+    return EK_FF14_Check_ArcanaPlay()
+         | SpellId('Shout_EK_FF14_RoyalRoad')
+         | EK_FF14_Check_ArcanaPlaySpread()
+         | EK_FF14_Check_ArcanaPlayMinorArcana()
+end
+
+--[[
+    检查某个阶段凶星的伤害属性随机结果是否为某个值
+--]]
+function MaleficMatch(malefic, number, entity)
+    local entity = entity or context.Target
+    local number = number or 0
+    local status = "EK_FF14_MALEFIC_II_DAMAGE_TYPE"
+    if malefic == 3 then
+        status = "EK_FF14_MALEFIC_III_DAMAGE_TYPE"
+    elseif malefic == 4 then
+        status = "EK_FF14_MALEFIC_IV_DAMAGE_TYPE"
+    elseif malefic == 5 then
+        status = "EK_FF14_FALL_MALEFIC_DAMAGE_TYPE"
+    end
+    return ConditionResult(GetStatusDuration(status, entity) >= number) & ConditionResult(GetStatusDuration(status, entity) < number + 1)
+end
+
+--[[
+    受光速影响的技能
+--]]
+function EK_FF14_Check_LightspeedFreeplay()
+    return EK_FF14_Check_AnyArcanaDraw()
+         | EK_FF14_Check_AnyArcanaPlay()
+end
+
+--[[
+    会消耗光速层数的技能
+--]]
+function EK_FF14_Check_ComsumeLightspeedFreeplay()
+    return EK_FF14_Check_LightspeedFreeplay()
+         & ~(HasStatus('EK_FF14_ARCANA_CONTINUE_DRAW') & EK_FF14_Check_ArcanaContinueAfterDraw())
+         & ~(HasStatus('EK_FF14_ARCANA_CONTINUE_SPREAD') & EK_FF14_Check_ArcanaContinueAfterSpread())
+         & ~(HasStatus('EK_FF14_ARCANA_CONTINUE_MINOR_ARCANA') & EK_FF14_Check_ArcanaContinueAfterMinorArcana())
+         & ~(HasStatus('EK_FF14_ARCANA_CONTINUE_REDRAW') & EK_FF14_Check_ArcanaContinueAfterDraw())
+         & ~(HasStatus('EK_FF14_ARCANA_CONTINUE_SLEEVE_DRAW') & EK_FF14_Check_ArcanaContinueAfterSleeveDraw())
+end
+
+--[[
+    拥有能被时间膨胀所影响的状态
+--]]
+function EK_FF14_Check_TimeDilationTarget()
+    return HasAnyStatus({
+        {{ statusTimeDilationTarget }}
+    }, {}, {}, context.Target, context.Source)
+end
+
+
+--[[
+    拥有特定类型的护盾
+--]]
+function EK_FF14_Check_HasAnyShieldOfTypeA()
+    return HasAnyStatus({
+        {{ statusShieldOfTypeA }}
+    })
+end
+function EK_FF14_Check_HasAnyShieldOfTypeB()
+    return HasAnyStatus({
+        {{ statusShieldOfTypeB }}
+    })
+end

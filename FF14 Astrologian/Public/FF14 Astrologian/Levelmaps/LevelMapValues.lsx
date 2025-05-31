@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="2" revision="0" build="100" />
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="UUID" type="guid" value="f6c8ccd7-4076-4509-ae33-d3f0a55ec4d4" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_EarthlyStarHealing1" />
+                    <attribute id="Level1" type="LSString" value="1d8" />
+                    <attribute id="Level3" type="LSString" value="2d8" />
+                    <attribute id="Level5" type="LSString" value="3d8" />
+                    <attribute id="Level7" type="LSString" value="4d8" />
+                    <attribute id="Level9" type="LSString" value="5d8" />
+                    <attribute id="Level11" type="LSString" value="6d8" />
+                    <attribute id="Level13" type="LSString" value="7d8" />
+                    <attribute id="Level15" type="LSString" value="8d8" />
+                    <attribute id="Level17" type="LSString" value="9d8" />
+                    <attribute id="Level19" type="LSString" value="10d8" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="UUID" type="guid" value="66534e43-d3c3-4a1e-859f-6d522db2097d" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_EarthlyStarHealing2" />
+                    <attribute id="Level1" type="LSString" value="1d12" />
+                    <attribute id="Level3" type="LSString" value="2d12" />
+                    <attribute id="Level5" type="LSString" value="3d12" />
+                    <attribute id="Level7" type="LSString" value="4d12" />
+                    <attribute id="Level9" type="LSString" value="5d12" />
+                    <attribute id="Level11" type="LSString" value="6d12" />
+                    <attribute id="Level13" type="LSString" value="7d12" />
+                    <attribute id="Level15" type="LSString" value="8d12" />
+                    <attribute id="Level17" type="LSString" value="9d12" />
+                    <attribute id="Level19" type="LSString" value="10d12" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="UUID" type="guid" value="1662d222-202d-4b44-b026-cb09afcf2b56" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_EarthlyStarDamage1" />
+                    <attribute id="Level1" type="LSString" value="1d8" />
+                    <attribute id="Level3" type="LSString" value="2d8" />
+                    <attribute id="Level5" type="LSString" value="3d8" />
+                    <attribute id="Level7" type="LSString" value="4d8" />
+                    <attribute id="Level9" type="LSString" value="5d8" />
+                    <attribute id="Level11" type="LSString" value="6d8" />
+                    <attribute id="Level13" type="LSString" value="7d8" />
+                    <attribute id="Level15" type="LSString" value="8d8" />
+                    <attribute id="Level17" type="LSString" value="9d8" />
+                    <attribute id="Level19" type="LSString" value="10d8" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="UUID" type="guid" value="c57ec955-24ba-4f5c-8ef7-61787a15617d" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_EarthlyStarDamage2" />
+                    <attribute id="Level1" type="LSString" value="1d12" />
+                    <attribute id="Level3" type="LSString" value="2d12" />
+                    <attribute id="Level5" type="LSString" value="3d12" />
+                    <attribute id="Level7" type="LSString" value="4d12" />
+                    <attribute id="Level9" type="LSString" value="5d12" />
+                    <attribute id="Level11" type="LSString" value="6d12" />
+                    <attribute id="Level13" type="LSString" value="7d12" />
+                    <attribute id="Level15" type="LSString" value="8d12" />
+                    <attribute id="Level17" type="LSString" value="9d12" />
+                    <attribute id="Level19" type="LSString" value="10d12" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="UUID" type="guid" value="32f36c71-7903-4af6-8c0c-c3128b7deabe" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_HoroscopeHealing1" />
+                    <attribute id="Level1" type="LSString" value="1d4" />
+                    <attribute id="Level3" type="LSString" value="2d4" />
+                    <attribute id="Level5" type="LSString" value="3d4" />
+                    <attribute id="Level7" type="LSString" value="4d4" />
+                    <attribute id="Level9" type="LSString" value="5d4" />
+                    <attribute id="Level11" type="LSString" value="6d4" />
+                    <attribute id="Level13" type="LSString" value="7d4" />
+                    <attribute id="Level15" type="LSString" value="8d4" />
+                    <attribute id="Level17" type="LSString" value="9d4" />
+                    <attribute id="Level19" type="LSString" value="10d4" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="UUID" type="guid" value="a7896573-39fa-43cb-b3ca-1e1b7fd7e6f6" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_HoroscopeHealing2" />
+                    <attribute id="Level1" type="LSString" value="1d8" />
+                    <attribute id="Level3" type="LSString" value="2d8" />
+                    <attribute id="Level5" type="LSString" value="3d8" />
+                    <attribute id="Level7" type="LSString" value="4d8" />
+                    <attribute id="Level9" type="LSString" value="5d8" />
+                    <attribute id="Level11" type="LSString" value="6d8" />
+                    <attribute id="Level13" type="LSString" value="7d8" />
+                    <attribute id="Level15" type="LSString" value="8d8" />
+                    <attribute id="Level17" type="LSString" value="9d8" />
+                    <attribute id="Level19" type="LSString" value="10d8" />
+                </node>
+                <node id="LevelMapSeries">
+                    <attribute id="UUID" type="guid" value="f3aa6232-90f8-4bbc-94f7-7cfe998f3f5c" />
+                    <attribute id="Name" type="FixedString" value="EK_FF14_MacrocosmosHealing" />
+                    <attribute id="Level1" type="LSString" value="1d4" />
+                    <attribute id="Level3" type="LSString" value="2d4" />
+                    <attribute id="Level5" type="LSString" value="3d4" />
+                    <attribute id="Level7" type="LSString" value="4d4" />
+                    <attribute id="Level9" type="LSString" value="5d4" />
+                    <attribute id="Level11" type="LSString" value="6d4" />
+                    <attribute id="Level13" type="LSString" value="7d4" />
+                    <attribute id="Level15" type="LSString" value="8d4" />
+                    <attribute id="Level17" type="LSString" value="9d4" />
+                    <attribute id="Level19" type="LSString" value="10d4" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

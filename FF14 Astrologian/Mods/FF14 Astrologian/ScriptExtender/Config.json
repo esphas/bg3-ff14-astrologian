@@ -1,0 +1,7 @@
+{
+    "RequiredVersion": 5,
+    "ModTable": "EK_FF14_Astrologian",
+    "FeatureFlags": [
+        "Lua"
+    ]
+}

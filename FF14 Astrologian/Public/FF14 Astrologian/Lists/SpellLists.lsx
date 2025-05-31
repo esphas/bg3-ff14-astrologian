@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="6524eec8-98c9-4456-b8f0-bfa637ec077a" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 1" />
+                    <attribute id="Spells" type="LSString" value="" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="5d0c1069-8f44-45a4-a40e-ba5aec3ba9f6" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 2" />
+                    <attribute id="Spells" type="LSString" value="Shout_EK_FF14_Lightspeed;Target_EK_FF14_TimeDilation" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="fbdd2c01-fd62-4957-a427-7172954e6a9b" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 3" />
+                    <attribute id="Spells" type="LSString" value="Target_EK_FF14_AspectedBenefic;Shout_EK_FF14_Helios;Teleportation_EK_FF14_Ascend" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="524ba969-93e7-4f9a-8b20-2108853507c0" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 4" />
+                    <attribute id="Spells" type="LSString" value="Target_EK_FF14_EssentialDignity;Shout_EK_FF14_LucidDreaming" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="8677b3b0-3ede-4f06-b125-be4a314de53e" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 5" />
+                    <attribute id="Spells" type="LSString" value="" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="5bafd978-3359-4f66-bdd6-b6f9d190dccc" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 6" />
+                    <attribute id="Spells" type="LSString" value="Shout_EK_FF14_CelestialOpposition;Shout_EK_FF14_CollectiveUnconscious" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="bfda2f7a-675a-40e8-9115-7bff9c11c445" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 7" />
+                    <attribute id="Spells" type="LSString" value="Shout_EK_FF14_Surecast;Target_EK_FF14_Rescue" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="fc16c4f7-e7a0-4085-8249-da513588f29e" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 8" />
+                    <attribute id="Spells" type="LSString" value="Shout_EK_FF14_Divination;Target_EK_FF14_EarthlyStar" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="cf25d6a7-ce6a-446f-9696-5745f897d262" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 9" />
+                    <attribute id="Spells" type="LSString" value="" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="c418e842-bb8b-41db-98e8-0cfc05fd9c45" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 10" />
+                    <attribute id="Spells" type="LSString" value="" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="b76b0b87-3839-4229-bca5-77a2e0a40eef" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 11" />
+                    <attribute id="Spells" type="LSString" value="Shout_EK_FF14_NeutralSect" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="775a8af4-ea2e-4563-992c-2f3e4fd759b6" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 12" />
+                    <attribute id="Spells" type="LSString" value="Shout_EK_FF14_CelestialRiver" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="ebf08c55-e41e-4a29-a089-833a0ea94920" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 13" />
+                    <attribute id="Spells" type="LSString" value="" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="a2d85e8a-3f21-4acc-854f-94c437ffa569" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 14" />
+                    <attribute id="Spells" type="LSString" value="Target_EK_FF14_CelestialIntersection" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="a431b690-b61c-47ee-ab06-1d29703dc101" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 15" />
+                    <attribute id="Spells" type="LSString" value="Shout_EK_FF14_Horoscope" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="790f21a1-4152-4241-8b0f-a978dff82a21" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 16" />
+                    <attribute id="Spells" type="LSString" value="" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="db1fad64-bae7-43bc-a2ec-9d4c24369612" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 17" />
+                    <attribute id="Spells" type="LSString" value="" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="fa62d34d-552c-44ff-a67e-2607474bfd9c" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 18" />
+                    <attribute id="Spells" type="LSString" value="Shout_EK_FF14_Macrocosmos" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="54e099e2-e7c7-4420-b234-327a92679e65" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 19" />
+                    <attribute id="Spells" type="LSString" value="" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="9c3fc44e-abe8-4992-b268-4a683fff285a" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 20" />
+                    <attribute id="Spells" type="LSString" value="" />
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="72e4e1af-22cf-4054-b1bb-16c8591872ba" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Cantrips" />
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Projectile_FireBolt;Projectile_PoisonSpray;Projectile_RayOfFrost;Shout_BladeWard;Shout_ProduceFlame;Shout_Shillelagh;Target_ChillTouch;Target_DancingLights;Target_Friends;Target_Guidance;Target_Light;Target_MageHand;Target_MinorIllusion;Target_Resistance;Target_ShockingGrasp;Target_ThornWhip;Target_TrueStrike" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="94315fac-21b3-41fb-b2b9-182706f353f5" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 1" />
+                    <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_MagicMissile;Projectile_RayOfSickness;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Goodberry;Target_Grease;Target_HealingWord;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_ColorSpray;Zone_Thunderwave" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="42448d75-a5a1-4f1c-89fe-79aec73ba9ac" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 2" />
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidArrow;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Target_MagicWeapon;Target_MistyStep;Target_Moonbeam;Target_PhantasmalForce;Target_ProtectionFromPoison;Target_Shatter;Target_SpikeGrowth;Target_Web;Zone_GustOfWind;Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_MagicMissile;Projectile_RayOfSickness;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Goodberry;Target_Grease;Target_HealingWord;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_ColorSpray;Zone_Thunderwave" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="b08bb71b-3b07-482d-8d39-6a1fec98813a" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 3" />
+                    <attribute id="Spells" type="LSString" value="Projectile_Fireball;Shout_Blink;Target_AnimateDead;Target_BestowCurse;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Target_FeignDeath;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_PlantGrowth;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Zone_Fear;Zone_LightningBolt;Projectile_AcidArrow;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Target_MagicWeapon;Target_MistyStep;Target_Moonbeam;Target_PhantasmalForce;Target_ProtectionFromPoison;Target_Shatter;Target_SpikeGrowth;Target_Web;Zone_GustOfWind;Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_MagicMissile;Projectile_RayOfSickness;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Goodberry;Target_Grease;Target_HealingWord;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_ColorSpray;Zone_Thunderwave" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="1b4a10f7-4574-4964-82c9-6228f28e362b" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 4" />
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire;Projectile_Fireball;Shout_Blink;Target_AnimateDead;Target_BestowCurse;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Target_FeignDeath;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_PlantGrowth;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Zone_Fear;Zone_LightningBolt;Projectile_AcidArrow;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Target_MagicWeapon;Target_MistyStep;Target_Moonbeam;Target_PhantasmalForce;Target_ProtectionFromPoison;Target_Shatter;Target_SpikeGrowth;Target_Web;Zone_GustOfWind;Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_MagicMissile;Projectile_RayOfSickness;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Goodberry;Target_Grease;Target_HealingWord;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_ColorSpray;Zone_Thunderwave" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="f95550e1-3a1d-4f3f-b722-7f408d0d4664" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 5" />
+                    <attribute id="Spells" type="LSString" value="Target_Cloudkill;Target_ConjureElemental_Container;Target_Contagion;Target_CureWounds_Mass;Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_InsectPlague;Target_PlanarBinding;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Zone_ConeOfCold;Shout_FireShield;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire;Projectile_Fireball;Shout_Blink;Target_AnimateDead;Target_BestowCurse;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Target_FeignDeath;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_PlantGrowth;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Zone_Fear;Zone_LightningBolt;Projectile_AcidArrow;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Target_MagicWeapon;Target_MistyStep;Target_Moonbeam;Target_PhantasmalForce;Target_ProtectionFromPoison;Target_Shatter;Target_SpikeGrowth;Target_Web;Zone_GustOfWind;Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_MagicMissile;Projectile_RayOfSickness;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Goodberry;Target_Grease;Target_HealingWord;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_ColorSpray;Zone_Thunderwave" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="a4fc4454-d9cf-47bc-81be-255a85b0dc17" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 6" />
+                    <attribute id="Spells" type="LSString" value="Projectile_ChainLightning;Projectile_Disintegrate;Shout_HeroesFeast;Shout_WindWalk;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone;Target_FreezingSphere;Target_GlobeOfInvulnerability;Target_Heal;Target_IrresistibleDance;Teleportation_ArcaneGate;Wall_WallOfIce;Wall_WallOfThorns;Zone_Sunbeam;Target_Cloudkill;Target_ConjureElemental_Container;Target_Contagion;Target_CureWounds_Mass;Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_InsectPlague;Target_PlanarBinding;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Zone_ConeOfCold;Shout_FireShield;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire;Projectile_Fireball;Shout_Blink;Target_AnimateDead;Target_BestowCurse;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Target_FeignDeath;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_PlantGrowth;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Zone_Fear;Zone_LightningBolt;Projectile_AcidArrow;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Target_MagicWeapon;Target_MistyStep;Target_Moonbeam;Target_PhantasmalForce;Target_ProtectionFromPoison;Target_Shatter;Target_SpikeGrowth;Target_Web;Zone_GustOfWind;Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_MagicMissile;Projectile_RayOfSickness;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Goodberry;Target_Grease;Target_HealingWord;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_ColorSpray;Zone_Thunderwave" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="f50551a9-b7d6-4802-99fb-652c9c1fd2ef" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 7" />
+                    <attribute id="Spells" type="LSString" value="Projectile_ChainLightning;Projectile_Disintegrate;Shout_HeroesFeast;Shout_WindWalk;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone;Target_FreezingSphere;Target_GlobeOfInvulnerability;Target_Heal;Target_IrresistibleDance;Teleportation_ArcaneGate;Wall_WallOfIce;Wall_WallOfThorns;Zone_Sunbeam;Target_Cloudkill;Target_ConjureElemental_Container;Target_Contagion;Target_CureWounds_Mass;Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_InsectPlague;Target_PlanarBinding;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Zone_ConeOfCold;Shout_FireShield;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire;Projectile_Fireball;Shout_Blink;Target_AnimateDead;Target_BestowCurse;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Target_FeignDeath;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_PlantGrowth;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Zone_Fear;Zone_LightningBolt;Projectile_AcidArrow;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Target_MagicWeapon;Target_MistyStep;Target_Moonbeam;Target_PhantasmalForce;Target_ProtectionFromPoison;Target_Shatter;Target_SpikeGrowth;Target_Web;Zone_GustOfWind;Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_MagicMissile;Projectile_RayOfSickness;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Goodberry;Target_Grease;Target_HealingWord;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_ColorSpray;Zone_Thunderwave" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="d7da2409-1e59-4287-865f-3fb2be0d919a" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 8" />
+                    <attribute id="Spells" type="LSString" value="Projectile_ChainLightning;Projectile_Disintegrate;Shout_HeroesFeast;Shout_WindWalk;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone;Target_FreezingSphere;Target_GlobeOfInvulnerability;Target_Heal;Target_IrresistibleDance;Teleportation_ArcaneGate;Wall_WallOfIce;Wall_WallOfThorns;Zone_Sunbeam;Target_Cloudkill;Target_ConjureElemental_Container;Target_Contagion;Target_CureWounds_Mass;Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_InsectPlague;Target_PlanarBinding;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Zone_ConeOfCold;Shout_FireShield;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire;Projectile_Fireball;Shout_Blink;Target_AnimateDead;Target_BestowCurse;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Target_FeignDeath;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_PlantGrowth;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Zone_Fear;Zone_LightningBolt;Projectile_AcidArrow;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Target_MagicWeapon;Target_MistyStep;Target_Moonbeam;Target_PhantasmalForce;Target_ProtectionFromPoison;Target_Shatter;Target_SpikeGrowth;Target_Web;Zone_GustOfWind;Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_MagicMissile;Projectile_RayOfSickness;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Goodberry;Target_Grease;Target_HealingWord;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_ColorSpray;Zone_Thunderwave" />
+                </node>
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="0b0428ed-ef15-49f6-9326-4aabe9c7e9e1" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 9" />
+                    <attribute id="Spells" type="LSString" value="Projectile_ChainLightning;Projectile_Disintegrate;Shout_HeroesFeast;Shout_WindWalk;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone;Target_FreezingSphere;Target_GlobeOfInvulnerability;Target_Heal;Target_IrresistibleDance;Teleportation_ArcaneGate;Wall_WallOfIce;Wall_WallOfThorns;Zone_Sunbeam;Target_Cloudkill;Target_ConjureElemental_Container;Target_Contagion;Target_CureWounds_Mass;Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_InsectPlague;Target_PlanarBinding;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Zone_ConeOfCold;Shout_FireShield;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire;Projectile_Fireball;Shout_Blink;Target_AnimateDead;Target_BestowCurse;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Target_FeignDeath;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_PlantGrowth;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Zone_Fear;Zone_LightningBolt;Projectile_AcidArrow;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Target_MagicWeapon;Target_MistyStep;Target_Moonbeam;Target_PhantasmalForce;Target_ProtectionFromPoison;Target_Shatter;Target_SpikeGrowth;Target_Web;Zone_GustOfWind;Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_MagicMissile;Projectile_RayOfSickness;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Goodberry;Target_Grease;Target_HealingWord;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_ColorSpray;Zone_Thunderwave" />
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="UUID" type="guid" value="f6ef406f-816a-4361-acb9-d5b86a31023c" />
+                    <attribute id="Name" type="FixedString" value="FF14 Astrologian All Spells" />
+                    <attribute id="Spells" type="LSString" value="Target_EK_FF14_Benefic;Target_EK_FF14_BeneficII;Target_EK_FF14_Malefic;Target_EK_FF14_MaleficII;Target_EK_FF14_MaleficIII;Target_EK_FF14_MaleficIV;Target_EK_FF14_FallMalefic;Projectile_ChainLightning;Projectile_Disintegrate;Shout_HeroesFeast;Shout_WindWalk;Target_CircleOfDeath;Target_CreateUndead;Target_Eyebite;Target_FleshToStone;Target_FreezingSphere;Target_GlobeOfInvulnerability;Target_Heal;Target_IrresistibleDance;Teleportation_ArcaneGate;Wall_WallOfIce;Wall_WallOfThorns;Zone_Sunbeam;Target_Cloudkill;Target_ConjureElemental_Container;Target_Contagion;Target_CureWounds_Mass;Target_DominatePerson;Target_GreaterRestoration;Target_HoldMonster;Target_InsectPlague;Target_PlanarBinding;Target_Seeming;Throw_Telekinesis;Wall_WallOfStone;Zone_ConeOfCold;Shout_FireShield;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_Confusion;Target_ConjureElementals_Minor_Container;Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Target_IceStorm;Target_Invisibility_Greater;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire;Projectile_Fireball;Shout_Blink;Target_AnimateDead;Target_BestowCurse;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Target_FeignDeath;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_PlantGrowth;Target_ProtectionFromEnergy;Target_RemoveCurse;Target_SleetStorm;Target_Slow;Target_StinkingCloud;Target_VampiricTouch;Zone_Fear;Zone_LightningBolt;Projectile_AcidArrow;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_LesserRestoration;Target_MagicWeapon;Target_MistyStep;Target_Moonbeam;Target_PhantasmalForce;Target_ProtectionFromPoison;Target_Shatter;Target_SpikeGrowth;Target_Web;Zone_GustOfWind;Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_MagicMissile;Projectile_RayOfSickness;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_CharmPerson;Target_CreateDestroyWater;Target_CureWounds;Target_Entangle;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Goodberry;Target_Grease;Target_HealingWord;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_ColorSpray;Zone_Thunderwave" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

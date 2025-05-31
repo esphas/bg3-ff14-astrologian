@@ -1,0 +1,336 @@
+
+--[[
+    任意类型的抽卡
+    包括直接抽卡（抽卡、袖内 etc.）和转化抽卡（神圣路、暂留 etc.）
+--]]
+function EK_FF14_Check_AnyArcanaDraw()
+    return SpellId('Shout_EK_FF14_Draw')
+         | SpellId('Shout_EK_FF14_RoyalRoad')
+         | SpellId('Shout_EK_FF14_ArcanaSpread')
+         | SpellId('Shout_EK_FF14_Redraw')
+         | SpellId('Shout_EK_FF14_MinorArcana_4_0')
+         | SpellId('Shout_EK_FF14_MinorArcana_6_0')
+         | SpellId('Shout_EK_FF14_SleeveDraw')
+end
+
+--[[
+    出卡
+    仅包含通过抽卡获得的卡，不包含暂留卡、小奥秘卡
+--]]
+function EK_FF14_Check_ArcanaPlay()
+    return SpellId('Target_EK_FF14_Play_TheBalance')
+         | SpellId('Target_EK_FF14_Play_TheBalance_Potency')
+         | SpellId('Target_EK_FF14_Play_TheBalance_Duration')
+         | SpellId('Shout_EK_FF14_Play_TheBalance_Area')
+         | SpellId('Target_EK_FF14_Play_TheBole')
+         | SpellId('Target_EK_FF14_Play_TheBole_Potency')
+         | SpellId('Target_EK_FF14_Play_TheBole_Duration')
+         | SpellId('Shout_EK_FF14_Play_TheBole_Area')
+         | SpellId('Target_EK_FF14_Play_TheArrow')
+         | SpellId('Target_EK_FF14_Play_TheArrow_Potency')
+         | SpellId('Target_EK_FF14_Play_TheArrow_Duration')
+         | SpellId('Shout_EK_FF14_Play_TheArrow_Area')
+         | SpellId('Target_EK_FF14_Play_TheEwer')
+         | SpellId('Target_EK_FF14_Play_TheEwer_Potency')
+         | SpellId('Target_EK_FF14_Play_TheEwer_Duration')
+         | SpellId('Shout_EK_FF14_Play_TheEwer_Area')
+         | SpellId('Target_EK_FF14_Play_TheSpear')
+         | SpellId('Target_EK_FF14_Play_TheSpear_Potency')
+         | SpellId('Target_EK_FF14_Play_TheSpear_Duration')
+         | SpellId('Shout_EK_FF14_Play_TheSpear_Area')
+         | SpellId('Target_EK_FF14_Play_TheSpire')
+         | SpellId('Target_EK_FF14_Play_TheSpire_Potency')
+         | SpellId('Target_EK_FF14_Play_TheSpire_Duration')
+         | SpellId('Shout_EK_FF14_Play_TheSpire_Area')
+end
+
+--[[
+    会清空抽卡槽的技能
+--]]
+function EK_FF14_Check_ClearArcanaSlotDraw()
+    return SpellId('Shout_EK_FF14_Undraw')
+         | EK_FF14_Check_ArcanaPlay()
+         | SpellId('Shout_EK_FF14_RoyalRoad')
+         | SpellId('Shout_EK_FF14_ArcanaSpread')
+         | SpellId('Shout_EK_FF14_MinorArcana_4_0')
+end
+
+--[[
+    出暂留卡
+--]]
+function EK_FF14_Check_ArcanaPlaySpread()
+    return SpellId('Target_EK_FF14_PlaySpread_TheBalance')
+         | SpellId('Target_EK_FF14_PlaySpread_TheBalance_Potency')
+         | SpellId('Target_EK_FF14_PlaySpread_TheBalance_Duration')
+         | SpellId('Shout_EK_FF14_PlaySpread_TheBalance_Area')
+         | SpellId('Target_EK_FF14_PlaySpread_TheBole')
+         | SpellId('Target_EK_FF14_PlaySpread_TheBole_Potency')
+         | SpellId('Target_EK_FF14_PlaySpread_TheBole_Duration')
+         | SpellId('Shout_EK_FF14_PlaySpread_TheBole_Area')
+         | SpellId('Target_EK_FF14_PlaySpread_TheArrow')
+         | SpellId('Target_EK_FF14_PlaySpread_TheArrow_Potency')
+         | SpellId('Target_EK_FF14_PlaySpread_TheArrow_Duration')
+         | SpellId('Shout_EK_FF14_PlaySpread_TheArrow_Area')
+         | SpellId('Target_EK_FF14_PlaySpread_TheEwer')
+         | SpellId('Target_EK_FF14_PlaySpread_TheEwer_Potency')
+         | SpellId('Target_EK_FF14_PlaySpread_TheEwer_Duration')
+         | SpellId('Shout_EK_FF14_PlaySpread_TheEwer_Area')
+         | SpellId('Target_EK_FF14_PlaySpread_TheSpear')
+         | SpellId('Target_EK_FF14_PlaySpread_TheSpear_Potency')
+         | SpellId('Target_EK_FF14_PlaySpread_TheSpear_Duration')
+         | SpellId('Shout_EK_FF14_PlaySpread_TheSpear_Area')
+         | SpellId('Target_EK_FF14_PlaySpread_TheSpire')
+         | SpellId('Target_EK_FF14_PlaySpread_TheSpire_Potency')
+         | SpellId('Target_EK_FF14_PlaySpread_TheSpire_Duration')
+         | SpellId('Shout_EK_FF14_PlaySpread_TheSpire_Area')
+end
+
+--[[
+    会清空暂留卡槽的技能
+--]]
+function EK_FF14_Check_ClearArcanaSlotSpread()
+    return SpellId('Shout_EK_FF14_UndrawSpread')
+         | EK_FF14_Check_ArcanaPlaySpread()
+end
+
+--[[
+    会清空神圣路卡槽的技能
+--]]
+function EK_FF14_Check_ClearArcanaSlotRoyalRoad()
+    return SpellId('Shout_EK_FF14_EmptyRoad')
+         | EK_FF14_Check_ArcanaPlay()
+         | EK_FF14_Check_ArcanaPlaySpread()
+end
+
+--[[
+    出小奥秘卡
+--]]
+function EK_FF14_Check_ArcanaPlayMinorArcana()
+    return SpellId('Shout_EK_FF14_CrownPlay_LordOfCrowns')
+         | SpellId('Shout_EK_FF14_CrownPlay_LadyOfCrowns')
+end
+
+--[[
+    会清空小奥秘卡槽的技能
+--]]
+function EK_FF14_Check_ClearArcanaSlotMinorArcana()
+    return EK_FF14_Check_ArcanaPlayMinorArcana()
+end
+
+--[[
+    任意类型的出卡
+--]]
+function EK_FF14_Check_AnyArcanaPlay()
+    return EK_FF14_Check_ArcanaPlay()
+         | EK_FF14_Check_ArcanaPlaySpread()
+         | EK_FF14_Check_ArcanaPlayMinorArcana()
+end
+
+--[[
+    奥秘卡连续处理: 抽卡后可以接续的技能
+--]]
+function EK_FF14_Check_ArcanaContinueAfterDraw()
+    return EK_FF14_Check_ArcanaPlay()
+         | SpellId('Shout_EK_FF14_RoyalRoad')
+         | SpellId('Shout_EK_FF14_ArcanaSpread')
+         | SpellId('Shout_EK_FF14_Redraw')
+         | SpellId('Shout_EK_FF14_MinorArcana_4_0')
+end
+
+--[[
+    奥秘卡连续处理: 暂留后可以接续的技能
+--]]
+function EK_FF14_Check_ArcanaContinueAfterSpread()
+    return EK_FF14_Check_ArcanaPlaySpread()
+end
+
+--[[
+    奥秘卡连续处理: 小奥秘卡后可以接续的技能
+--]]
+function EK_FF14_Check_ArcanaContinueAfterMinorArcana()
+    return EK_FF14_Check_ArcanaPlayMinorArcana()
+end
+
+--[[
+    奥秘卡连续处理: 袖内抽卡后可以接续的技能
+--]]
+function EK_FF14_Check_ArcanaContinueAfterSleeveDraw()
+    return EK_FF14_Check_ArcanaContinueAfterDraw()
+         | EK_FF14_Check_ArcanaContinueAfterSpread()
+         | EK_FF14_Check_ArcanaContinueAfterMinorArcana()
+end
+
+--[[
+    奥秘卡连续处理: 会中断连续处理的技能
+--]]
+function EK_FF14_Check_ArcanaContinueBreak()
+    return EK_FF14_Check_ArcanaPlay()
+         | SpellId('Shout_EK_FF14_RoyalRoad')
+         | EK_FF14_Check_ArcanaPlaySpread()
+         | EK_FF14_Check_ArcanaPlayMinorArcana()
+end
+
+--[[
+    检查某个阶段凶星的伤害属性随机结果是否为某个值
+--]]
+function MaleficMatch(malefic, number, entity)
+    local entity = entity or context.Target
+    local number = number or 0
+    local status = "EK_FF14_MALEFIC_II_DAMAGE_TYPE"
+    if malefic == 3 then
+        status = "EK_FF14_MALEFIC_III_DAMAGE_TYPE"
+    elseif malefic == 4 then
+        status = "EK_FF14_MALEFIC_IV_DAMAGE_TYPE"
+    elseif malefic == 5 then
+        status = "EK_FF14_FALL_MALEFIC_DAMAGE_TYPE"
+    end
+    return ConditionResult(GetStatusDuration(status, entity) >= number) & ConditionResult(GetStatusDuration(status, entity) < number + 1)
+end
+
+--[[
+    受光速影响的技能
+--]]
+function EK_FF14_Check_LightspeedFreeplay()
+    return EK_FF14_Check_AnyArcanaDraw()
+         | EK_FF14_Check_AnyArcanaPlay()
+end
+
+--[[
+    会消耗光速层数的技能
+--]]
+function EK_FF14_Check_ComsumeLightspeedFreeplay()
+    return EK_FF14_Check_LightspeedFreeplay()
+         & ~(HasStatus('EK_FF14_ARCANA_CONTINUE_DRAW') & EK_FF14_Check_ArcanaContinueAfterDraw())
+         & ~(HasStatus('EK_FF14_ARCANA_CONTINUE_SPREAD') & EK_FF14_Check_ArcanaContinueAfterSpread())
+         & ~(HasStatus('EK_FF14_ARCANA_CONTINUE_MINOR_ARCANA') & EK_FF14_Check_ArcanaContinueAfterMinorArcana())
+         & ~(HasStatus('EK_FF14_ARCANA_CONTINUE_REDRAW') & EK_FF14_Check_ArcanaContinueAfterDraw())
+         & ~(HasStatus('EK_FF14_ARCANA_CONTINUE_SLEEVE_DRAW') & EK_FF14_Check_ArcanaContinueAfterSleeveDraw())
+end
+
+--[[
+    拥有能被时间膨胀所影响的状态
+--]]
+function EK_FF14_Check_TimeDilationTarget()
+    return HasAnyStatus({
+        'EK_FF14_ARCANA_THE_BALANCE',
+        'EK_FF14_ARCANA_THE_BALANCE_POTENCY',
+        'EK_FF14_ARCANA_THE_BALANCE_DURATION',
+        'EK_FF14_ARCANA_THE_BALANCE_AREA',
+        'EK_FF14_ARCANA_THE_BOLE',
+        'EK_FF14_ARCANA_THE_BOLE_POTENCY',
+        'EK_FF14_ARCANA_THE_BOLE_DURATION',
+        'EK_FF14_ARCANA_THE_BOLE_AREA',
+        'EK_FF14_ARCANA_THE_ARROW',
+        'EK_FF14_ARCANA_THE_ARROW_POTENCY',
+        'EK_FF14_ARCANA_THE_ARROW_DURATION',
+        'EK_FF14_ARCANA_THE_ARROW_AREA',
+        'EK_FF14_ARCANA_THE_EWER',
+        'EK_FF14_ARCANA_THE_EWER_POTENCY',
+        'EK_FF14_ARCANA_THE_EWER_DURATION',
+        'EK_FF14_ARCANA_THE_EWER_AREA',
+        'EK_FF14_ARCANA_THE_SPEAR',
+        'EK_FF14_ARCANA_THE_SPEAR_POTENCY',
+        'EK_FF14_ARCANA_THE_SPEAR_DURATION',
+        'EK_FF14_ARCANA_THE_SPEAR_AREA',
+        'EK_FF14_ARCANA_THE_SPIRE',
+        'EK_FF14_ARCANA_THE_SPIRE_POTENCY',
+        'EK_FF14_ARCANA_THE_SPIRE_DURATION',
+        'EK_FF14_ARCANA_THE_SPIRE_AREA',
+        'EK_FF14_LUCID_DREAMING',
+        'EK_FF14_COLLECTIVE_UNCONSCIOUS_DIURNAL',
+        'EK_FF14_COLLECTIVE_UNCONSCIOUS_NOCTURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_DIURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_3_DIURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_4_DIURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_5_DIURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_6_DIURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_7_DIURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_8_DIURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_9_DIURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_3_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_4_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_5_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_6_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_7_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_8_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_9_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_DIURNAL',
+        'EK_FF14_ASPECTED_HELIOS_5_DIURNAL',
+        'EK_FF14_ASPECTED_HELIOS_6_DIURNAL',
+        'EK_FF14_ASPECTED_HELIOS_7_DIURNAL',
+        'EK_FF14_ASPECTED_HELIOS_8_DIURNAL',
+        'EK_FF14_ASPECTED_HELIOS_9_DIURNAL',
+        'EK_FF14_ASPECTED_HELIOS_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_5_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_6_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_7_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_8_DIURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_9_DIURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_DIURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_5_DIURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_6_DIURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_7_DIURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_8_DIURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_9_DIURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_DIURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_5_DIURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_6_DIURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_7_DIURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_8_DIURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_9_DIURNAL_NEUTRAL'
+    }, {}, {}, context.Target, context.Source)
+end
+
+
+--[[
+    拥有特定类型的护盾
+--]]
+function EK_FF14_Check_HasAnyShieldOfTypeA()
+    return HasAnyStatus({
+        'EK_FF14_ASPECTED_BENEFIC_NOCTURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_3_NOCTURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_4_NOCTURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_5_NOCTURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_6_NOCTURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_7_NOCTURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_8_NOCTURNAL',
+        'EK_FF14_ASPECTED_BENEFIC_9_NOCTURNAL',
+        'EK_FF14_ASPECTED_HELIOS_NOCTURNAL',
+        'EK_FF14_ASPECTED_HELIOS_5_NOCTURNAL',
+        'EK_FF14_ASPECTED_HELIOS_6_NOCTURNAL',
+        'EK_FF14_ASPECTED_HELIOS_7_NOCTURNAL',
+        'EK_FF14_ASPECTED_HELIOS_8_NOCTURNAL',
+        'EK_FF14_ASPECTED_HELIOS_9_NOCTURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_NOCTURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_5_NOCTURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_6_NOCTURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_7_NOCTURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_8_NOCTURNAL',
+        'EK_FF14_HELIOS_CONJUNCTION_9_NOCTURNAL'
+    })
+end
+function EK_FF14_Check_HasAnyShieldOfTypeB()
+    return HasAnyStatus({
+        'EK_FF14_ASPECTED_BENEFIC_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_3_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_4_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_5_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_6_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_7_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_8_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_BENEFIC_9_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_5_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_6_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_7_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_8_NOCTURNAL_NEUTRAL',
+        'EK_FF14_ASPECTED_HELIOS_9_NOCTURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_NOCTURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_5_NOCTURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_6_NOCTURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_7_NOCTURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_8_NOCTURNAL_NEUTRAL',
+        'EK_FF14_HELIOS_CONJUNCTION_9_NOCTURNAL_NEUTRAL'
+    })
+end
