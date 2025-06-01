@@ -4,6 +4,7 @@
 
 new entry "EK_FF14_Astrodyne"
 type "PassiveData"
+data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Shout_EK_FF14_Astrodyne);UnlockSpell(Shout_EK_FF14_Astrodyne_1)"
 data "StatsFunctorContext" "OnCreate"
 data "Conditions" "not HasStatus('EK_FF14_ASTRODYNE',context.Source)"
