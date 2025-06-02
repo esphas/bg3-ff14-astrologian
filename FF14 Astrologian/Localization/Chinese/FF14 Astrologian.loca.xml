@@ -147,7 +147,7 @@
     ========= 职业动作: 光速 =========
     <content contentuid="h73dd9204gf1f6g4dd7ga6f4g5f6107e49c99" version="1">光速</content>
     <content contentuid="h2def4131gc2ebg47e9g94dbgbe61b6747dee" version="1">在接下来的[1]回合中，每回合可以进行[2]次无需消耗&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附赠动作&lt;/LSTag&gt;的奥秘卡动作。</content>
-    <content contentuid="h7f71a250g4b05g4b77g81e4g61b8d82dc453" version="1">每回合可以进行[1]]次无需消耗&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附赠动作&lt;/LSTag&gt;的奥秘卡动作。</content>
+    <content contentuid="h7f71a250g4b05g4b77g81e4g61b8d82dc453" version="1">每回合可以进行[1]次无需消耗&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附赠动作&lt;/LSTag&gt;的奥秘卡动作。</content>
     <content contentuid="hf95d65c8g1e64g4aaeg8818gbdcac98b0758" version="1">奥秘卡动作无需消耗&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附赠动作&lt;/LSTag&gt;。</content>
 
     ========= 职业动作: 时间膨胀 =========
