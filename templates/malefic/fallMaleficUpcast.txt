@@ -6,7 +6,7 @@ data "PowerLevel" "{{ power }}"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:{{ power }}"
 data "RootSpellID" "Target_EK_FF14_FallMalefic"
 data "SpellSuccess" "DealDamage({{ damage1 }},Radiant,Magical);ApplyStatus(EK_FF14_MALEFIC_II_TARGET_{{ power }}S,100,0);ApplyStatus(EK_FF14_MALEFIC_III_TARGET_{{ power }}S,100,0);ApplyStatus(EK_FF14_MALEFIC_IV_TARGET_{{ power }}S,100,0);ApplyStatus(EK_FF14_FALL_MALEFIC_TARGET_{{ power }}S,100,0)"
-data "SpellFail" "DealDamage({{ damage1 }},Radiant,Magical);ApplyStatus(EK_FF14_MALEFIC_II_TARGET_{{ power }}F,100,0);ApplyStatus(EK_FF14_MALEFIC_III_TARGET_{{ power }}F,100,0);ApplyStatus(EK_FF14_MALEFIC_IV_TARGET_{{ power }}F,100,0);ApplyStatus(EK_FF14_FALL_MALEFIC_TARGET_{{ power }}F,100,0)"
+data "SpellFail" "DealDamage(({{ damage1 }})/2,Radiant,Magical);ApplyStatus(EK_FF14_MALEFIC_II_TARGET_{{ power }}F,100,0);ApplyStatus(EK_FF14_MALEFIC_III_TARGET_{{ power }}F,100,0);ApplyStatus(EK_FF14_MALEFIC_IV_TARGET_{{ power }}F,100,0);ApplyStatus(EK_FF14_FALL_MALEFIC_TARGET_{{ power }}F,100,0)"
 data "TooltipDamageList" "DealDamage({{ damage1 }},Radiant);DealDamage({{ damage2 }},Fire);DealDamage({{ damage3 }},Cold);DealDamage({{ damage4 }},Lightning);DealDamage({{ damage5 }},Thunder)"
 
 new entry "EK_FF14_FALL_MALEFIC_TARGET_{{ power }}S"
