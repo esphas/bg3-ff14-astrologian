@@ -223,3 +223,7 @@
 - 多功能工具 [Multitool](https://github.com/ShinyHobo/BG3-Modders-Multitool)
 - 打包工具 [lslib](https://github.com/Norbyte/lslib)
 - 调试工具 [数据查询修改工具](https://pan.baidu.com/s/1f3Nq2ao6QGKi4ub-BQjAHQ?pwd=6q2y)
+- [BG3 Search Engine](https://bg3.norbyte.dev/search)
+- [BG3 Stats Validator](https://bg3.norbyte.dev/stats-validator)
+- [BG3 LSX Validator](https://bg3.norbyte.dev/lsx-validator)
+- [龙山以雪的分析文档](https://jcn7dphgr6k2.feishu.cn/wiki/LeUOwPv9aizs1BkQwN1cIrymn3c)
