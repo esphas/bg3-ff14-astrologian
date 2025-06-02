@@ -147,7 +147,7 @@
     ========= 職業動作: 光速 =========
     <content contentuid="h73dd9204gf1f6g4dd7ga6f4g5f6107e49c99" version="1">光速</content>
     <content contentuid="h2def4131gc2ebg47e9g94dbgbe61b6747dee" version="1">在接下來的[1]回合中，每回合可以進行[2]次無需消耗&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附贈動作&lt;/LSTag&gt;的奧秘卡動作。</content>
-    <content contentuid="h7f71a250g4b05g4b77g81e4g61b8d82dc453" version="1">每回合可以進行[1]]次無需消耗&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附贈動作&lt;/LSTag&gt;的奧秘卡動作。</content>
+    <content contentuid="h7f71a250g4b05g4b77g81e4g61b8d82dc453" version="1">每回合可以進行[1]次無需消耗&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附贈動作&lt;/LSTag&gt;的奧秘卡動作。</content>
     <content contentuid="hf95d65c8g1e64g4aaeg8818gbdcac98b0758" version="1">奧秘卡動作無需消耗&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附贈動作&lt;/LSTag&gt;。</content>
 
     ========= 職業動作: 時間膨脹 =========
