@@ -254,7 +254,8 @@ const ctxMalefic = {
                 p => `${p}d4`,
                 p => `${p}d6`,
                 p => `${p}d8`,
-            ][i][power];
+            ][i](power);
+            console.log(damage, power, i,)
             functors[name] = {}
             functors[name].success = types.map((type, j) => {
                 const dt = j+1;
