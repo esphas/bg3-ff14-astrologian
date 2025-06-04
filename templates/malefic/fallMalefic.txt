@@ -34,5 +34,5 @@ data "TooltipUpcastDescriptionParams" "DealDamage({{ damage1Upcast }},Radiant);D
 new entry "EK_FF14_FALL_MALEFIC_DAMAGE_TYPE"
 type "StatusData"
 data "StatusType" "BOOST"
-data "StatusPropertyFlags" "FreezeDuration"
-//data "StatusPropertyFlags" "FreezeDuration;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StackType" "Overwrite"
+data "StatusPropertyFlags" "FreezeDuration;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
