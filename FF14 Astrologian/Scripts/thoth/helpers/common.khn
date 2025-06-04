@@ -222,7 +222,7 @@ end
     检查某个阶段凶星的伤害属性随机结果是否为某个值
 --]]
 function MaleficMatch(malefic, number, entity)
-    local entity = entity or context.Target
+    local entity = entity or context.Source
     local number = number or 0
     local status = "EK_FF14_MALEFIC_II_DAMAGE_TYPE"
     if malefic == 3 then
