@@ -340,7 +340,11 @@ stats('Astrologian', makeSpell({ txt: 'ascend/ascend', fromLevel: 2 }, {}));
 
 Object.entries(generated).forEach(([category, sections]) => {
     Object.entries(sections).forEach(([target, content]) => {
-        fs.writeFileSync(`${pathGenerated[category][0]}/${target}${pathGenerated[category][1]}`, content.join(''));
+        const dir = pathGenerated[category][0];
+        if (!fs.existsSync(dir)) {
+            fs.mkdirSync(dir, { recursive: true });
+        }
+        fs.writeFileSync(`${dir}/${target}${pathGenerated[category][1]}`, content.join(''));
     });
 });
 
