@@ -125,6 +125,54 @@ function EK_FF14_Check_ArcanaContinueBreak()
 end
 
 --[[
+    凶星系列
+--]]
+function EK_FF14_Check_MaleficII()
+    return SpellId('Target_EK_FF14_MaleficII')
+         | SpellId('Target_EK_FF14_MaleficII_2')
+         | SpellId('Target_EK_FF14_MaleficII_3')
+         | SpellId('Target_EK_FF14_MaleficII_4')
+         | SpellId('Target_EK_FF14_MaleficII_5')
+         | SpellId('Target_EK_FF14_MaleficII_6')
+         | SpellId('Target_EK_FF14_MaleficII_7')
+         | SpellId('Target_EK_FF14_MaleficII_8')
+         | SpellId('Target_EK_FF14_MaleficII_9')
+end
+function EK_FF14_Check_MaleficIII()
+    return SpellId('Target_EK_FF14_MaleficIII')
+         | SpellId('Target_EK_FF14_MaleficIII_2')
+         | SpellId('Target_EK_FF14_MaleficIII_3')
+         | SpellId('Target_EK_FF14_MaleficIII_4')
+         | SpellId('Target_EK_FF14_MaleficIII_5')
+         | SpellId('Target_EK_FF14_MaleficIII_6')
+         | SpellId('Target_EK_FF14_MaleficIII_7')
+         | SpellId('Target_EK_FF14_MaleficIII_8')
+         | SpellId('Target_EK_FF14_MaleficIII_9')
+end
+function EK_FF14_Check_MaleficIV()
+    return SpellId('Target_EK_FF14_MaleficIV')
+         | SpellId('Target_EK_FF14_MaleficIV_2')
+         | SpellId('Target_EK_FF14_MaleficIV_3')
+         | SpellId('Target_EK_FF14_MaleficIV_4')
+         | SpellId('Target_EK_FF14_MaleficIV_5')
+         | SpellId('Target_EK_FF14_MaleficIV_6')
+         | SpellId('Target_EK_FF14_MaleficIV_7')
+         | SpellId('Target_EK_FF14_MaleficIV_8')
+         | SpellId('Target_EK_FF14_MaleficIV_9')
+end
+function EK_FF14_Check_FallMalefic()
+    return SpellId('Target_EK_FF14_FallMalefic')
+         | SpellId('Target_EK_FF14_FallMalefic_2')
+         | SpellId('Target_EK_FF14_FallMalefic_3')
+         | SpellId('Target_EK_FF14_FallMalefic_4')
+         | SpellId('Target_EK_FF14_FallMalefic_5')
+         | SpellId('Target_EK_FF14_FallMalefic_6')
+         | SpellId('Target_EK_FF14_FallMalefic_7')
+         | SpellId('Target_EK_FF14_FallMalefic_8')
+         | SpellId('Target_EK_FF14_FallMalefic_9')
+end
+
+--[[
     检查某个阶段凶星的伤害属性随机结果是否为某个值
 --]]
 function MaleficMatch(malefic, number, entity)

@@ -238,6 +238,43 @@ stats('Astrologian', engine.renderFileSync(`${pathTemplate}/combust.txt`, {
 
 // Malefic
 const ctxMalefic = {
+    statsFunctors: _ => {
+        const types = [
+            "Bludgeoning",
+            "Piercing",
+            "Slashing",
+            "Cold",
+            "Fire",
+            "Lightning",
+            "Thunder",
+            "Acid",
+            "Poison",
+            "Radiant",
+            "Necrotic",
+            "Force",
+            "Psychic",
+        ];
+        const functors = {};
+        ["malefic2", "malefic3", "malefic4", "fallMalefic"].forEach((name, i) => {
+            const malefic = i+2;
+            const damagefunc = [
+                p => `${2*p}`,
+                p => `${p}d4`,
+                p => `${p}d6`,
+                p => `${p}d8`,
+            ][i];
+            functors[name] = {}
+            Array.from({ length: 9 }).forEach((_, j) => {
+                functors[name][`damage${j+1}`] = types.map((type, k) => {
+                    const power = j+1;
+                    const dt = k+1;
+                    const damage = damagefunc(power);
+                    return `IF(SpellPowerLevelEqualTo(${power}) and MaleficMatch(${malefic},${dt})):DealDamage(${damage},${type},Magical)`
+                }).join(';');
+            });
+        });
+        return functors;
+    },
     damage1: p => `${2+p}d8`, damage1Upcast: p => `1d8`,
     damage2: p => `${2*p}`, damage2Upcast: p => `2`,
     damage3: p => `${p}d4`, damage3Upcast: p => `1d4`,
