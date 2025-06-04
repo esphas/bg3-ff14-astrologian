@@ -238,40 +238,32 @@ stats('Astrologian', engine.renderFileSync(`${pathTemplate}/combust.txt`, {
 
 // Malefic
 const ctxMalefic = {
-    statsFunctors: _ => {
+    functors: power => {
         const types = [
-            "Bludgeoning",
-            "Piercing",
-            "Slashing",
-            "Cold",
-            "Fire",
-            "Lightning",
-            "Thunder",
-            "Acid",
-            "Poison",
-            "Radiant",
-            "Necrotic",
-            "Force",
-            "Psychic",
+            "Bludgeoning", "Piercing", "Slashing",
+            "Cold", "Fire", "Lightning", "Thunder",
+            "Acid", "Poison",
+            "Radiant", "Necrotic",
+            "Force", "Psychic",
         ];
         const functors = {};
         ["malefic2", "malefic3", "malefic4", "fallMalefic"].forEach((name, i) => {
             const malefic = i+2;
-            const damagefunc = [
+            const damage = [
                 p => `${2*p}`,
                 p => `${p}d4`,
                 p => `${p}d6`,
                 p => `${p}d8`,
-            ][i];
+            ][i][power];
             functors[name] = {}
-            Array.from({ length: 9 }).forEach((_, j) => {
-                functors[name][`damage${j+1}`] = types.map((type, k) => {
-                    const power = j+1;
-                    const dt = k+1;
-                    const damage = damagefunc(power);
-                    return `IF(SpellPowerLevelEqualTo(${power}) and MaleficMatch(${malefic},${dt})):DealDamage(${damage},${type},Magical)`
-                }).join(';');
-            });
+            functors[name].success = types.map((type, j) => {
+                const dt = j+1;
+                return `IF(MaleficMatch(${malefic},${dt})):DealDamage(${damage},${type},Magical)`
+            }).join(';');
+            functors[name].fail = types.map((type, j) => {
+                const dt = j+1;
+                return `IF(MaleficMatch(${malefic},${dt})):DealDamage((${damage})/2,${type},Magical)`
+            }).join(';');
         });
         return functors;
     },
