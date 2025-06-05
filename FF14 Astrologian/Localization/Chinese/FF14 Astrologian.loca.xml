@@ -174,7 +174,7 @@
 
     ========= 职业动作: 天星冲日 =========
     <content contentuid="h3e59f8b7g1de6g4df4g9bfag0b4756d1b436" version="1">天星冲日</content>
-    <content contentuid="haa0f2dd6gcc68g4d58g9760g8e6a283000f0" version="1">自身及附近盟友所拥有的来自你的占星术状态的剩余持续时间延长[1]回合。&lt;br&gt;&lt;br&gt;附近敌人将会陷入&lt;LSTag Type="Status" Tooltip="DAZED"&gt;眩晕&lt;/LSTag&gt;状态，除非其通过一次&lt;LSTag Tooltip="SavingThrow"&gt;豁免检定&lt;/LSTag&gt;。</content>
+    <content contentuid="haa0f2dd6gcc68g4d58g9760g8e6a283000f0" version="1">自身及附近盟友所拥有的来自你的占星术状态的剩余持续时间延长[1]回合。&lt;br&gt;&lt;br&gt;附近敌人将会陷入&lt;LSTag Type="Status" Tooltip="STUNNED"&gt;震慑&lt;/LSTag&gt;状态，除非其通过一次&lt;LSTag Tooltip="SavingThrow"&gt;豁免检定&lt;/LSTag&gt;。</content>
 
     ========= 职业动作: 命运之轮 =========
     <content contentuid="h39b73097g56cdg4253g9067g12806e46493c" version="1">命运之轮</content>

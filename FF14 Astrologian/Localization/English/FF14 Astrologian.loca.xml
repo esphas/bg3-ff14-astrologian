@@ -174,7 +174,7 @@
 
     ========= 职业动作: 天星冲日 =========
     <content contentuid="h3e59f8b7g1de6g4df4g9bfag0b4756d1b436" version="1">Celestial Opposition</content>
-    <content contentuid="haa0f2dd6gcc68g4d58g9760g8e6a283000f0" version="1">Extend the remaining duration of your Astrology effects on yourself and nearby allies by [1] turn.&lt;br&gt;&lt;br&gt;Nearby enemies must succeed on a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazed&lt;/LSTag&gt;.</content>
+    <content contentuid="haa0f2dd6gcc68g4d58g9760g8e6a283000f0" version="1">Extend the remaining duration of your Astrology effects on yourself and nearby allies by [1] turn.&lt;br&gt;&lt;br&gt;Nearby enemies must succeed on a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;.</content>
 
     ========= 职业动作: 命运之轮 =========
     <content contentuid="h39b73097g56cdg4253g9067g12806e46493c" version="1">Collective Unconscious</content>
