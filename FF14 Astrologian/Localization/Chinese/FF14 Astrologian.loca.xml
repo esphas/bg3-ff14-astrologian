@@ -48,7 +48,7 @@
     <content contentuid="h66d9a33fg3b2cg4b8fgad12g5e14ae173735" version="1">将抽到的奥秘卡废弃。</content>
     <content contentuid="h82ce9e3fg00efg472agb1c8g5b085434a0a9" version="1">神圣路</content>
     <content contentuid="hb8b08897gb913g480bgb10cg853cc36091e2" version="1">消耗抽取的奥秘卡，令下一次发动的奥秘卡效果产生变化，奥秘卡发动后解除神圣路效果。</content>
-    <content contentuid="h7dea2dacg7eb6g4bbcgb0e0gead0d4846b16" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_BALANCE"&gt;太阳神之衡&lt;/LSTag&gt;、&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_BOLE"&gt;世界树之干&lt;/LSTag&gt;将转变为&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路：效果强化&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_ARROW"&gt;放浪神之箭&lt;/LSTag&gt;、&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_SPEAR"&gt;战争神之枪&lt;/LSTag&gt;将转变为&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路：时间延长&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_EWER"&gt;河流神之瓶&lt;/LSTag&gt;、&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_SPIRE"&gt;建筑神之塔&lt;/LSTag&gt;将转变为&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路：范围效果&lt;/LSTag&gt;。</content>
+    <content contentuid="h7dea2dacg7eb6g4bbcgb0e0gead0d4846b16" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_BALANCE"&gt;太阳神之衡&lt;/LSTag&gt;、&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_BOLE"&gt;世界树之干&lt;/LSTag&gt;将转变为&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路（效果强化）&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_ARROW"&gt;放浪神之箭&lt;/LSTag&gt;、&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_SPEAR"&gt;战争神之枪&lt;/LSTag&gt;将转变为&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_EWER"&gt;河流神之瓶&lt;/LSTag&gt;、&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_THE_SPIRE"&gt;建筑神之塔&lt;/LSTag&gt;将转变为&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路（范围效果）&lt;/LSTag&gt;。</content>
     <content contentuid="h534c63a3gd292g4de1g9b7bg4500705da589" version="1">虚无路</content>
     <content contentuid="h474cb0a7gdf49g4684ga7f2gc33594aa4fdf" version="1">解除神圣路效果。</content>
     <content contentuid="ha7e83c05g112cg474bgb2a9ge2c7f043e8bb" version="1">暂留</content>
@@ -72,9 +72,9 @@
     <content contentuid="h5167c91dg0d1eg4c70g9982ge3c5f297c547" version="1">选择自身或一名盟友，效果持续期间，目标可以造成额外[1]。</content>
     <content contentuid="hf6d63953g6874g473fg8cf0gc7b5dc605ca4" version="1">强化自身和附近盟友，效果持续期间，受影响个体可以造成额外[1]。</content>
     <content contentuid="hd594d971g9b52g41d0ga6b4g04be740f6b87" version="1">受到&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;影响时效果可能发生变化。</content>
-    <content contentuid="hdd0e4e40ga770g43a1g8707gfe48b228fc4c" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路：效果强化&lt;/LSTag&gt;：额外伤害提高且变为反应动作（不消耗反应）。</content>（神圣路效果强化）
-    <content contentuid="hb26c5d03gb519g4681gaeb7gf6368071155d" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路：时间延长&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
-    <content contentuid="h8334e121g4b7eg4adfg847age8fb11c125c5" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路：范围效果&lt;/LSTag&gt;：额外伤害降低。</content>（神圣路范围效果）
+    <content contentuid="hdd0e4e40ga770g43a1g8707gfe48b228fc4c" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路（效果强化）&lt;/LSTag&gt;：额外伤害提高且变为反应动作（不消耗反应）。</content>（神圣路效果强化）
+    <content contentuid="hb26c5d03gb519g4681gaeb7gf6368071155d" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
+    <content contentuid="h8334e121g4b7eg4adfg847age8fb11c125c5" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路（范围效果）&lt;/LSTag&gt;：额外伤害降低。</content>（神圣路范围效果）
     <content contentuid="h66efad0bg0b60g4952gbb7ag4dcc0a41f180" version="1">额外造成[1]。</content>
     <content contentuid="hbce42fecg0605g4617g93e4g43052a45bdb2" version="1">可以作为反应额外造成[1]。</content>
 
@@ -84,9 +84,9 @@
     <content contentuid="h7e5348aag9b7dg4077g9db4gf239506aeb04" version="1">选择自身或一名盟友，效果持续期间，目标的&lt;LSTag Tooltip="SavingThrow"&gt;豁免检定&lt;/LSTag&gt;和&lt;LSTag Tooltip="ArmourClass"&gt;护甲等级&lt;/LSTag&gt;获得加值。</content>
     <content contentuid="hba2d0320g71a5g4888g8da9g1db924bb8ae0" version="1">强化自身和附近盟友，效果持续期间，受影响个体的&lt;LSTag Tooltip="SavingThrow"&gt;豁免检定&lt;/LSTag&gt;和&lt;LSTag Tooltip="ArmourClass"&gt;护甲等级&lt;/LSTag&gt;获得加值。</content>
     <content contentuid="h7a401449g7fe8g447fg88ddg6bdb15589b0b" version="1">加值等同于施法者的&lt;LSTag Tooltip="ProficiencyBonus"&gt;熟练项加值&lt;/LSTag&gt;。受到&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;影响时效果可能发生变化。</content>
-    <content contentuid="he1c8adfdg9d8dg42e9gbca5g64fe72f3a13d" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路：效果强化&lt;/LSTag&gt;：加值等同于施法者的&lt;LSTag Tooltip="ProficiencyBonus"&gt;熟练项加值&lt;/LSTag&gt;的1.5倍。</content>
-    <content contentuid="h4334d023g5be2g40e2gb1fbg820ea6b04e54" version="1">加值等同于施法者的&lt;LSTag Tooltip="ProficiencyBonus"&gt;熟练项加值&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路：时间延长&lt;/LSTag&gt;：持续时间增加。</content>
-    <content contentuid="h9abba6e9g66eag4c06gb326g0975304e3b45" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路：范围效果&lt;/LSTag&gt;：加值等同于施法者的&lt;LSTag Tooltip="ProficiencyBonus"&gt;熟练项加值&lt;/LSTag&gt;的一半。</content>
+    <content contentuid="he1c8adfdg9d8dg42e9gbca5g64fe72f3a13d" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路（效果强化）&lt;/LSTag&gt;：加值等同于施法者的&lt;LSTag Tooltip="ProficiencyBonus"&gt;熟练项加值&lt;/LSTag&gt;的1.5倍。</content>
+    <content contentuid="h4334d023g5be2g40e2gb1fbg820ea6b04e54" version="1">加值等同于施法者的&lt;LSTag Tooltip="ProficiencyBonus"&gt;熟练项加值&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>
+    <content contentuid="h9abba6e9g66eag4c06gb326g0975304e3b45" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路（范围效果）&lt;/LSTag&gt;：加值等同于施法者的&lt;LSTag Tooltip="ProficiencyBonus"&gt;熟练项加值&lt;/LSTag&gt;的一半。</content>
     <content contentuid="h4fc4a3e7gd7a5g49ffg9409gb15a9e126cb3" version="1">&lt;LSTag Tooltip="SavingThrow"&gt;豁免检定&lt;/LSTag&gt;和&lt;LSTag Tooltip="ArmourClass"&gt;护甲等级&lt;/LSTag&gt;获得+[1]的加值。</content>
 
     <content contentuid="ha01fba8bg21cbg40dcg98d0g448591daeb33" version="1">放浪神之箭</content>
@@ -95,9 +95,9 @@
     <content contentuid="h0ad9b4bdgd58dg4dbagb0edg01db9bf678f3" version="1">选择自身或一名盟友，效果持续期间，目标获得额外的&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附赠动作&lt;/LSTag&gt;。</content>
     <content contentuid="h0f88e659gb71fg4c61g90d4g027775b0ecaf" version="1">强化自身和附近盟友，效果持续期间，受影响个体获得额外的&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附赠动作&lt;/LSTag&gt;。</content>
     <content contentuid="h84741a7bgf31dg4ec9g848bgdf584641b15e" version="1">受到&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;影响时效果可能发生变化。</content>
-    <content contentuid="h15670efagec94g434fg836dg9df8762a4255" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路：效果强化&lt;/LSTag&gt;：将获得2个附赠动作。</content>（神圣路效果强化）
-    <content contentuid="h0d6fc10dge453g4313g837ag4a18743e1f1a" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路：时间延长&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
-    <content contentuid="ha641b8f6gc443g49c8gad50gcb65cf7a5876" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路：范围效果&lt;/LSTag&gt;：没有其他影响。</content>（神圣路范围效果）
+    <content contentuid="h15670efagec94g434fg836dg9df8762a4255" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路（效果强化）&lt;/LSTag&gt;：将获得2个附赠动作。</content>（神圣路效果强化）
+    <content contentuid="h0d6fc10dge453g4313g837ag4a18743e1f1a" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
+    <content contentuid="ha641b8f6gc443g49c8gad50gcb65cf7a5876" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路（范围效果）&lt;/LSTag&gt;：没有其他影响。</content>（神圣路范围效果）
     <content contentuid="hc428363eg5d30g49f2ga46fg4994f43c3715" version="1">获得额外[1]个&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附赠动作&lt;/LSTag&gt;。</content>
 
     <content contentuid="h4623c265g061ag4cb7ga43fgee1607a2858a" version="1">河流神之瓶</content>
@@ -106,9 +106,9 @@
     <content contentuid="h529f50edg6884g435cga7bfg7944ef7b52e8" version="1">选择自身或一名盟友，效果持续期间，目标在施放法术时会获得&lt;LSTag Type="ActionResource" Tooltip="EK_FF14_Astrodyne"&gt;星力充能&lt;/LSTag&gt;，可用于施放&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_Astrodyne"&gt;星力&lt;/LSTag&gt;。星力充能将在奥秘卡效果结束时清空。</content>
     <content contentuid="h230b5a8cge9ebg4181gafbeg44fe6e569cc4" version="1">强化自身和附近盟友，效果持续期间，受影响个体在施放法术时会获得&lt;LSTag Type="ActionResource" Tooltip="EK_FF14_Astrodyne"&gt;星力充能&lt;/LSTag&gt;，可用于施放&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_Astrodyne"&gt;星力&lt;/LSTag&gt;。星力充能将在奥秘卡效果结束时清空。</content>
     <content contentuid="h4a613994g962bg4c1dg9f6cgd8cd2ffc4738" version="1">施放法术时，获得等同于法术环数两倍的星力充能。受到&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;影响时效果可能发生变化。</content>
-    <content contentuid="hf3f7606bgec6eg4185g9fccgb4898d94f8c9" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路：效果强化&lt;/LSTag&gt;：施放法术时，获得等同于法术环数三倍的星力充能。</content>（神圣路效果强化）
-    <content contentuid="hd9b98200g9533g430fgbd07gad6659db2208" version="1">施放法术时，获得等同于法术环数两倍的星力充能。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路：时间延长&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
-    <content contentuid="h2f930d06gad0fg4b10ga774gede835f38dae" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路：范围效果&lt;/LSTag&gt;：施放法术时，获得等同于法术环数的星力充能。</content>（神圣路范围效果）
+    <content contentuid="hf3f7606bgec6eg4185g9fccgb4898d94f8c9" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路（效果强化）&lt;/LSTag&gt;：施放法术时，获得等同于法术环数三倍的星力充能。</content>（神圣路效果强化）
+    <content contentuid="hd9b98200g9533g430fgbd07gad6659db2208" version="1">施放法术时，获得等同于法术环数两倍的星力充能。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
+    <content contentuid="h2f930d06gad0fg4b10ga774gede835f38dae" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路（范围效果）&lt;/LSTag&gt;：施放法术时，获得等同于法术环数的星力充能。</content>（神圣路范围效果）
     <content contentuid="h5ace8e27g57e3g4428g923cge414067bba65" version="1">在施放法术时会获得等同于法术环数[1]倍的&lt;LSTag Type="ActionResource" Tooltip="EK_FF14_Astrodyne"&gt;星力充能&lt;/LSTag&gt;，可用于施放&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_Astrodyne"&gt;星力&lt;/LSTag&gt;。星力充能将在奥秘卡效果结束时清空。</content>
 
     <content contentuid="h76993b19g62efg487fg8ccbg9a2921058e43" version="1">战争神之枪</content>
@@ -117,9 +117,9 @@
     <content contentuid="h9ff33c1dge0dbg4371g8f82g18361edabe4c" version="1">选择自身或一名盟友，效果持续期间，目标的攻击能力得到强化。</content>
     <content contentuid="hde5dc75eg7646g4572gae37g96ffd8feba10" version="1">强化自身和附近盟友，效果持续期间，受影响个体的攻击能力得到强化。</content>
     <content contentuid="hfd998981gfb87g4704g8816gdfd126ee91c6" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;获得&lt;LSTag Tooltip="Advantage"&gt;优势&lt;/LSTag&gt;。受到&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;影响时效果可能发生变化。</content>
-    <content contentuid="h131505fcgcd4fg41adg8795g963f2d0e5d94" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;获得&lt;LSTag Tooltip="Advantage"&gt;优势&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路：效果强化&lt;/LSTag&gt;：攻击触发&lt;LSTag Tooltip="CriticalHit"&gt;重击&lt;/LSTag&gt;所需的点数-1。</content>（神圣路效果强化）
-    <content contentuid="h1d656abdg1180g4367g9ce5g17102150ab44" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;获得&lt;LSTag Tooltip="Advantage"&gt;优势&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路：时间延长&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
-    <content contentuid="h207fef72gf3f4g4bceg98f3gfb9d74657776" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路：范围效果&lt;/LSTag&gt;：&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;至少掷出5点。</content>（神圣路范围效果）
+    <content contentuid="h131505fcgcd4fg41adg8795g963f2d0e5d94" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;获得&lt;LSTag Tooltip="Advantage"&gt;优势&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路（效果强化）&lt;/LSTag&gt;：攻击触发&lt;LSTag Tooltip="CriticalHit"&gt;重击&lt;/LSTag&gt;所需的点数-1。</content>（神圣路效果强化）
+    <content contentuid="h1d656abdg1180g4367g9ce5g17102150ab44" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;获得&lt;LSTag Tooltip="Advantage"&gt;优势&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
+    <content contentuid="h207fef72gf3f4g4bceg98f3gfb9d74657776" version="1">&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路（范围效果）&lt;/LSTag&gt;：&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;至少掷出5点。</content>（神圣路范围效果）
     <content contentuid="h687ef183g6d54g4391g8d95g6d4f8ae8348f" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;获得&lt;LSTag Tooltip="Advantage"&gt;优势&lt;/LSTag&gt;。</content>
 
     <content contentuid="hdf169ef9g3bfeg47ccg96a9g602c90a6de8d" version="1">建筑神之塔</content>
@@ -128,17 +128,17 @@
     <content contentuid="h75610136g6223g4dccg9f2ag7fd0d58a2778" version="1">选择自身或一名盟友，效果持续期间，目标的移动能力得到强化。</content>
     <content contentuid="ha2ed4b7ag4400g45afg8362g9af4d1be6b16" version="1">强化自身和附近盟友，效果持续期间，受影响个体的移动能力得到强化。</content>
     <content contentuid="hd3a60a98g6037g4a23g8e6bg5b6a3d694eb0" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍，且移动不会触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。受到&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;影响时效果可能发生变化。</content>
-    <content contentuid="hd5f6b827g0da6g4082gbef2g83ee59a2a0a1" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍，且移动不会触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路：效果强化&lt;/LSTag&gt;：每回合可以免费&lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;跳跃&lt;/LSTag&gt;一次。</content>（神圣路效果强化）
-    <content contentuid="h7e192e50gc413g4a43g8807g13ef528c2252" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍，且移动不会触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路：时间延长&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
-    <content contentuid="h25da2a31g000fg4b66ga6a1g3bbc043256aa" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路：范围效果&lt;/LSTag&gt;：移动仍有可能触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。</content>（神圣路范围效果）
+    <content contentuid="hd5f6b827g0da6g4082gbef2g83ee59a2a0a1" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍，且移动不会触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路（效果强化）&lt;/LSTag&gt;：每回合可以免费&lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;跳跃&lt;/LSTag&gt;一次。</content>（神圣路效果强化）
+    <content contentuid="h7e192e50gc413g4a43g8807g13ef528c2252" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍，且移动不会触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
+    <content contentuid="h25da2a31g000fg4b66ga6a1g3bbc043256aa" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍。&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路（范围效果）&lt;/LSTag&gt;：移动仍有可能触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。</content>（神圣路范围效果）
     <content contentuid="ha5cd4642ga8a2g447dg8f04gcd7bb88fd80f" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍，且移动不会触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。</content>
 
     ========= 神圣路 =========
-    <content contentuid="ha741bf63g3978g4a61g8946g168483dca5a0" version="1">神圣路：效果强化</content>
+    <content contentuid="ha741bf63g3978g4a61g8946g168483dca5a0" version="1">神圣路（效果强化）</content>
     <content contentuid="h7e1daadeg397dg4a2dg80e0g195b3d9d6cf7" version="1">下次使用奥秘卡时，其效果将会得到强化。</content>
-    <content contentuid="hba18d7eag3ac6g4aa3gb9e2gf2d7a98cc040" version="1">神圣路：时间延长</content>
+    <content contentuid="hba18d7eag3ac6g4aa3gb9e2gf2d7a98cc040" version="1">神圣路（时间延长）</content>
     <content contentuid="h0f8d1f11g2b8fg46d5gaab3gc6868dd70a9f" version="1">下次使用奥秘卡时，其有效时间将会延长。</content>
-    <content contentuid="h03374f97g2b42g4bceg871cge74ddd3b5014" version="1">神圣路：范围效果</content>
+    <content contentuid="h03374f97g2b42g4bceg871cge74ddd3b5014" version="1">神圣路（范围效果）</content>
     <content contentuid="h499bd12eg4cd3g4669g8565g53df3afa2503" version="1">下次使用奥秘卡时，其将会对附近所有盟友生效，但效果可能降低。</content>
 
     ========= 小奥秘卡 =========
