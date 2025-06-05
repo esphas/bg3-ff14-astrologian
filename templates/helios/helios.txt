@@ -5,7 +5,7 @@
 new entry "Shout_EK_FF14_Helios"
 type "SpellData"
 data "SpellType" "Shout"
-data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
 data "Level" "{{ power }}"
 data "SpellSchool" "Divination"
 data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:{{ power }}"
