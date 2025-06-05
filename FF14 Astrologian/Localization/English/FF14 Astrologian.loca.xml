@@ -26,6 +26,12 @@
     <content contentuid="hb55d46efge935g447dgb5f9gf91880b93ea6" version="1">Use &lt;LSTag Type="ActionResource" Tooltip="EK_FF14_Astrodyne"&gt;Astrodyne Charge&lt;/LSTag&gt; to restore &lt;LSTag Tooltip="SpellSlot"&gt;Spell Slots&lt;/LSTag&gt;. The number of spell slots that can be restored should not exceed (character level + 1) / 2.</content>
 	<content contentuid="h8cd6b2b9g66b4g4ff6ga8d2g0f27ee293bb1" version="1">Consume [1] &lt;LSTag Type="ActionResource" Tooltip="EK_FF14_Astrodyne"&gt;Astrodyne Charge&lt;/LSTag&gt;, restore a [2] spell slot.</content>
 	<content contentuid="h06f15273ga0a0g48bfgb52ege395ce697b4a" version="1">Restore Spell Slots</content>
+    <content contentuid="h67ef8ecbg0514g4d7cga950g196d91b38751" version="1">Swiftcast Charge</content>
+    <content contentuid="h859ed864g5063g40cagbc55g78bada15eb6f" version="1">Can be used for &lt;LSTag Type="Passive" Tooltip="EK_FF14_Swiftcast"&gt;Swiftcast&lt;/LSTag&gt;.</content>
+    <content contentuid="h3e50dfafg17d5g4ad0gb19aged3ab71aeaf3" version="1">Essential Dignity Charge</content>
+    <content contentuid="hb4eae6bfgbea8g4b06gadc9g8142135791e0" version="1">Can be used to cast &lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_EssentialDignity"&gt;Essential Dignity&lt;/LSTag&gt;.</content>
+    <content contentuid="hfbc23aaag96e3g4a74ga21cgfa59e664be43" version="1">Surecast Charge</content>
+    <content contentuid="h13a05f2eg8418g4a5agb0e6g94a32f2a57dd" version="1">Can be used for &lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_Surecast"&gt;Surecast&lt;/LSTag&gt;.</content>
 
     ========= 奥秘卡通用 =========
     <content contentuid="he30ec050g15f1g44fag87d3g60b12a155166" version="1">Arcana</content>

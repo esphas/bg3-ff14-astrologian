@@ -26,6 +26,12 @@
     <content contentuid="hb55d46efge935g447dgb5f9gf91880b93ea6" version="1">使用&lt;LSTag Type="ActionResource" Tooltip="EK_FF14_Astrodyne"&gt;星力充能&lt;/LSTag&gt;恢复&lt;LSTag Tooltip="SpellSlot"&gt;法术位&lt;/LSTag&gt;。可恢复的法术位环数不会超过自身等级+1的一半。</content>
 	<content contentuid="h8cd6b2b9g66b4g4ff6ga8d2g0f27ee293bb1" version="1">消耗[1]&lt;LSTag Type="ActionResource" Tooltip="EK_FF14_Astrodyne"&gt;星力充能&lt;/LSTag&gt;，恢复一个[2]环&lt;LSTag Tooltip="SpellSlot"&gt;法术位&lt;/LSTag&gt;。</content>
 	<content contentuid="h06f15273ga0a0g48bfgb52ege395ce697b4a" version="1">恢复法术位</content>
+    <content contentuid="h67ef8ecbg0514g4d7cga950g196d91b38751" version="1">即刻咏唱充能</content>
+    <content contentuid="h859ed864g5063g40cagbc55g78bada15eb6f" version="1">可用于释放&lt;LSTag Type="Passive" Tooltip="EK_FF14_Swiftcast"&gt;即刻咏唱&lt;/LSTag&gt;。</content>
+    <content contentuid="h3e50dfafg17d5g4ad0gb19aged3ab71aeaf3" version="1">先天禀赋充能</content>
+    <content contentuid="hb4eae6bfgbea8g4b06gadc9g8142135791e0" version="1">可用于释放&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_EssentialDignity"&gt;先天禀赋&lt;/LSTag&gt;。</content>
+    <content contentuid="hfbc23aaag96e3g4a74ga21cgfa59e664be43" version="1">沉稳咏唱充能</content>
+    <content contentuid="h13a05f2eg8418g4a5agb0e6g94a32f2a57dd" version="1">可用于释放&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_Surecast"&gt;沉稳咏唱&lt;/LSTag&gt;。</content>
 
     ========= 奥秘卡通用 =========
     <content contentuid="he30ec050g15f1g44fag87d3g60b12a155166" version="1">奥秘卡充能</content>
