@@ -34,8 +34,8 @@
                 <node id="ActionResourceDefinition">
                     <attribute id="UUID" type="guid" value="0f23572b-b269-4177-b28c-e04b0fb70359" />
                     <attribute id="Name" type="FixedString" value="EK_FF14_EssentialDignityCharge" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="hddc2c0e3g73deg4c71gabdfg6824c707506e" version="1" />
-                    <attribute id="Description" type="TranslatedString" handle="h4014f703gafb5g43ddgae3dge235d72499ad" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3e50dfafg17d5g4ad0gb19aged3ab71aeaf3" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="hb4eae6bfgbea8g4b06gadc9g8142135791e0" version="1" />
                     <attribute id="MaxLevel" type="uint32" value="0" />
                     <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />
@@ -43,8 +43,8 @@
                 <node id="ActionResourceDefinition">
                     <attribute id="UUID" type="guid" value="5b78025e-256f-418e-b7dd-9ab99e7c8159" />
                     <attribute id="Name" type="FixedString" value="EK_FF14_SurecastCharge" />
-                    <attribute id="DisplayName" type="TranslatedString" handle="h850868begc187g43c0g8375g3f0f60385d50" version="1" />
-                    <attribute id="Description" type="TranslatedString" handle="hea80ace1g7b8eg4d62gb72dg4da20ad3f626" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hfbc23aaag96e3g4a74ga21cgfa59e664be43" version="1" />
+                    <attribute id="Description" type="TranslatedString" handle="h13a05f2eg8418g4a5agb0e6g94a32f2a57dd" version="1" />
                     <attribute id="MaxLevel" type="uint32" value="0" />
                     <attribute id="ReplenishType" type="FixedString" value="Rest" />
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />
