@@ -16,19 +16,181 @@ local AstSpellLists = {
 }
 
 local ModSpells = {
-    ["d903677e-f24b-48ec-ab20-98dcc116a371"] = { -- 5e Spells
+    ["fb5f528d-4d48-4bf2-a668-2274d3cfba96"] = { -- 5e Spells
         { -- Cantrips
+            "Target_Prestidigitation",
+            "Shout_Thunderclap",
+            "Target_ControlFlames",
+            "Target_CreateBonfire",
+            "Target_Frostbite",
+            "Target_Gust",
+            "Target_Infestation",
+            "Target_MagicStone",
+            "Target_MoldEarth",
+            "Target_PrimalSavagery",
+            "Target_ShapeWater",
         }, { -- Level 1
+            "Shout_DetectMagic",
+            "Target_UnseenServant",
+            "Shout_AbsorbElements",
         }, { -- Level 2
+            "Shout_BorrowedKnowledge",
+            "Shout_KineticJaunt",
+            "Target_NathairsMischief",
+            "Shout_WardingWind",
+            "Target_ZoneofTruth",
+            "Target_ContinualFlame",
+            "Target_DustDevil",
+            "Target_HealingSpirit",
+            "Target_WitherAndBloom",
         }, { -- Level 3
+            "Target_Antagonize",
+            "Target_Catnap",
+            "Target_EnemiesAbound",
+            "Target_IntellectFortress",
+            "Target_MotivationalSpeech",
+            "Target_Nondetection",
+            "Target_FlameArrows",
+            "Shout_WaterWalk",
         }, { -- Level 4
+            "Projectile_RaulothimsPsychicLance",
         }, { -- Level 5
+            "Target_Mislead",
+            "Target_SkillEmpowerment",
+            "Target_SynapticStatic",
+            "Shout_AntilifeShell",
+            "Target_Maelstrom"
+        }, { -- Level 6
+            "Target_TrueSeeing",
+        }, { -- Level 7
+            "Target_Regenerate",
+        }, { -- Level 8
+            "Target_DominateMonster",
+            "Target_Feeblemind",
+            "Target_MindBlank",
+        }, { -- Level 9
+            "Target_Foresight",
+            "Target_PowerWordHeal",
+            "Target_PowerWordKill",
+        }
+    },
+    ["84958e84-fd62-474f-bd1f-cbabc132c4b3"] = { -- Homebrew Spells
+        { -- Cantrips
+            "Projectile_IllusionaryDart",
+            "Target_ThunderNote",
+            "Target_Burn",
+            "Target_DecayingTouch",
+            "Shout_FistsOfFire",
+            "Target_Freeze",
+            "Shout_IceWeapon",
+            "Target_Impact",
+            "Projectile_RockSlam",
+            "Shout_StoneForming",
+            "Target_WaterBullet",
+        }, { -- Level 1
+            "Target_BladeMirage",
+            "Target_ThunderPunch",
+            "Zone_ArcticBreath",
+            "Zone_CrashingWave",
+            "Projectile_GaleBolt",
+            "Shout_LightningTendril",
+            "Projectile_WaterBlast",
+        }, { -- Level 2
+	        "Projectile_Crackle",
+        }, { -- Level 3
+            "Target_FireCyclone",
+            "Zone_VortexBlast",
+        }, { -- Level 4
+	        "Shout_OrbitalStones",
+        }, { -- Level 5
+        	"Projectile_SkyBurst",
         }, { -- Level 6
         }, { -- Level 7
         }, { -- Level 8
         }, { -- Level 9
         }
-    }
+    },
+    ["1d81bac8-2e91-45df-bc3c-5aa1cd2ee201"] = { -- 2e Spells
+        { -- Cantrips
+            "Shout_WarpStep",
+            "Projectile_PhaseBolt",
+        }, { -- Level 1
+            "Projectile_FriendFetch",
+            "Target_HydraulicPush",
+            "Zone_ChillingSpray",
+            "Projectile_SnowBall",
+            "Wall_WallOfShrubs",
+            "Zone_BuffettingWinds",
+            "Target_AntHaul",
+        }, { -- Level 2
+            "Target_FeastOfAshes",
+            "Target_FinalSacrifice",
+            "Shout_MimicUndead",
+            "Target_SoundBurst",
+            "Target_TelekineticManeuver",
+            "Target_WarriorRegret",
+        }, { -- Level 3
+            "Target_AgonzingDespair",
+            "Shout_FocusingHum",
+            "Target_GhostlyWeapon",
+            "Projectile_MoonlightRay",
+            "Projectile_SearingLight",
+        }, { -- Level 4
+            "Shout_GirzanjesMarch",
+            "Rush_MercurialStride",
+            "Target_BloodSprayCurse",
+            "Shout_CloakOfLight",
+            "Zone_HydraulicTorrent",
+            "Shout_VitalBeacon",
+        }, { -- Level 5
+            "Target_BloodFeast",
+            "Zone_CrushingDespair",
+            "Target_ForcefulHand",
+            "Shout_RepellingPulse",
+            "Target_ScouringPulse",
+            "Shout_SynapticPulse",
+            "Zone_BlazingFissure",
+            "Target_LightningStorm",
+            "Shout_PlantForm",
+            "Target_StormBurst",
+        }, { -- Level 6
+            "Target_ElementalConfluence",
+        }, { -- Level 7
+            "Target_EclipseBurst",
+            "Target_MoonBurst",
+        }, { -- Level 8
+            "Target_HypnoticTerror",
+            "Target_SummonIrii",
+            "Projectile_PolarRay",
+        }, { -- Level 9
+        }
+    },
+    ["9deeb371-f01e-41b4-b20e-c5eee0751b12"] = { -- Valkrana Spellbook
+        { -- Cantrips
+        }, { -- Level 1
+            "Target_Valkrana_SkeletalLemmings",
+            "Projectile_ValkranaShadowfellSalvo",
+        }, { -- Level 2
+            "Target_ValkranaCorpseGrenade",
+            "Target_ValkranaBoneLiquefaction",
+            "Target_ValkranaSoulSecret",
+        }, { -- Level 3
+            "Target_ValkranaSkeleport",
+            "Target_ValkranaImpartUndeath",
+        }, { -- Level 4
+            "Target_ValkranaUnsealSoul",
+            "Shout_ValkranaNegativeEnergyField",
+        }, { -- Level 5
+            "Target_ValkranaDreadSkeleton",
+            "Target_ValkranaRiggedGraveyard",
+        }, { -- Level 6
+            "Zone_ValkranaArcVivisector",
+            "Shout_ValkranaBoneEmperor",
+        }, { -- Level 7
+        }, { -- Level 8
+        }, { -- Level 9
+        }
+    },
 }
 
 local function Includes(list, element)
@@ -76,7 +238,9 @@ local function AstrologySpellLists()
         local list = spellLists[i]
         if debug then
             _P("AstrologySpellLists: " .. i .. "|" .. uuid)
-            _P(list)
+            for _, v in ipairs(list) do
+                _P("  " .. v)
+            end
         end
         Ext.Types.Unserialize(data, list)
     end
