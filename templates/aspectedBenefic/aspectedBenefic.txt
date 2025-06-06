@@ -29,7 +29,7 @@ data "Icon" "Icon_EK_FF14_AST_AspectedBenefic"
 data "DisplayName" "h02a38829gd772g4cf7gb954g945b59c4d1a7"
 data "Description" "hb072cae5g1d50g456fgadacgf83ac8d8a092"
 data "DescriptionParams" "RegainHitPoints({{ diurnal }})"
-data "TickType" "EndTurn"
+data "TickType" "StartTurn"
 data "TickFunctors" "RegainHitPoints({{ diurnal }})"
 
 // 中间学派-白昼学派

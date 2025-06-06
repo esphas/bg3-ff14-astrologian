@@ -36,7 +36,7 @@ data "Icon" "Icon_EK_FF14_AST_AspectedHelios"
 data "DisplayName" "h7b2f72a3g5166g47d0g9ee8g608e8b5d3864"
 data "Description" "hb726fd1fg1dccg4625gab7agbacced579832"
 data "DescriptionParams" "RegainHitPoints({{ diurnal }})"
-data "TickType" "EndTurn"
+data "TickType" "StartTurn"
 data "TickFunctors" "RegainHitPoints({{ diurnal }})"
 
 // 中间学派-白昼学派
