@@ -113,22 +113,22 @@
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="94315fac-21b3-41fb-b2b9-182706f353f5" />
                     <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 1" />
-                    <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Target_CreateDestroyWater;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Grease;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_Thunderwave" />
+                    <attribute id="Spells" type="LSString" value="Projectile_ChromaticOrb;Projectile_IceKnife;Projectile_WitchBolt;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Shout_FeatherFall;Shout_Shield_Wizard;Shout_SpeakWithAnimals;Target_AnimalFriendship;Target_Bane;Target_Bless;Target_CharmPerson;Target_Command_Container;Target_CreateDestroyWater;Target_EnlargeReduce;Target_FaerieFire;Target_FindFamiliar;Target_FogCloud;Target_Grease;Target_HideousLaughter;Target_Jump;Target_Longstrider;Target_MageArmor;Target_ProtectionFromEvilAndGood;Target_Sleep;Zone_BurningHands;Zone_Thunderwave" />
                 </node>
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="42448d75-a5a1-4f1c-89fe-79aec73ba9ac" />
                     <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 2" />
-                    <attribute id="Spells" type="LSString" value="Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkvision;Target_EnhanceAbility;Target_Enthrall;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_Moonbeam;Target_ProtectionFromPoison;Target_Shatter;Target_Silence;Zone_GustOfWind" />
+                    <attribute id="Spells" type="LSString" value="Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Aid;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkvision;Target_EnhanceAbility;Target_Enthrall;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_Moonbeam;Target_ProtectionFromPoison;Target_Shatter;Target_Silence;Zone_GustOfWind" />
                 </node>
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="b08bb71b-3b07-482d-8d39-6a1fec98813a" />
                     <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 3" />
-                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Shout_Blink;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Target_FeignDeath;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_PlantGrowth;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Zone_Fear;Zone_Fear" />
+                    <attribute id="Spells" type="LSString" value="Shout_AuraOfVitality;Shout_Blink;Target_CallLightning;Target_Counterspell;Target_Daylight_Container;Target_ElementalWeapon;Target_FeignDeath;Target_Fly;Target_GaseousForm;Target_GlyphOfWarding;Target_Haste;Target_HypnoticPattern;Target_PlantGrowth;Target_ProtectionFromEnergy;Target_SleetStorm;Target_Slow;Target_SpeakWithDead;Target_StinkingCloud;Zone_Fear;Zone_Fear" />
                 </node>
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="1b4a10f7-4574-4964-82c9-6228f28e362b" />
                     <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 4" />
-                    <attribute id="Spells" type="LSString" value="Target_Blight;Target_Confusion;Target_FreedomOfMovement;Target_IceStorm;Target_Invisibility_Greater;Target_Polymorph;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire" />
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_Blight;Target_Confusion;Target_FreedomOfMovement;Target_IceStorm;Target_Invisibility_Greater;Target_Polymorph;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire" />
                 </node>
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="f95550e1-3a1d-4f3f-b722-7f408d0d4664" />
@@ -138,7 +138,7 @@
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="a4fc4454-d9cf-47bc-81be-255a85b0dc17" />
                     <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 6" />
-                    <attribute id="Spells" type="LSString" value="Shout_HeroesFeast;Shout_WindWalk;Target_IrresistibleDance;Wall_WallOfIce;Zone_Sunbeam" />
+                    <attribute id="Spells" type="LSString" value="Shout_HeroesFeast;Shout_WindWalk;Target_FleshToStone;Target_IrresistibleDance;Wall_WallOfIce;Zone_Sunbeam" />
                 </node>
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="f50551a9-b7d6-4802-99fb-652c9c1fd2ef" />
