@@ -38,16 +38,20 @@ local function Includes(list, element)
     return false
 end
 
+local function AppendList(list1, list2)
+    for _, v in ipairs(list2) do
+        if not Includes(list1, v) then
+            table.insert(list1, v)
+        end
+    end
+end
+
 local function AddModSpells(spellLists, modUuid, modSpells)
     if not Ext.Mod.IsModLoaded(modUuid) then return end
     for level = 1, 10 do
         local list = spellLists[level]
         local spells = modSpells[level]
-        for _, spell in ipairs(spells) do
-            if not Includes(list, spell) then
-                table.insert(list, spell)
-            end
-        end
+        AppendList(list, spells)
     end
 end
 
@@ -64,22 +68,16 @@ local function AstrologySpellLists()
     end
     -- merge
     for i = 3, 11 do
-        local prev = spellLists[i - 1]
-        local current = spellLists[i]
-        for _, v in ipairs(prev) do
-            if not Includes(current, v) then
-                table.insert(current, v)
-            end
-        end
+        AppendList(spellLists[i], spellLists[i-1])
     end
     -- set
-    for i, list in ipairs(spellLists) do
+    for i, uuid in ipairs(AstSpellLists) do
+        local data = Ext.StaticData.Get(uuid, "SpellList").Spells
+        local list = spellLists[i]
         if debug then
             _P("AstrologySpellLists: " .. i .. "|" .. uuid)
             _P(list)
         end
-        local uuid = AstSpellLists[i]
-        local data = Ext.StaticData.Get(uuid, "SpellList").Spells
         Ext.Types.Unserialize(data, list)
     end
 end
