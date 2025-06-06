@@ -116,28 +116,12 @@ const timeDilationOnApplyTotalFunctors = statusTimeDilationTarget.map((status) =
     return acc;
 }, [[]]).map((arr) => arr.join(';'));
 
-// 护盾类型
-const statusShield = {
-    A: [
-        ...statusAspected.benefic.nocturnal,
-        ...statusAspected.helios.nocturnal,
-        ...statusAspected.heliosConjunction.nocturnal,
-    ],
-    B: [
-        ...statusAspected.benefic.nocturnalNeutral,
-        ...statusAspected.helios.nocturnalNeutral,
-        ...statusAspected.heliosConjunction.nocturnalNeutral,
-    ],
-};
-
 // ========= Khn =========
 
 khn('common', engine.renderFileSync(`${pathTemplate}/common.khn`, {
     checkArcanaPlay: spellArcanaPlay.map((spell) => `SpellId('${spell}')`).join('\n         | '),
     checkArcanaPlaySpread: spellArcanaPlaySpread.map((spell) => `SpellId('${spell}')`).join('\n         | '),
     statusTimeDilationTarget: statusTimeDilationTarget.map((status) => `'${status}'`).join(',\n        '),
-    statusShieldOfTypeA: statusShield.A.map((status) => `'${status}'`).join(',\n        '),
-    statusShieldOfTypeB: statusShield.B.map((status) => `'${status}'`).join(',\n        '),
 }));
 
 // ========= Stats =========
@@ -302,8 +286,7 @@ stats('Astrologian', makeSpell({ txt: 'benefic/beneficII' }, {
 stats('Astrologian', makeSpell({ txt: 'aspectedBenefic/aspectedBenefic', fromLevel: 2 }, {
     potency: p => `${p}d4+SpellCastingAbilityModifier`, potencyUpcast: p => `1d4`,
     diurnal: p => `${p}d4`, diurnalUpcast: p => `1d4`, diurnalTurns: p => 3,
-    nocturnal: p => `${p}d10`, nocturnalUpcast: p => `1d10`,
-    nocturnalStackPriority: p => `${p*10}`,
+    nocturnal: p => p*6-2, nocturnalUpcast: p => 6, nocturnalTurns: p => 10,
 }));
 
 // Helios
@@ -315,14 +298,12 @@ stats('Astrologian', makeSpell({ txt: 'helios/helios', fromLevel: 2 }, {
 stats('Astrologian', makeSpell({ txt: 'aspectedHelios/aspectedHelios', fromLevel: 4 }, {
     potency: p => `${p-2}d4+SpellCastingAbilityModifier`, potencyUpcast: p => `1d4`,
     diurnal: p => `${p-2}d4`, diurnalUpcast: p => `1d4`, diurnalTurns: p => 3,
-    nocturnal: p => `${p-2}d10`, nocturnalUpcast: p => `1d10`,
-    nocturnalStackPriority: p => `${(p-2)*10}`,
+    nocturnal: p => p*6-14, nocturnalUpcast: p => 6, nocturnalTurns: p => 10,
 }));
 stats('Astrologian', makeSpell({ txt: 'aspectedHelios/heliosConjunction', fromLevel: 4 }, {
     potency: p => `${p-1}d4+SpellCastingAbilityModifier`, potencyUpcast: p => `1d4`,
     diurnal: p => `${p-1}d4`, diurnalUpcast: p => `1d4`, diurnalTurns: p => 3,
-    nocturnal: p => `${p-1}d10`, nocturnalUpcast: p => `1d10`,
-    nocturnalStackPriority: p => `${(p-2)*10}`,
+    nocturnal: p => p*6-8, nocturnalUpcast: p => 6, nocturnalTurns: p => 10,
 }));
 
 // Ascend
