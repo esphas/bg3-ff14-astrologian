@@ -217,18 +217,3 @@ function EK_FF14_Check_TimeDilationTarget()
         {{ statusTimeDilationTarget }}
     }, {}, {}, context.Target, context.Source)
 end
-
-
---[[
-    拥有特定类型的护盾
---]]
-function EK_FF14_Check_HasAnyShieldOfTypeA()
-    return HasAnyStatus({
-        {{ statusShieldOfTypeA }}
-    })
-end
-function EK_FF14_Check_HasAnyShieldOfTypeB()
-    return HasAnyStatus({
-        {{ statusShieldOfTypeB }}
-    })
-end

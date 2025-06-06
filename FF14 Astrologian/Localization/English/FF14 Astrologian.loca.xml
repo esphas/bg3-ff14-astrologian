@@ -11,6 +11,10 @@
     <content contentuid="h271f2ea5g6d2bg4985ga85cg71d71fcb46d5" version="1">Inspired by the trails of the nocturnal planets, you can aid and protect your allies in a variety of ways.</content>
     <content contentuid="hd0304217f2e44b44bde17f7209c29067ff62" version="1">Certain astrologian spells and class actions provide additional effects specific to Nocturnal Sect.</content>
 
+    ========= 黑夜守御 =========
+    <content contentuid="h7c3308f0ge106g43c6g8f05gf20f3d43112c" version="1">Nocturnal Ward</content>
+	<content contentuid="h0d04d713g49a1g473cg8b60gc124669d963c" version="1">Nocturnal ward blocks damage equal to its charges and then loses half of its charges.</content>
+
     ========= 升环提示 =========
     <content contentuid="h79997b21gcbb8g4a24g8933g65d101da9feb" version="1">Deals an additional [1] and [2] per level.</content>
     <content contentuid="h66373424g360ag4a95gb886gf023b93497ab" version="1">Deals an additional [1], [2], and [3] per level.</content>
@@ -325,14 +329,13 @@
     ========= 法术: 吉星相位 =========
     <content contentuid="h0413cf46gcf1bg4b27g8974g47cdaf9a4001" version="1">Aspected Benefic</content>
     <content contentuid="h4575c90bgb42ag48a9gb9a0g7d67b6b65192" version="1">Restore target's HP. Grant effects based on your sect.</content>
-    <content contentuid="h10158b20g8c86g42cfgbe2dg0e2d3ac3d608" version="1">Diurnal Sect: regain [2] per turn in [1] turns.&lt;br&gt;Nocturnal Sect: gain [3].</content>
+    <content contentuid="h10158b20g8c86g42cfgbe2dg0e2d3ac3d608" version="1">Diurnal Sect: regain [2] per turn in [1] turns.&lt;br&gt;Nocturnal Sect: gain [3] stack of &lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;Nocturnal Ward&lt;/LSTag&gt;, effective for [4] turns.</content>
     <content contentuid="h02a38829gd772g4cf7gb954g945b59c4d1a7" version="1">Aspected Benefic: Diurnal</content>
     <content contentuid="h540956f7g9f42g4d7bg93afgf2ef0de3fce2" version="1">Neutral Sect: Nocturnal</content>
     <content contentuid="hb072cae5g1d50g456fgadacgf83ac8d8a092" version="1">Regain [1] per turn.</content>
     <content contentuid="h57092db1ga02ag41c2g834bg6610e7239c21" version="1">Aspected Benefic: Nocturnal</content>
     <content contentuid="hd89b13ffg68d4g4ae2g91f5gf20f3a71f38b" version="1">Neutral Sect: Diurnal</content>
-    <content contentuid="h13c3e3fegfee6g4cd2gbcc5g3df765d5eaad" version="1">Gain [1] when losing all &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary HP&lt;/LSTag&gt;.</content>
-    <content contentuid="h309192cagbd14g441bgbad3gfaae28d05d27" version="1">Gain [1].</content>
+    <content contentuid="h13c3e3fegfee6g4cd2gbcc5g3df765d5eaad" version="1">Lose all stacks of &lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;Nocturnal Ward&lt;/LSTag&gt; when the effect times out.</content>
 
     ========= 法术: 阳星 =========
     <content contentuid="h082f5593g9841g42f9g9e14g9c5422122c69" version="1">Helios</content>
@@ -341,7 +344,6 @@
     ========= 法术: 阳星相位 =========
     <content contentuid="h53718448gdc09g43b9g91bfgd8ffe7a0871c" version="1">Aspected Helios</content>
     <content contentuid="h6e52b4c9g725cg4b3ega46fg3b382f641a93" version="1">Restores own HP and the HP of all nearby allies. Grant effects based on your sect.</content>
-    <content contentuid="hdd4fa4b7g1f63g4b5cg8e73g965496be7610" version="1">Diurnal Sect: regain [2] per turn in [1] turns.&lt;br&gt;Nocturnal Sect: gain [3].</content>
     <content contentuid="h7b2f72a3g5166g47d0g9ee8g608e8b5d3864" version="1">Aspected Helios: Diurnal</content>
     <content contentuid="h2cbcea7ag8814g4f5dgb0ddgfaa650dedf6c" version="1">Neutral Sect: Nocturnal</content>
     <content contentuid="hb726fd1fg1dccg4625gab7agbacced579832" version="1">Regain [1] per turn.</content>
