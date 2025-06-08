@@ -128,7 +128,7 @@
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="1b4a10f7-4574-4964-82c9-6228f28e362b" />
                     <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 4" />
-                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_Blight;Target_Confusion;Target_FreedomOfMovement;Target_IceStorm;Target_Invisibility_Greater;Target_Polymorph;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire" />
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_Blight;Target_Confusion;Target_DeathWard;Target_FreedomOfMovement;Target_IceStorm;Target_Invisibility_Greater;Target_Polymorph;Target_Stoneskin;Teleportation_DimensionDoor;Wall_WallOfFire" />
                 </node>
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="f95550e1-3a1d-4f3f-b722-7f408d0d4664" />
