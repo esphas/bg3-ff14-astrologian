@@ -7,7 +7,7 @@
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="6524eec8-98c9-4456-b8f0-bfa637ec077a" />
                     <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 1" />
-                    <attribute id="Spells" type="LSString" value="" />
+                    <attribute id="Spells" type="LSString" value="Target_EK_FF14_Esuna" />
                 </node>
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="5d0c1069-8f44-45a4-a40e-ba5aec3ba9f6" />

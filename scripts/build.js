@@ -99,8 +99,11 @@ const statusAspected = {
 const statusTimeDilationTarget = [
     ...statusArcana,
     'EK_FF14_LUCID_DREAMING',
+    'EK_FF14_SURECAST',
+    'EK_FF14_LIGHTSPEED',
     'EK_FF14_COLLECTIVE_UNCONSCIOUS_DIURNAL',
     'EK_FF14_COLLECTIVE_UNCONSCIOUS_NOCTURNAL',
+    'EK_FF14_DIVINATION',
     ...statusAspected.benefic.diurnal, ...statusAspected.benefic.diurnalNeutral,
     ...statusAspected.helios.diurnal, ...statusAspected.helios.diurnalNeutral,
     ...statusAspected.heliosConjunction.diurnal, ...statusAspected.heliosConjunction.diurnalNeutral,
@@ -108,7 +111,7 @@ const statusTimeDilationTarget = [
 const timeDilationOnApplyTotalFunctors = statusTimeDilationTarget.map((status) =>
     `IF(HasStatus('${status}',context.Target,context.Source)):SetStatusDuration(${status},1,Add)`
 ).reduce((acc, cur) => {
-    if (acc[acc.length-1].join(';').length <= 4000) {
+    if (acc[acc.length-1].join(';').length <= 3800) {
         acc[acc.length-1].push(cur);
     } else {
         acc.push([cur]);
@@ -272,6 +275,25 @@ stats('Astrologian', makeSpell({ txt: 'gravity/gravityII', fromLevel: 3 }, {
     potency1: p => `${p-1}d6`, potency1Upcast: p => `1d6`,
     potency2: p => `${p-1}d6`, potency2Upcast: p => `1d6`,
     potency3: p => `${p-2}d4`, potency3Upcast: p => `1d6`,
+}));
+
+// Esuna
+stats('Astrologian', makeSpell({ txt: 'esuna/esuna' }, {
+    scriptingStatus: p => {
+        if (p == 1) return 'EK_FF14_ESUNA_SCRIPTING1';
+        if (p == 2) return 'EK_FF14_ESUNA_SCRIPTING2';
+        return 'EK_FF14_ESUNA_SCRIPTING3';
+    },
+    description: p => {
+        if (p == 1) return 'h8a04f040gcf1fg47b2g855dg72d533f79cc6';
+        if (p == 2) return 'ha71def43gc9f0g490cgbb9cg91e7a55e00b4';
+        return 'h8d78ab2bgaa49g4ea2g8eebg27da8e57e0c8';
+    },
+    targetConditions: p => {
+        if (p == 1) return ['Poisoned', 'Disease', 'Paralyzed', 'Blinded'].map(status => `HasStatus('SG_${status}')`).join(' or ');
+        if (p == 2) return ['Poisoned', 'Disease', 'Paralyzed', 'Blinded', 'Cursed'].map(status => `HasStatus('SG_${status}')`).join(' or ');
+        return ['Poisoned', 'Disease', 'Paralyzed', 'Blinded', 'Charmed', 'Petrified', 'Cursed', 'Stunned'].map(status => `HasStatus('SG_${status}')`).join(' or ');
+    },
 }));
 
 // Benefic

@@ -122,6 +122,9 @@
     "CelestialRiver": { "name": "星河满天（PvP)", "x": 15, "y": 2 },
     "AstralStasis": { "name": "星天开门", "x": 15, "y": 2 },
 
+    "F_Repose": { "name": "沉静", "x": 0, "y": 4 },
+    "Repose": { "name": "沉静", "x": 0, "y": 5 },
+    "F_Esuna": { "name": "康复", "x": 1, "y": 4 },
     "F_LucidDreaming": { "name": "醒梦", "x": 2, "y": 4 },
     "LucidDreaming": { "name": "醒梦", "x": 2, "y": 5 },
     "Swiftcast": { "name": "即刻咏唱", "x": 3, "y": 4 },

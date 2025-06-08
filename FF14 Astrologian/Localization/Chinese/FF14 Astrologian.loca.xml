@@ -373,5 +373,9 @@
     <content contentuid="h1a8795cdga67ag40b2ga51dgdacdc4a02978" version="1">持续恢复自身的魔力，并降低敌人对你的仇恨。</content>
     <content contentuid="hb64caedbg14cbg4a05g88d3g7c7a90066e68" version="1">在效果时间内，你每回合恢复[1]个一环法术位。效果结束时再恢复[2]个二环法术位，同时攻击者在针对你进行&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;时会处于&lt;LSTag Tooltip="Disadvantage"&gt;劣势&lt;/LSTag&gt;。</content>
     <content contentuid="hdb8365f9gba28g471bga923geba9822fc0f3" version="1">每回合恢复[1]个一环法术位。效果结束时再恢复[2]个二环法术位。攻击者在针对此生物进行&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;时会处于&lt;LSTag Tooltip="Disadvantage"&gt;劣势&lt;/LSTag&gt;。</content>
+    <content contentuid="h8ea0f783g40dbg4a89gaa6ag06458c845804" version="1">康复</content>
+    <content contentuid="h8a04f040gcf1fg47b2g855dg72d533f79cc6" version="1">解除目标身上的下列效果中的一种：疾病、中毒、麻痹、目盲。</content>
+    <content contentuid="ha71def43gc9f0g490cgbb9cg91e7a55e00b4" version="1">解除目标身上的下列效果中的一种：疾病、中毒、麻痹、目盲、诅咒。</content>
+    <content contentuid="h8d78ab2bgaa49g4ea2g8eebg27da8e57e0c8" version="1">解除目标身上的下列效果中的一种：疾病、中毒、麻痹、目盲、&lt;LSTag Type="Status" Tooltip="CHARMED"&gt;魅惑&lt;/LSTag&gt;、&lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;石化&lt;/LSTag&gt;、&lt;LSTag Type="Status" Tooltip="STUNNED"&gt;震慑&lt;/LSTag&gt;、诅咒。</content>
 
 </contentList>

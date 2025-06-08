@@ -380,5 +380,9 @@
     <content contentuid="h1a8795cdga67ag40b2ga51dgdacdc4a02978" version="1">Gradually restore your magic power, and become less likely to be attacked.</content>
     <content contentuid="hb64caedbg14cbg4a05g88d3g7c7a90066e68" version="1">Restore [1] 1st level spell slot per turn. Restore [2] 2nd level spell slot when this effect ends. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
     <content contentuid="hdb8365f9gba28g471bga923geba9822fc0f3" version="1">Restore [1] 1st level spell slot per turn. Restore [2] 2nd level spell slot when this effect ends. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.</content>
+    <content contentuid="h8ea0f783g40dbg4a89gaa6ag06458c845804" version="1">Esuna</content>
+    <content contentuid="h8a04f040gcf1fg47b2g855dg72d533f79cc6" version="1">Removes a single type of effect from target: disease, poison, paralysis, blindness.</content>
+    <content contentuid="ha71def43gc9f0g490cgbb9cg91e7a55e00b4" version="1">Removes a single type of effect from target: disease, poison, paralysis, blindness, curse.</content>
+    <content contentuid="h8d78ab2bgaa49g4ea2g8eebg27da8e57e0c8" version="1">Removes a single type of effect from target: disease, poison, paralysis, blindness, &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;charmed&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="PETRIFIED"&gt;petrified&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;stunned&lt;/LSTag&gt;, curse.</content>
 
 </contentList>

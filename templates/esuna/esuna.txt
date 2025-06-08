@@ -1,0 +1,45 @@
+
+
+// ========= 康复 Esuna =========
+
+new entry "Target_EK_FF14_Esuna"
+type "SpellData"
+data "SpellType" "Target"
+data "SpellFlags" "HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
+data "Level" "{{ power }}"
+data "SpellSchool" "Abjuration"
+data "UseCosts" "BonusActionPoint:1;SpellSlotsGroup:1:1:{{ power }}"
+data "TargetRadius" "18"
+data "TargetConditions" "Character() and ({{ targetConditions }} or HasStatus('ASTARION_WEAK'))"
+data "CycleConditions" "Ally() and not Dead()"
+data "SpellProperties" "RemoveStatus(ASTARION_WEAK);ApplyStatus({{ scriptingStatus }},100,0)"
+data "Icon" "Icon_EK_FF14_AST_F_Esuna"
+data "DisplayName" "h8ea0f783g40dbg4a89gaa6ag06458c845804"
+data "Description" "{{ description }}"
+data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+// from: Target_LesserRestoration
+data "CastSound" "Spell_Cast_Healing_LesserRestoration_L1to3"
+data "TargetSound" "Spell_Impact_Healing_LesserRestoration_L1to3"
+data "VocalComponentSound" "Vocal_Component_RemoveNegativeStatuses"
+data "CastTextEvent" "Cast"
+data "SpellAnimation" "414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;454e3439-19f2-4c42-8773-e18cf4ee233a,15209db5-584b-451e-9fde-65fc5fa83945,c79098ac-4635-4bb3-a761-5541d5c0b057;ccdf11dc-08f7-4d7f-bca9-55cfcc8f94bd,a1257697-f0d0-41e1-916c-a56e2c5a4bb5,83da82ea-147d-45ba-9549-cfdd3e39b109;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;236087a5-5597-4ee7-ab06-75b01147f596,,;ee0b6a78-c6b6-4852-aecb-d7c474a37d68,,"
+data "VerbalIntent" "Healing"
+data "HitAnimationType" "MagicalNonDamage"
+data "PrepareEffect" "96a51ac8-2e7e-4718-bb62-dcfd18964a02"
+data "CastEffect" "b3087bdc-96ad-495a-9199-18846152088d"
+data "TargetEffect" "0b923965-fccd-41cc-9227-f886c427f65f"
+
+new entry "EK_FF14_ESUNA_SCRIPTING1"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "EK_FF14_ESUNA_SCRIPTING2"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+new entry "EK_FF14_ESUNA_SCRIPTING3"
+type "StatusData"
+data "StatusType" "BOOST"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
