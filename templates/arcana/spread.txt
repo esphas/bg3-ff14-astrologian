@@ -74,7 +74,7 @@ using "EK_FF14_ARCANA_SLOT_SPREAD_"
 data "Icon" "Icon_EK_FF14_AST_TheBalance"
 data "DisplayName" "h8fba7814g740bg45b8gba80g26ba2a3614f8"
 data "Description" "h16abeeb9gb2c3g4768g932dg7fa66cc516e5"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBalance);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBalance_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBalance_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheBalance_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_UndrawSpread'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBalance);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBalance_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBalance_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheBalance_Area)"
 
 // 暂留 - 世界树之干
 new entry "EK_FF14_ARCANA_SLOT_SPREAD_THE_BOLE"
@@ -84,7 +84,7 @@ using "EK_FF14_ARCANA_SLOT_SPREAD_"
 data "Icon" "Icon_EK_FF14_AST_TheBole"
 data "DisplayName" "h565c821ag20dfg41feg8b6eg63ebc121cfc8"
 data "Description" "h9d18c871g6e1ag4fd1ga09bgf6427b93c937"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBole);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBole_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBole_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheBole_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_UndrawSpread'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBole);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBole_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheBole_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheBole_Area)"
 
 // 暂留 - 放浪神之箭
 new entry "EK_FF14_ARCANA_SLOT_SPREAD_THE_ARROW"
@@ -94,7 +94,7 @@ using "EK_FF14_ARCANA_SLOT_SPREAD_"
 data "Icon" "Icon_EK_FF14_AST_TheArrow"
 data "DisplayName" "hc87b97e1g4855g4e92gab4bgbb02b176c557"
 data "Description" "h0fd0e9efg77fdg46a8g9dffg901ca28ab742"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheArrow);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheArrow_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheArrow_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheArrow_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_UndrawSpread'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheArrow);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheArrow_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheArrow_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheArrow_Area)"
 
 // 暂留 - 河流神之瓶
 new entry "EK_FF14_ARCANA_SLOT_SPREAD_THE_EWER"
@@ -104,7 +104,7 @@ using "EK_FF14_ARCANA_SLOT_SPREAD_"
 data "Icon" "Icon_EK_FF14_AST_TheEwer"
 data "DisplayName" "h2c12194fg141eg4bc3gb84eg97ca03a12bd1"
 data "Description" "h814ce04dg2e24g4b86g892ag943cce0ad780"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheEwer);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheEwer_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheEwer_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheEwer_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_UndrawSpread'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheEwer);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheEwer_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheEwer_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheEwer_Area)"
 
 // 暂留 - 战争神之枪
 new entry "EK_FF14_ARCANA_SLOT_SPREAD_THE_SPEAR"
@@ -114,7 +114,7 @@ using "EK_FF14_ARCANA_SLOT_SPREAD_"
 data "Icon" "Icon_EK_FF14_AST_TheSpear"
 data "DisplayName" "haefe9f02g86f6g4202ga34ag9020a76b8596"
 data "Description" "h5987a0ecgf57eg4239ga2c1g0d2f4d9ef4b9"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpear);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpear_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpear_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheSpear_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_UndrawSpread'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpear);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpear_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpear_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheSpear_Area)"
 
 // 暂留 - 建筑神之塔
 new entry "EK_FF14_ARCANA_SLOT_SPREAD_THE_SPIRE"
@@ -124,4 +124,4 @@ using "EK_FF14_ARCANA_SLOT_SPREAD_"
 data "Icon" "Icon_EK_FF14_AST_TheSpire"
 data "DisplayName" "hfd4b743bgcb28g442bgb8e1gdaa344be15d3"
 data "Description" "h703bb530g77b5g453fgbb44g5fc4221e35eb"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpire);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpire_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpire_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheSpire_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_UndrawSpread'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpire);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpire_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_PlaySpread_TheSpire_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_PlaySpread_TheSpire_Area)"

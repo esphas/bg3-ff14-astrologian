@@ -80,7 +80,7 @@ data "Icon" "Icon_EK_FF14_AST_TheBalance"
 data "DisplayName" "hebd87b99g492eg43bfgbe7cgee3da5c9c9d6"
 data "Description" "h16abeeb9gb2c3g4768g932dg7fa66cc516e5"
 data "DescriptionParams" "DealDamage(1d8,Radiant)"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBalance);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBalance_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBalance_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheBalance_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_Undraw'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBalance);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBalance_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBalance_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheBalance_Area)"
 
 // 抽卡 - 世界树之干
 new entry "EK_FF14_ARCANA_SLOT_DRAW_THE_BOLE"
@@ -90,7 +90,7 @@ using "EK_FF14_ARCANA_SLOT_DRAW_"
 data "Icon" "Icon_EK_FF14_AST_TheBole"
 data "DisplayName" "hd721b4d0g9fc4g4ed2g8634gf1cca7143ea9"
 data "Description" "h9d18c871g6e1ag4fd1ga09bgf6427b93c937"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBole);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBole_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBole_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheBole_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_Undraw'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBole);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBole_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBole_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheBole_Area)"
 
 // 抽卡 - 放浪神之箭
 new entry "EK_FF14_ARCANA_SLOT_DRAW_THE_ARROW"
@@ -100,7 +100,7 @@ using "EK_FF14_ARCANA_SLOT_DRAW_"
 data "Icon" "Icon_EK_FF14_AST_TheArrow"
 data "DisplayName" "ha01fba8bg21cbg40dcg98d0g448591daeb33"
 data "Description" "h0fd0e9efg77fdg46a8g9dffg901ca28ab742"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheArrow);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheArrow_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheArrow_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheArrow_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_Undraw'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheArrow);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheArrow_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheArrow_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheArrow_Area)"
 
 // 抽卡 - 河流神之瓶
 new entry "EK_FF14_ARCANA_SLOT_DRAW_THE_EWER"
@@ -110,7 +110,7 @@ using "EK_FF14_ARCANA_SLOT_DRAW_"
 data "Icon" "Icon_EK_FF14_AST_TheEwer"
 data "DisplayName" "h4623c265g061ag4cb7ga43fgee1607a2858a"
 data "Description" "h814ce04dg2e24g4b86g892ag943cce0ad780"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheEwer);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheEwer_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheEwer_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheEwer_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_Undraw'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheEwer);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheEwer_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheEwer_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheEwer_Area)"
 
 // 抽卡 - 战争神之枪
 new entry "EK_FF14_ARCANA_SLOT_DRAW_THE_SPEAR"
@@ -120,7 +120,7 @@ using "EK_FF14_ARCANA_SLOT_DRAW_"
 data "Icon" "Icon_EK_FF14_AST_TheSpear"
 data "DisplayName" "h76993b19g62efg487fg8ccbg9a2921058e43"
 data "Description" "h5987a0ecgf57eg4239ga2c1g0d2f4d9ef4b9"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpear);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpear_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpear_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheSpear_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_Undraw'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpear);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpear_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpear_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheSpear_Area)"
 
 // 抽卡 - 建筑神之塔
 new entry "EK_FF14_ARCANA_SLOT_DRAW_THE_SPIRE"
@@ -130,4 +130,4 @@ using "EK_FF14_ARCANA_SLOT_DRAW_"
 data "Icon" "Icon_EK_FF14_AST_TheSpire"
 data "DisplayName" "hdf169ef9g3bfeg47ccg96a9g602c90a6de8d"
 data "Description" "h703bb530g77b5g453fgbb44g5fc4221e35eb"
-data "Boosts" "IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpire);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpire_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpire_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheSpire_Area)"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_Undraw'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpire);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpire_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheSpire_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheSpire_Area)"

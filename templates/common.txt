@@ -187,7 +187,7 @@ data "OnApplyFunctors" "{{ timeDilation.onApplyFunctors }}"
 
 new entry "EK_FF14_Swiftcast"
 type "PassiveData"
-data "Properties" "IsToggled;ToggledDefaultAddToHotbar;MetaMagic"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar"
 data "Icon" "Icon_EK_FF14_AST_Swiftcast"
 data "DisplayName" "h54ec57b3g8a3dg4a15g8e10gd91c0863d7b6"
 data "Description" "hf75c8bc9gec44g4c27g87f0g1001c46c82ce"
