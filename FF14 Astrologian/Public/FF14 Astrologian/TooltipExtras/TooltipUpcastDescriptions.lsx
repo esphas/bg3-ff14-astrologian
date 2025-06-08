@@ -34,6 +34,11 @@
                     <attribute id="Text" type="TranslatedString" handle="heb439212g865ag40adg9002g64861bfa58b4" version="1" />
                     <attribute id="UUID" type="guid" value="309181e7-457a-4d9e-a7be-7fe7b509569d" />
                 </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Esuna upcast" />
+                    <attribute id="Text" type="TranslatedString" handle="h72528ff2g7a82g4885g8087gc5f71de014d0" version="1" />
+                    <attribute id="UUID" type="guid" value="7401dcdc-1e9d-49d4-9c9c-f6f181b23c7e" />
+                </node>
             </children>
         </node>
     </region>

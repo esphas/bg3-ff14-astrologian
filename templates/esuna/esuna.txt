@@ -16,7 +16,7 @@ data "SpellProperties" "RemoveStatus(ASTARION_WEAK);ApplyStatus({{ scriptingStat
 data "Icon" "Icon_EK_FF14_AST_F_Esuna"
 data "DisplayName" "h8ea0f783g40dbg4a89gaa6ag06458c845804"
 data "Description" "{{ description }}"
-data "TooltipUpcastDescription" "6ff1780a-855a-414c-a8bf-811251537206"
+data "TooltipUpcastDescription" "7401dcdc-1e9d-49d4-9c9c-f6f181b23c7e"
 // from: Target_LesserRestoration
 data "CastSound" "Spell_Cast_Healing_LesserRestoration_L1to3"
 data "TargetSound" "Spell_Impact_Healing_LesserRestoration_L1to3"
