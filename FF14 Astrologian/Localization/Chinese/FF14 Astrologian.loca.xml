@@ -74,12 +74,13 @@
     <content contentuid="hebd87b99g492eg43bfgbe7cgee3da5c9c9d6" version="1">太阳神之衡</content>
     <content contentuid="h8fba7814g740bg45b8gba80g26ba2a3614f8" version="1">暂留：太阳神之衡</content>
     <content contentuid="h16abeeb9gb2c3g4768g932dg7fa66cc516e5" version="1">持有奥秘卡。可以选择自身或一名盟友，增加其造成的伤害。</content>
-    <content contentuid="h5167c91dg0d1eg4c70g9982ge3c5f297c547" version="1">选择自身或一名盟友，效果持续期间，目标可以造成额外[1]。&lt;br&gt;&lt;br&gt;受到&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;影响时效果可能发生变化。</content>
-    <content contentuid="hdd0e4e40ga770g43a1g8707gfe48b228fc4c" version="1">选择自身或一名盟友，效果持续期间，目标可以造成额外[1]。&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路（效果强化）&lt;/LSTag&gt;：额外伤害提高且变为反应动作（不消耗反应）。</content>（神圣路效果强化）
-    <content contentuid="hb26c5d03gb519g4681gaeb7gf6368071155d" version="1">选择自身或一名盟友，效果持续期间，目标可以造成额外[1]。&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
+    <content contentuid="h5167c91dg0d1eg4c70g9982ge3c5f297c547" version="1">选择自身或一名盟友，效果持续期间，目标造成伤害时可以造成额外[1]。&lt;br&gt;&lt;br&gt;受到&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;影响时效果可能发生变化。</content>
+    <content contentuid="hdd0e4e40ga770g43a1g8707gfe48b228fc4c" version="1">选择自身或一名盟友，效果持续期间，目标造成伤害时可以造成额外[1]。&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路（效果强化）&lt;/LSTag&gt;：造成伤害时可以作为反应动作再造成[2]。</content>（神圣路效果强化）
+    <content contentuid="hb26c5d03gb519g4681gaeb7gf6368071155d" version="1">选择自身或一名盟友，效果持续期间，目标造成伤害时可以造成额外[1]。&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
     <content contentuid="h8334e121g4b7eg4adfg847age8fb11c125c5" version="1">强化自身和附近盟友，效果持续期间，受影响个体可以造成额外[1]。&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路（范围效果）&lt;/LSTag&gt;：额外伤害降低。</content>（神圣路范围效果）
-    <content contentuid="h66efad0bg0b60g4952gbb7ag4dcc0a41f180" version="1">额外造成[1]。</content>
-    <content contentuid="hbce42fecg0605g4617g93e4g43052a45bdb2" version="1">可以作为反应额外造成[1]。</content>
+    <content contentuid="h66efad0bg0b60g4952gbb7ag4dcc0a41f180" version="1">造成伤害时额外造成[1]。</content>
+    <content contentuid="hc2d7c707g58d4g4a7eg87b2g735390e9d456" version="1">额外造成[1]。</content>
+    <content contentuid="hbce42fecg0605g4617g93e4g43052a45bdb2" version="1">造成伤害时额外造成[1]，同时可以作为反应额外造成[2]。</content>
 
     <content contentuid="hd721b4d0g9fc4g4ed2g8634gf1cca7143ea9" version="1">世界树之干</content>
     <content contentuid="h565c821ag20dfg41feg8b6eg63ebc121cfc8" version="1">暂留：世界树之干</content>

@@ -75,11 +75,12 @@
     <content contentuid="h8fba7814g740bg45b8gba80g26ba2a3614f8" version="1">Spread: The Balance</content>
     <content contentuid="h16abeeb9gb2c3g4768g932dg7fa66cc516e5" version="1">Arcanum drawn. Can be used to increase damage dealt by yourself or an ally.</content>
     <content contentuid="h5167c91dg0d1eg4c70g9982ge3c5f297c547" version="1">Increase damage dealt by yourself or an ally by an additional [1].&lt;br&gt;&lt;br&gt;Effects may change when affected by &lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;Royal Road&lt;/LSTag&gt;.</content>
-    <content contentuid="hdd0e4e40ga770g43a1g8707gfe48b228fc4c" version="1">Increase damage dealt by yourself or an ally by an additional [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;Royal Road (Potency)&lt;/LSTag&gt;: The additional damage increases, and becomes a free Reaction.</content>（神圣路效果强化）
+    <content contentuid="hdd0e4e40ga770g43a1g8707gfe48b228fc4c" version="1">Increase damage dealt by yourself or an ally by an additional [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;Royal Road (Potency)&lt;/LSTag&gt;: Can also deal an additional [2] as a Reaction when dealing damage.</content>（神圣路效果强化）
     <content contentuid="hb26c5d03gb519g4681gaeb7gf6368071155d" version="1">Increase damage dealt by yourself or an ally by an additional [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;Royal Road (Duration)&lt;/LSTag&gt;: The effect duration increases.</content>（神圣路时间延长）
-    <content contentuid="h8334e121g4b7eg4adfg847age8fb11c125c5" version="1">Increase damage dealt by yourself and nearby allies by an additional [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;Royal Road (Area)&lt;/LSTag&gt;: The additional damage decreases.</content>（神圣路范围效果）
-    <content contentuid="h66efad0bg0b60g4952gbb7ag4dcc0a41f180" version="1">Deals an additional [1].</content>
-    <content contentuid="hbce42fecg0605g4617g93e4g43052a45bdb2" version="1">Can deal an additional [1] as a Reaction.</content>
+    <content contentuid="h8334e121g4b7eg4adfg847age8fb11c125c5" version="1">You and nearby allies receive a damage bonus of [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;Royal Road (Area)&lt;/LSTag&gt;: The additional damage decreases.</content>（神圣路范围效果）
+    <content contentuid="h66efad0bg0b60g4952gbb7ag4dcc0a41f180" version="1">Deals an additional [1] when dealing damage.</content>
+    <content contentuid="hc2d7c707g58d4g4a7eg87b2g735390e9d456" version="1">Deals an additional [1].</content>
+    <content contentuid="hbce42fecg0605g4617g93e4g43052a45bdb2" version="1">Deals an additional [1] when dealing damage. Can deal an additional [2] as a Reaction.</content>
 
     <content contentuid="hd721b4d0g9fc4g4ed2g8634gf1cca7143ea9" version="1">The Bole</content>
     <content contentuid="h565c821ag20dfg41feg8b6eg63ebc121cfc8" version="1">Spread: The Bole</content>
