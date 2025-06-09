@@ -4,6 +4,7 @@
 
 new entry "EK_FF14_Malefic"
 type "PassiveData"
+data "Properties" "ForceShowInCC"
 data "Icon" "Icon_EK_FF14_AST_F_Malefic"
 data "DisplayName" "h2252e316g7a6cg4cd8gba66ga55da568ef91"
 data "Description" "hf7ad3e71gc80bg4c19gb42fg23b5b0a43b56"
