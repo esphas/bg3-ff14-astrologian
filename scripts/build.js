@@ -228,15 +228,14 @@ const ctxMalefic = {
     functors: power => {
         const types = [
             "Bludgeoning", "Piercing", "Slashing",
-            "Cold", "Fire", "Lightning", "Thunder",
-            "Acid", "Poison",
-            "Radiant", "Necrotic",
-            "Force", "Psychic",
+            "Acid", "Cold", "Fire", "Lightning", "Poison",
+            "Thunder", "Radiant", "Necrotic", "Force", "Psychic",
         ];
         const functors = {};
-        ["malefic2", "malefic3", "malefic4", "fallMalefic"].forEach((name, i) => {
-            const malefic = i+2;
+        ["malefic", "malefic2", "malefic3", "malefic4", "fallMalefic"].forEach((name, i) => {
+            const malefic = i+1;
             const damage = [
+                p => `${2+p}d8`,
                 p => `${2*p}`,
                 p => `${p}d4`,
                 p => `${p}d6`,
@@ -245,11 +244,11 @@ const ctxMalefic = {
             functors[name] = {}
             functors[name].success = types.map((type, j) => {
                 const dt = j+1;
-                return `IF(MaleficMatch(${malefic},${dt})):DealDamage(${damage},${type},Magical)`
+                return `IF(Malefic(${malefic},${dt})):DealDamage(${damage},${type},Magical)`
             }).join(';');
             functors[name].fail = types.map((type, j) => {
                 const dt = j+1;
-                return `IF(MaleficMatch(${malefic},${dt})):DealDamage((${damage})/2,${type},Magical)`
+                return `IF(Malefic(${malefic},${dt})):DealDamage((${damage})/2,${type},Magical)`
             }).join(';');
         });
         return functors;

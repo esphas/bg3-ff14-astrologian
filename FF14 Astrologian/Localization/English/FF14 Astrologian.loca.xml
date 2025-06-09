@@ -266,35 +266,35 @@
     ========= 戏法: 烧灼 =========
     <content contentuid="h2d62b881g1633g4b53g9af4gb7f226edae42" version="1">Take [1] at the end of each turn.</content>
     <content contentuid="hd5cd7304g535dg4356g872bg1ebf69c857b7" version="1">Combust</content>
-    <content contentuid="h5b120ff8g727ag4d7dga335gf33252fae387" version="1">Afflicts target with Light damage over time, dealing [1] at the end of each turn.</content>
+    <content contentuid="h5b120ff8g727ag4d7dga335gf33252fae387" version="1">Afflicts target with damage over time, dealing [1] at the end of each turn.</content>
     <content contentuid="h5c9f3600gda25g451fg9c52g2a01afcf32e6" version="1">Combust Plus</content>
     <content contentuid="h0095e94fgb7a8g4b65g9f94ga3e87d45adfe" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_Combust"&gt;Combust&lt;/LSTag&gt; replaced with &lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_CombustII"&gt;Combust II&lt;/LSTag&gt;.</content>
     <content contentuid="h897667aeg5342g4267gac0bg81a92fed8471" version="1">Combust II</content>
-    <content contentuid="he2fa6522g313bg428dga149gdf4d5eb9d69c" version="1">Afflicts target with Light damage over time, dealing [1] at the end of each turn, ignoring resistance and damage reduction.</content>
+    <content contentuid="he2fa6522g313bg428dga149gdf4d5eb9d69c" version="1">Afflicts target with damage over time, dealing [1] at the end of each turn, ignoring resistance and damage reduction.</content>
     <content contentuid="h11716f0ag376cg47d7g98dfg5ff5b9afdcc6" version="1">Combust Plus II</content>
     <content contentuid="h5b3379bbgbecfg4441gab2dg49662e77d329" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_CombustII"&gt;Combust II&lt;/LSTag&gt; replaced with &lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_CombustIII"&gt;Combust III&lt;/LSTag&gt;.</content>
     <content contentuid="hf87df3f9g3db5g4047g9f76g91c80c37bd85" version="1">Combust III</content>
-    <content contentuid="hc72153cfg2c34g4c27gb626gdd478ff470e1" version="1">Afflicts target with Light damage over time, dealing [1] at the end of each turn, ignoring resistance and damage reduction.</content>
+    <content contentuid="hc72153cfg2c34g4c27gb626gdd478ff470e1" version="1">Afflicts target with damage over time, dealing [1] at the end of each turn, ignoring resistance and damage reduction.</content>
 
     ========= 法术: 凶星 =========
     <content contentuid="h2252e316g7a6cg4cd8gba66ga55da568ef91" version="1">Malefic</content>
-    <content contentuid="hf7ad3e71gc80bg4c19gb42fg23b5b0a43b56" version="1">Deal radiant magical damage.</content>
+    <content contentuid="hf7ad3e71gc80bg4c19gb42fg23b5b0a43b56" version="1">Deal magical damage of random damage type.</content>
     <content contentuid="hd3829facg5728g4842gb08cgb89f4318f6ca" version="1">Malefic Plus</content>
     <content contentuid="hf8448576g6478g4ed3g94a2g81dd96018a56" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_Malefic"&gt;Malefic&lt;/LSTag&gt; replaced with &lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficII"&gt;Malefic II&lt;/LSTag&gt;.</content>
     <content contentuid="h27010aebg3d9bg4990g9bb6g5079a04ec10f" version="1">Malefic II</content>
-    <content contentuid="he7b1dab9gdb30g4114ga8a8g06505acd011d" version="1">Deal radiant magical damage, and 1 more additional damage in random element.</content>
+    <content contentuid="he7b1dab9gdb30g4114ga8a8g06505acd011d" version="1">Deal magical damage of 2 random damage types.</content>
     <content contentuid="h9eac4af8gc2dcg4d5egb11cgecd210143b77" version="1">Malefic Plus II</content>
     <content contentuid="h2dda7b49gda00g44c9g9ef5g604e3d5309b4" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficII"&gt;Malefic II&lt;/LSTag&gt; replaced with &lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficIII"&gt;Malefic III&lt;/LSTag&gt;.</content>
     <content contentuid="h73193571g28d4g4d03g8d28g5be0ce1f1184" version="1">Malefic III</content>
-    <content contentuid="hb9bbc1cagfc7eg4c6dg8297gd7536c6b280b" version="1">Deal radiant magical damage, and 2 more additional damages in random element.</content>
+    <content contentuid="hb9bbc1cagfc7eg4c6dg8297gd7536c6b280b" version="1">Deal magical damage of 3 random damage types.</content>
     <content contentuid="hb81cb5b0g0453g4cc0gbbc7gf4592f39b362" version="1">Malefic Plus III</content>
     <content contentuid="h599e0b2ag1f67g4533g9201gf0506b05879a" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficIII"&gt;Malefic III&lt;/LSTag&gt; replaced with &lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficIV"&gt;Malefic IV&lt;/LSTag&gt;.</content>
     <content contentuid="h1887ebcegc1f3g4f91g8001ga31880811f1b" version="1">Malefic IV</content>
-    <content contentuid="ha6172f12g6d56g4c2dg9200g797ca5950280" version="1">Deal radiant magical damage, and 3 more additional damages in random element.</content>
+    <content contentuid="ha6172f12g6d56g4c2dg9200g797ca5950280" version="1">Deal magical damage of 4 random damage types.</content>
     <content contentuid="hba161a33gcbc7g4df0gb297g17efec3e3351" version="1">Malefic Plus IV</content>
     <content contentuid="h743a901bge2deg4684g9faegb72458b7a108" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficIV"&gt;Malefic IV&lt;/LSTag&gt; replaced with &lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_FallMalefic"&gt;Fall Malefic&lt;/LSTag&gt;.</content>
     <content contentuid="h6d9d967eg847fg4ca2g8b00g86e551bccb16" version="1">Fall Malefic</content>
-    <content contentuid="h7fbff348g44bcg48ddg942fg6ea093c2f223" version="1">Deal radiant magical damage, and 4 more additional damages in random element.</content>
+    <content contentuid="h7fbff348g44bcg48ddg942fg6ea093c2f223" version="1">Deal magical damage of 5 random damage types.</content>
 
     ========= 法术: 重力 =========
     <content contentuid="hcbe593e7g9487g47fcgac67gddc55591ad41" version="1">Gravity</content>

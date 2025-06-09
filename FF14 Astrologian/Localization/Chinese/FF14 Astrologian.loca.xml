@@ -137,7 +137,7 @@
     ========= 小奥秘卡 =========
     <content contentuid="h280b236bg1256g49eaga932g55297cadc189" version="1">王冠之领主</content>
     <content contentuid="h031e9855g770dg4105ga875g29d471d592f9" version="1">持有小奥秘卡。可以发动&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CrownPlay_LordOfCrowns"&gt;王冠之领主&lt;/LSTag&gt;。</content>
-    <content contentuid="hdf0ae8f0g9972g42feg8080gc40e4522be98" version="1">对自身周围的敌人发动光属性范围魔法攻击。</content>
+    <content contentuid="hdf0ae8f0g9972g42feg8080gc40e4522be98" version="1">对自身周围的敌人发动范围魔法攻击。</content>
 
     <content contentuid="h8740fb3agff29g497bgae4dgd00275d69ee6" version="1">王冠之贵妇</content>
     <content contentuid="h9040d1abg0166g4d87gac5bg5075bcc2db57" version="1">持有小奥秘卡。可以发动&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CrownPlay_LadyOfCrowns"&gt;王冠之贵妇&lt;/LSTag&gt;。</content>
@@ -209,7 +209,7 @@
     <content contentuid="h46898d79387a4efca18e4039a0ecb42986f1" version="1">地星</content>
     <content contentuid="h1c25a30424c44843b7b5e6384a13dfedc38f" version="1">在指定地点放置地星，并为自己附加&lt;LSTag Type="Status" Tooltip="EK_FF14_STELLAR_DETONATION_I"&gt;地星主宰&lt;/LSTag&gt;状态。</content>
     <content contentuid="hbcc17a9dd54743878a4741545d24b09bfbee" version="1">星体爆轰</content>
-    <content contentuid="hf59b23c31f36419786e01297aea16b2aggf3" version="1">发动设置在地面的地星，对范围内的敌人造成光属性魔法伤害，并恢复范围内盟友的体力。</content>
+    <content contentuid="hf59b23c31f36419786e01297aea16b2aggf3" version="1">发动设置在地面的地星，对范围内的敌人造成魔法伤害，并恢复范围内盟友的体力。</content>
     <content contentuid="h7eb56db6f104407c809250cf6f75ca618ee6" version="1">地星主宰</content>
     <content contentuid="h1c6b90c23dc74a05a5d9cec69192d227c6b5" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_StellarDetonation"&gt;星体爆轰&lt;/LSTag&gt;可造成[1]，恢复[2]。状态结束时变为&lt;LSTag Type="Status" Tooltip="EK_FF14_STELLAR_DETONATION_II"&gt;巨星主宰&lt;/LSTag&gt;状态。</content>
     <content contentuid="h5a43765b395d440390319795c23b8e56f12f" version="1">巨星主宰</content>
@@ -266,35 +266,35 @@
     ========= 戏法: 烧灼 =========
     <content contentuid="h2d62b881g1633g4b53g9af4gb7f226edae42" version="1">每回合结束时受到[1]。</content>
     <content contentuid="hd5cd7304g535dg4356g872bg1ebf69c857b7" version="1">烧灼</content>
-    <content contentuid="h5b120ff8g727ag4d7dga335gf33252fae387" version="1">对目标附加光属性持续伤害状态，令其每回合结束时受到[1]。</content>
+    <content contentuid="h5b120ff8g727ag4d7dga335gf33252fae387" version="1">对目标附加持续伤害状态，令其每回合结束时受到[1]。</content>
     <content contentuid="h5c9f3600gda25g451fg9c52g2a01afcf32e6" version="1">烧灼精通</content>
     <content contentuid="h0095e94fgb7a8g4b65g9f94ga3e87d45adfe" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_Combust"&gt;烧灼&lt;/LSTag&gt;变为&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_CombustII"&gt;炽灼&lt;/LSTag&gt;。</content>
     <content contentuid="h897667aeg5342g4267gac0bg81a92fed8471" version="1">炽灼</content>
-    <content contentuid="he2fa6522g313bg428dga149gdf4d5eb9d69c" version="1">对目标附加光属性持续伤害状态，令其每回合结束时受到[1]，该伤害无视抗性和减免。</content>
+    <content contentuid="he2fa6522g313bg428dga149gdf4d5eb9d69c" version="1">对目标附加持续伤害状态，令其每回合结束时受到[1]，该伤害无视抗性和减免。</content>
     <content contentuid="h11716f0ag376cg47d7g98dfg5ff5b9afdcc6" version="1">烧灼精通II</content>
     <content contentuid="h5b3379bbgbecfg4441gab2dg49662e77d329" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_CombustII"&gt;炽灼&lt;/LSTag&gt;变为&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_CombustIII"&gt;焚灼&lt;/LSTag&gt;。</content>
     <content contentuid="hf87df3f9g3db5g4047g9f76g91c80c37bd85" version="1">焚灼</content>
-    <content contentuid="hc72153cfg2c34g4c27gb626gdd478ff470e1" version="1">对目标附加光属性持续伤害状态，令其每回合结束时受到[1]，该伤害无视抗性和减免。</content>
+    <content contentuid="hc72153cfg2c34g4c27gb626gdd478ff470e1" version="1">对目标附加持续伤害状态，令其每回合结束时受到[1]，该伤害无视抗性和减免。</content>
 
     ========= 法术: 凶星 =========
     <content contentuid="h2252e316g7a6cg4cd8gba66ga55da568ef91" version="1">凶星</content>
-    <content contentuid="hf7ad3e71gc80bg4c19gb42fg23b5b0a43b56" version="1">对目标发动光属性魔法攻击。</content>
+    <content contentuid="hf7ad3e71gc80bg4c19gb42fg23b5b0a43b56" version="1">对目标发动魔法攻击，造成一次随机属性的伤害。</content>
     <content contentuid="hd3829facg5728g4842gb08cgb89f4318f6ca" version="1">凶星精通</content>
     <content contentuid="hf8448576g6478g4ed3g94a2g81dd96018a56" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_Malefic"&gt;凶星&lt;/LSTag&gt;变为&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficII"&gt;灾星&lt;/LSTag&gt;。</content>
     <content contentuid="h27010aebg3d9bg4990g9bb6g5079a04ec10f" version="1">灾星</content>
-    <content contentuid="he7b1dab9gdb30g4114ga8a8g06505acd011d" version="1">对目标发动光属性魔法攻击，并额外造成一次随机属性的伤害。</content>
+    <content contentuid="he7b1dab9gdb30g4114ga8a8g06505acd011d" version="1">对目标发动魔法攻击，造成两次随机属性的伤害。</content>
     <content contentuid="h9eac4af8gc2dcg4d5egb11cgecd210143b77" version="1">凶星精通II</content>
     <content contentuid="h2dda7b49gda00g44c9g9ef5g604e3d5309b4" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficII"&gt;灾星&lt;/LSTag&gt;变为&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficIII"&gt;祸星&lt;/LSTag&gt;。</content>
     <content contentuid="h73193571g28d4g4d03g8d28g5be0ce1f1184" version="1">祸星</content>
-    <content contentuid="hb9bbc1cagfc7eg4c6dg8297gd7536c6b280b" version="1">对目标发动光属性魔法攻击，并额外造成两次随机属性的伤害。</content>
+    <content contentuid="hb9bbc1cagfc7eg4c6dg8297gd7536c6b280b" version="1">对目标发动魔法攻击，造成三次随机属性的伤害。</content>
     <content contentuid="hb81cb5b0g0453g4cc0gbbc7gf4592f39b362" version="1">凶星精通III</content>
     <content contentuid="h599e0b2ag1f67g4533g9201gf0506b05879a" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficIII"&gt;祸星&lt;/LSTag&gt;变为&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficIV"&gt;煞星&lt;/LSTag&gt;。</content>
     <content contentuid="h1887ebcegc1f3g4f91g8001ga31880811f1b" version="1">煞星</content>
-    <content contentuid="ha6172f12g6d56g4c2dg9200g797ca5950280" version="1">对目标发动光属性魔法攻击，并额外造成三次随机属性的伤害。</content>
+    <content contentuid="ha6172f12g6d56g4c2dg9200g797ca5950280" version="1">对目标发动魔法攻击，造成四次随机属性的伤害。</content>
     <content contentuid="hba161a33gcbc7g4df0gb297g17efec3e3351" version="1">凶星精通IV</content>
     <content contentuid="h743a901bge2deg4684g9faegb72458b7a108" version="1">&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_MaleficIV"&gt;煞星&lt;/LSTag&gt;变为&lt;LSTag Type="Spell" Tooltip="Target_EK_FF14_FallMalefic"&gt;落陷凶星&lt;/LSTag&gt;。</content>
     <content contentuid="h6d9d967eg847fg4ca2g8b00g86e551bccb16" version="1">落陷凶星</content>
-    <content contentuid="h7fbff348g44bcg48ddg942fg6ea093c2f223" version="1">对目标发动光属性魔法攻击，并额外造成四次随机属性的伤害。</content>
+    <content contentuid="h7fbff348g44bcg48ddg942fg6ea093c2f223" version="1">对目标发动魔法攻击，造成五次随机属性的伤害。</content>
 
     ========= 法术: 重力 =========
     <content contentuid="hcbe593e7g9487g47fcgac67gddc55591ad41" version="1">重力</content>
