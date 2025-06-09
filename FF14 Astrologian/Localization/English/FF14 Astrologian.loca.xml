@@ -73,7 +73,7 @@
     ========= 奥秘卡 =========
     <content contentuid="hebd87b99g492eg43bfgbe7cgee3da5c9c9d6" version="1">The Balance</content>
     <content contentuid="h8fba7814g740bg45b8gba80g26ba2a3614f8" version="1">Spread: The Balance</content>
-    <content contentuid="h16abeeb9gb2c3g4768g932dg7fa66cc516e5" version="1">Arcanum drawn. Can be used to increase damage dealt by yourself or an ally by an additional [1].</content>
+    <content contentuid="h16abeeb9gb2c3g4768g932dg7fa66cc516e5" version="1">Arcanum drawn. Can be used to increase damage dealt by yourself or an ally.</content>
     <content contentuid="h5167c91dg0d1eg4c70g9982ge3c5f297c547" version="1">Increase damage dealt by yourself or an ally by an additional [1].&lt;br&gt;&lt;br&gt;Effects may change when affected by &lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;Royal Road&lt;/LSTag&gt;.</content>
     <content contentuid="hdd0e4e40ga770g43a1g8707gfe48b228fc4c" version="1">Increase damage dealt by yourself or an ally by an additional [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;Royal Road (Potency)&lt;/LSTag&gt;: The additional damage increases, and becomes a free Reaction.</content>（神圣路效果强化）
     <content contentuid="hb26c5d03gb519g4681gaeb7gf6368071155d" version="1">Increase damage dealt by yourself or an ally by an additional [1].&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;Royal Road (Duration)&lt;/LSTag&gt;: The effect duration increases.</content>（神圣路时间延长）

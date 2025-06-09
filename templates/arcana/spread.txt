@@ -49,7 +49,7 @@ data "SpellProperties" ""
 data "Icon" "Icon_EK_FF14_AST_F_UndrawSpread"
 data "DisplayName" "h01f61320g219bg4fc3g989bgad131052fd4e"
 data "Description" "h0df283e7g9ffbg4a82gb1c4gbc1d3fa65397"
-data "FollowUpOriginalSpell" "Shout_EK_FF14_ArcanaSpread"
+data "RequirementConditions" "HasStatus('EK_FF14_ARCANA_SLOT_SPREAD_THE_BALANCE',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_SPREAD_THE_BOLE',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_SPREAD_THE_ARROW',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_SPREAD_THE_EWER',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_SPREAD_THE_SPEAR',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_SPREAD_THE_SPIRE',context.Source)"
 // from: Shout_ProduceFlame_Dismiss
 data "CastSound" "Spell_Cast_Damage_ProduceFlameDismiss_L1to3"
 data "CastTextEvent" "Cast"

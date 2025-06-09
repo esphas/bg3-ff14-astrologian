@@ -73,7 +73,7 @@
     ========= 奥秘卡 =========
     <content contentuid="hebd87b99g492eg43bfgbe7cgee3da5c9c9d6" version="1">太阳神之衡</content>
     <content contentuid="h8fba7814g740bg45b8gba80g26ba2a3614f8" version="1">暂留：太阳神之衡</content>
-    <content contentuid="h16abeeb9gb2c3g4768g932dg7fa66cc516e5" version="1">持有奥秘卡。可以选择自身或一名盟友，效果持续期间，目标可以造成额外[1]。</content>
+    <content contentuid="h16abeeb9gb2c3g4768g932dg7fa66cc516e5" version="1">持有奥秘卡。可以选择自身或一名盟友，增加其造成的伤害。</content>
     <content contentuid="h5167c91dg0d1eg4c70g9982ge3c5f297c547" version="1">选择自身或一名盟友，效果持续期间，目标可以造成额外[1]。&lt;br&gt;&lt;br&gt;受到&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;影响时效果可能发生变化。</content>
     <content contentuid="hdd0e4e40ga770g43a1g8707gfe48b228fc4c" version="1">选择自身或一名盟友，效果持续期间，目标可以造成额外[1]。&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"&gt;神圣路（效果强化）&lt;/LSTag&gt;：额外伤害提高且变为反应动作（不消耗反应）。</content>（神圣路效果强化）
     <content contentuid="hb26c5d03gb519g4681gaeb7gf6368071155d" version="1">选择自身或一名盟友，效果持续期间，目标可以造成额外[1]。&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）

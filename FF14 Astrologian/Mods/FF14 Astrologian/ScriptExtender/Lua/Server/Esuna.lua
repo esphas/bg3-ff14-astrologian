@@ -14,7 +14,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function (character, st
     if debug then _P("Esuna: cures 1 of " .. table.concat(groups, ", ")) end
     local availableGroup = {}
     for _, group in ipairs(groups) do
-        if Osi.HasActiveStatusWithGroup(character, group) then
+        if Osi.HasAppliedStatusWithGroup(character, group) then
             table.insert(availableGroup, group)
         end
     end

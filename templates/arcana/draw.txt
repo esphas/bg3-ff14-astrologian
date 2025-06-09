@@ -51,6 +51,7 @@ data "SpellProperties" ""
 data "Icon" "Icon_EK_FF14_AST_F_Undraw"
 data "DisplayName" "h5439e986g2116g4010g853cg63724a6be243"
 data "Description" "h66d9a33fg3b2cg4b8fgad12g5e14ae173735"
+data "RequirementConditions" "HasStatus('EK_FF14_ARCANA_SLOT_DRAW_THE_BALANCE',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_DRAW_THE_BOLE',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_DRAW_THE_ARROW',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_DRAW_THE_EWER',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_DRAW_THE_SPEAR',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_DRAW_THE_SPIRE',context.Source)"
 // from: Shout_ProduceFlame_Dismiss
 data "CastSound" "Spell_Cast_Damage_ProduceFlameDismiss_L1to3"
 data "CastTextEvent" "Cast"
@@ -79,7 +80,6 @@ using "EK_FF14_ARCANA_SLOT_DRAW_"
 data "Icon" "Icon_EK_FF14_AST_TheBalance"
 data "DisplayName" "hebd87b99g492eg43bfgbe7cgee3da5c9c9d6"
 data "Description" "h16abeeb9gb2c3g4768g932dg7fa66cc516e5"
-data "DescriptionParams" "DealDamage(1d8,Radiant)"
 data "Boosts" "UnlockSpellVariant(SpellId('Shout_EK_FF14_Undraw'),ModifyTooltipDescription());IF(not HasPassive('EK_FF14_ArcanaSlotRoyalRoad',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBalance);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBalance_Potency);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source)):UnlockSpell(Target_EK_FF14_Play_TheBalance_Duration);IF(HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)):UnlockSpell(Shout_EK_FF14_Play_TheBalance_Area)"
 
 // 抽卡 - 世界树之干

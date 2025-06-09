@@ -50,6 +50,7 @@ data "SpellProperties" ""
 data "Icon" "Icon_EK_FF14_AST_F_EmptyRoad"
 data "DisplayName" "h534c63a3gd292g4de1g9b7bg4500705da589"
 data "Description" "h474cb0a7gdf49g4684ga7f2gc33594aa4fdf"
+data "RequirementConditions" "HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION',context.Source) or HasStatus('EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA',context.Source)"
 // from: Shout_ProduceFlame_Dismiss
 data "CastSound" "Spell_Cast_Damage_ProduceFlameDismiss_L1to3"
 data "CastTextEvent" "Cast"
