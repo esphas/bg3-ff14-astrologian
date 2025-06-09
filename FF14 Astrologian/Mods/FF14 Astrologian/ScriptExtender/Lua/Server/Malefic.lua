@@ -1,36 +1,14 @@
 
 local debug = false
 
-local malefics = { "MaleficII", "MaleficIII", "MaleficIV", "FallMalefic" }
-local MALEFICS = { "MALEFIC_II", "MALEFIC_III", "MALEFIC_IV", "FALL_MALEFIC" }
+local malefics = { "Malefic", "MaleficII", "MaleficIII", "MaleficIV", "FallMalefic" }
+local MALEFICS = { "MALEFIC", "MALEFIC_II", "MALEFIC_III", "MALEFIC_IV", "FALL_MALEFIC" }
 
 local function isMaleficSpell(spell)
     for _, malefic in ipairs(malefics) do
         local prefix = "Target_EK_FF14_" .. malefic
         if string.sub(spell, 1, #prefix) == prefix then
             return true
-        end
-    end
-    return false
-end
-
-local function isMaleficTarget(status)
-    for _, malefic in ipairs(MALEFICS) do
-        local prefix = "EK_FF14_" .. malefic .. "_TARGET"
-        if string.sub(status, 1, #prefix) == prefix then
-            return {
-                malefic = malefic,
-                damageType = "EK_FF14_" .. malefic .. "_DAMAGE_TYPE",
-                damageDealer = "EK_FF14_" .. malefic .. string.sub(status,-3),
-            }
-        end
-    end
-    return false
-end
-local function isMaleficDamageDealer(status)
-    for _, malefic in ipairs(MALEFICS) do
-        if status == "EK_FF14_" .. malefic .. "_DAMAGE_DEALER" then
-            return malefic
         end
     end
     return false
