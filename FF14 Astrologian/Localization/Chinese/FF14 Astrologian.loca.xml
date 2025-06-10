@@ -68,7 +68,7 @@
     <content contentuid="hed990ec4g1598g4c20g9249gac855dc0773a" version="1">抽取一张小奥秘卡。</content>
     <content contentuid="h3a85546eg6373g4d5cg8a85gedf7d848b41c" version="1">可能获得&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_MINOR_ARCANA_LORD_OF_CROWNS"&gt;王冠之领主&lt;/LSTag&gt;或&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_MINOR_ARCANA_LADY_OF_CROWNS"&gt;王冠之贵妇&lt;/LSTag&gt;。</content>
     <content contentuid="h60198cbage91bg42f0g8fd0gabb853452152" version="1">袖内抽卡</content>
-    <content contentuid="hb174e43eg897eg4f01ga8cfg771e46191a9e" version="1">一次性补满&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_Draw"&gt;抽卡&lt;/LSTag&gt;、&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;、&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_ArcanaSpread"&gt;暂留&lt;/LSTag&gt;、&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_MinorArcana_6_0"&gt;小奥秘卡&lt;/LSTag&gt;的卡槽。已有的奥秘卡无法被覆盖。</content>
+    <content contentuid="hb174e43eg897eg4f01ga8cfg771e46191a9e" version="1">一次性补满&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_Draw"&gt;抽卡&lt;/LSTag&gt;、&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_RoyalRoad"&gt;神圣路&lt;/LSTag&gt;、&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_Spread"&gt;暂留&lt;/LSTag&gt;、&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_MinorArcana_6_0"&gt;小奥秘卡&lt;/LSTag&gt;的卡槽。已有的奥秘卡无法被覆盖。</content>
 
     ========= 奥秘卡 =========
     <content contentuid="hebd87b99g492eg43bfgbe7cgee3da5c9c9d6" version="1">太阳神之衡</content>

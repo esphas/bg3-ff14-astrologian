@@ -6,7 +6,7 @@
 function EK_FF14_Check_AnyArcanaDraw()
     return SpellId('Shout_EK_FF14_Draw')
          | SpellId('Shout_EK_FF14_RoyalRoad')
-         | SpellId('Shout_EK_FF14_ArcanaSpread')
+         | SpellId('Shout_EK_FF14_Spread')
          | SpellId('Shout_EK_FF14_Redraw')
          | SpellId('Shout_EK_FF14_MinorArcana_4_0')
          | SpellId('Shout_EK_FF14_MinorArcana_6_0')
@@ -28,7 +28,7 @@ function EK_FF14_Check_ClearArcanaSlotDraw()
     return SpellId('Shout_EK_FF14_Undraw')
          | EK_FF14_Check_ArcanaPlay()
          | SpellId('Shout_EK_FF14_RoyalRoad')
-         | SpellId('Shout_EK_FF14_ArcanaSpread')
+         | SpellId('Shout_EK_FF14_Spread')
          | SpellId('Shout_EK_FF14_MinorArcana_4_0')
 end
 
@@ -86,7 +86,7 @@ end
 function EK_FF14_Check_ArcanaContinueAfterDraw()
     return EK_FF14_Check_ArcanaPlay()
          | SpellId('Shout_EK_FF14_RoyalRoad')
-         | SpellId('Shout_EK_FF14_ArcanaSpread')
+         | SpellId('Shout_EK_FF14_Spread')
          | SpellId('Shout_EK_FF14_Redraw')
          | SpellId('Shout_EK_FF14_MinorArcana_4_0')
 end
