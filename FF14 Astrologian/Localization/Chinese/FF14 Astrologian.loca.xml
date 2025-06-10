@@ -262,7 +262,7 @@
     <content contentuid="hec01efb4477e46d8889ef28e06e6d83594b1" version="1">效果每剩余1回合，伤害降低[1]，&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;-[2]。</content>
     <content contentuid="h17cc0173d19c4189acc9fa43df6349eb73ec" version="1">效果每剩余1回合，伤害提高[1]，&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;+[2]。</content>
     <content contentuid="h49015a1b63444af49c2bbc0fd4cce8a5ga74" version="1">星天开门</content>
-    <content contentuid="h9e6f2c78ae6b48478b4e82f5f31e6709cg6c" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CelestialRiver"&gt;星河满天&lt;/LSTag&gt;的效果范围半径扩大到[1]，同时可以复活并治疗范围内的同伴。</content>
+    <content contentuid="h9e6f2c78ae6b48478b4e82f5f31e6709cg6c" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CelestialRiver"&gt;星河满天&lt;/LSTag&gt;可以复活并治疗范围内的同伴。</content>
 
     ========= 戏法: 烧灼 =========
     <content contentuid="h2d62b881g1633g4b53g9af4gb7f226edae42" version="1">每回合结束时受到[1]。</content>

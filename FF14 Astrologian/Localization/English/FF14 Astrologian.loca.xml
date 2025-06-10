@@ -262,7 +262,7 @@
     <content contentuid="hec01efb4477e46d8889ef28e06e6d83594b1" version="1">For each remaining turn, damage dealt decreases [1], &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;-[2].</content>
     <content contentuid="h17cc0173d19c4189acc9fa43df6349eb73ec" version="1">For each remaining turn, damage dealt increases [1], &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;+[2].</content>
     <content contentuid="h49015a1b63444af49c2bbc0fd4cce8a5ga74" version="1">Astral Stasis</content>
-    <content contentuid="h9e6f2c78ae6b48478b4e82f5f31e6709cg6c" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CelestialRiver"&gt;Celestial River&lt;/LSTag&gt; can resurrect and heal nearby allies, and its radius expand to [1].</content>
+    <content contentuid="h9e6f2c78ae6b48478b4e82f5f31e6709cg6c" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CelestialRiver"&gt;Celestial River&lt;/LSTag&gt; can resurrect and heal nearby allies.</content>
 
     ========= 戏法: 烧灼 =========
     <content contentuid="h2d62b881g1633g4b53g9af4gb7f226edae42" version="1">Take [1] at the end of each turn.</content>

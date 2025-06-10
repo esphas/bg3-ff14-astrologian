@@ -108,7 +108,7 @@
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="72e4e1af-22cf-4054-b1bb-16c8591872ba" />
                     <attribute id="Name" type="FixedString" value="FF14 Astrologian Cantrips" />
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Projectile_FireBolt;Projectile_PoisonSpray;Projectile_RayOfFrost;Shout_BladeWard;Shout_Shillelagh;Target_DancingLights;Target_Friends;Target_Guidance;Target_Light;Target_MageHand;Target_MinorIllusion;Target_Resistance;Target_ShockingGrasp" />
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Projectile_FireBolt;Projectile_PoisonSpray;Projectile_RayOfFrost;Shout_BladeWard;Shout_Shillelagh;Target_BoomingBlade_ClassSpell;Target_DancingLights;Target_Friends;Target_Guidance;Target_Light;Target_MageHand;Target_MinorIllusion;Target_Resistance;Target_ShockingGrasp" />
                 </node>
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="94315fac-21b3-41fb-b2b9-182706f353f5" />
@@ -118,7 +118,7 @@
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="42448d75-a5a1-4f1c-89fe-79aec73ba9ac" />
                     <attribute id="Name" type="FixedString" value="FF14 Astrologian Spells Level 2" />
-                    <attribute id="Spells" type="LSString" value="Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Aid;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkvision;Target_EnhanceAbility;Target_Enthrall;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_Moonbeam;Target_ProtectionFromPoison;Target_Shatter;Target_Silence;Zone_GustOfWind" />
+                    <attribute id="Spells" type="LSString" value="Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Shout_Aid;Shout_Blur;Shout_DetectThoughts;Shout_FlameBlade;Shout_MirrorImage;Shout_PassWithoutTrace;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_ArcaneLock;Target_Barkskin;Target_Blindness;Target_CalmEmotions;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkvision;Target_EnhanceAbility;Target_Enthrall;Target_FlamingSphere;Target_HeatMetal;Target_HoldPerson;Target_Invisibility;Target_Knock;Target_MistyStep;Target_Moonbeam;Target_ProtectionFromPoison;Target_Shatter;Target_Silence;Zone_GustOfWind" />
                 </node>
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="b08bb71b-3b07-482d-8d39-6a1fec98813a" />

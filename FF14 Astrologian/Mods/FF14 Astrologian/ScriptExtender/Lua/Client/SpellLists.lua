@@ -18,15 +18,16 @@ local AstSpellLists = {
 local ModSpells = {
     ["fb5f528d-4d48-4bf2-a668-2274d3cfba96"] = { -- 5e Spells
         { -- Cantrips
-            "Target_Prestidigitation",
             "Shout_Thunderclap",
             "Target_ControlFlames",
             "Target_CreateBonfire",
             "Target_Frostbite",
+            "Target_GreenFlameBlade",
             "Target_Gust",
             "Target_Infestation",
             "Target_MagicStone",
             "Target_MoldEarth",
+            "Target_Prestidigitation",
             "Target_PrimalSavagery",
             "Target_ShapeWater",
         }, { -- Level 1

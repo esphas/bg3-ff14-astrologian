@@ -206,13 +206,10 @@ stats('Astrologian', engine.renderFileSync(`${pathTemplate}/common.txt`, {
     },
     limitBreaker: {
         celestialRiver: {
-            areaRadius: 9,
+            areaRadius: 18,
             turns: 3,
             damageBonusPerTurn: '2', attackRollPerTurn: '1',
         },
-        astralStasis: {
-            areaRadius: 18,
-        }
     },
 }));
 

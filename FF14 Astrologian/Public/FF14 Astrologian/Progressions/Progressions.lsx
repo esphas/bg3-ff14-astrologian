@@ -89,8 +89,8 @@
                     <attribute id="UUID" type="guid" value="a10e8d5d-4ec2-48b4-b2f2-8120177ebc40" />
                     <attribute id="Level" type="uint8" value="4" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaMinorArcana_6_0;EK_FF14_EssentialDignity" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);ActionResource(EK_FF14_Arcana,1,0)" />
+                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_Exaltation;EK_FF14_ArcanaMinorArcana_6_0;EK_FF14_EssentialDignity" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(524ba969-93e7-4f9a-8b20-2108853507c0,,,,AlwaysPrepared);SelectSpells(42448d75-a5a1-4f1c-89fe-79aec73ba9ac,1,1)" />
                     <attribute id="AllowImprovement" type="bool" value="true" />
@@ -101,8 +101,8 @@
                     <attribute id="UUID" type="guid" value="66a7ee0a-ef1a-4801-8bdf-8e2f349735c6" />
                     <attribute id="Level" type="uint8" value="5" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,3);ActionResource(EK_FF14_Arcana,1,0)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_Exaltation;EK_FF14_CombustPlus;EK_FF14_CombustII;EK_FF14_MaleficPlus;EK_FF14_MaleficII;EK_FF14_BeneficPlus;EK_FF14_BeneficII;EK_FF14_Gravity;UnlockedSpellSlotLevel3" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,3)" />
+                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_CombustPlus;EK_FF14_CombustII;EK_FF14_MaleficPlus;EK_FF14_MaleficII;EK_FF14_BeneficPlus;EK_FF14_BeneficII;EK_FF14_Gravity;UnlockedSpellSlotLevel3" />
                     <attribute id="PassivesRemoved" type="LSString" value="EK_FF14_Combust;EK_FF14_Malefic;EK_FF14_Benefic" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(8677b3b0-3ede-4f06-b125-be4a314de53e,,,,AlwaysPrepared);SelectSpells(b08bb71b-3b07-482d-8d39-6a1fec98813a,1,1)" />
                 </node>
