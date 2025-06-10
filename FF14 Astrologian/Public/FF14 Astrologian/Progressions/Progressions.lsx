@@ -33,8 +33,8 @@
                     <attribute id="UUID" type="guid" value="bd24afa6-b1c3-48c4-8687-6520856e764e" />
                     <attribute id="Level" type="uint8" value="2" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(EK_FF14_Arcana,3,0)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaDraw;EK_FF14_ArcanaContinueBreak" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(EK_FF14_Arcana,3,0);ActionResource(EK_FF14_SwiftcastPoint,1,0)" />
+                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaDraw;EK_FF14_ArcanaContinueBreak;EK_FF14_Swiftcast" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(5d0c1069-8f44-45a4-a40e-ba5aec3ba9f6,,,,AlwaysPrepared);SelectSpells(94315fac-21b3-41fb-b2b9-182706f353f5,1,1)" />
                 </node>
@@ -89,8 +89,8 @@
                     <attribute id="UUID" type="guid" value="a10e8d5d-4ec2-48b4-b2f2-8120177ebc40" />
                     <attribute id="Level" type="uint8" value="4" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);ActionResource(EK_FF14_SwiftcastPoint,1,0)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaMinorArcana_6_0;EK_FF14_Swiftcast;EK_FF14_EssentialDignity" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)" />
+                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaMinorArcana_6_0;EK_FF14_EssentialDignity" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(524ba969-93e7-4f9a-8b20-2108853507c0,,,,AlwaysPrepared);SelectSpells(42448d75-a5a1-4f1c-89fe-79aec73ba9ac,1,1)" />
                     <attribute id="AllowImprovement" type="bool" value="true" />
