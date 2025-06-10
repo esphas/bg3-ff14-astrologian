@@ -57,7 +57,6 @@ data "SpellAnimation" "dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;c0513845-6e0e-4
 data "VerbalIntent" "Utility"
 data "PrepareEffect" "d814b674-ab81-4e6a-8c14-c23e0b92487a"
 data "CastEffect" "a8a47473-49e4-43dc-a1db-06faeb6a4a51"
-data "FollowUpOriginalSpell" "Shout_EK_FF14_Draw"
 
 new entry "EK_FF14_ARCANA_SLOT_SPREAD_"
 type "StatusData"
