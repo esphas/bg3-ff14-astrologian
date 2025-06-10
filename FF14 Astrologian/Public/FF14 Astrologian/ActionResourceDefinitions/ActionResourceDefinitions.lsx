@@ -10,7 +10,7 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="he30ec050g15f1g44fag87d3g60b12a155166" version="1" />
                     <attribute id="Description" type="TranslatedString" handle="heaf498f5g7f00g451fg90a1g349ee0f9313d" version="1" />
                     <attribute id="MaxLevel" type="uint32" value="0" />
-                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest" />
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
                 </node>
                 <node id="ActionResourceDefinition">
