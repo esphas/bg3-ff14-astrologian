@@ -82,6 +82,7 @@ data "StatsFunctors" "ApplyStatus(EK_FF14_NOCTURNAL_WARD,100,Target.EK_FF14_NOCT
 
 
 // ========= 擢升 =========
+// unused
 new entry "EK_FF14_Exaltation"
 type "PassiveData"
 data "DisplayName" "h7df7ab05ge52cg4e42gaa5fg390fd678a07d"
