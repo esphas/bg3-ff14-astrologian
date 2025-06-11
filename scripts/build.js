@@ -144,7 +144,7 @@ const makeSpell = ({
 
 // Arcana
 [
-    'continue', 'play', 'exaltation',
+    'continue', 'play',
     'draw', 'royalRoad', 'spread', 'redraw', 'minorArcana', 'sleeveDraw',
     'playBalance', 'playBole', 'playArrow', 'playEwer', 'playSpear', 'playSpire',
 ].forEach((section) => {
