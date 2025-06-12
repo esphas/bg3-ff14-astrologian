@@ -203,7 +203,7 @@
                     <attribute id="Level" type="uint8" value="14" /> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Boosts" type="LSString" value="" />
-                    <attribute id="PassivesAdded" type="LSString" value="" />
+                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_CelestialIntersection" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(a2d85e8a-3f21-4acc-854f-94c437ffa569,,,,AlwaysPrepared);SelectSpells(f50551a9-b7d6-4802-99fb-652c9c1fd2ef,1,1)" />
                 </node>

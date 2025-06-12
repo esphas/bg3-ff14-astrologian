@@ -72,7 +72,7 @@
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="a2d85e8a-3f21-4acc-854f-94c437ffa569" />
                     <attribute id="Name" type="FixedString" value="FF14 Astrologian Class Spells Level 14" />
-                    <attribute id="Spells" type="LSString" value="Target_EK_FF14_CelestialIntersection" />
+                    <attribute id="Spells" type="LSString" value="" />
                 </node>
                 <node id="SpellList">
                     <attribute id="UUID" type="guid" value="a431b690-b61c-47ee-ab06-1d29703dc101" />

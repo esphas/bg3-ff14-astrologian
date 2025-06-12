@@ -189,9 +189,10 @@ stats('Astrologian', engine.renderFileSync(`${pathTemplate}/common.txt`, {
         turnsSunSign: 2,
     },
     celestialIntersection: {
-        turns: 3,
         diurnal: '1d4',
-        nocturnal: '1d4',
+        diurnalTurns: 3,
+        nocturnal: '4',
+        nocturnalTurns: 10,
     },
     horoscope: {
         radius1: 9, radius2: 18,

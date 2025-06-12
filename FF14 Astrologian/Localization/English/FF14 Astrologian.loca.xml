@@ -11,9 +11,12 @@
     <content contentuid="h271f2ea5g6d2bg4985ga85cg71d71fcb46d5" version="1">Inspired by the trails of the nocturnal planets, you can aid and protect your allies in a variety of ways.</content>
     <content contentuid="hd0304217f2e44b44bde17f7209c29067ff62" version="1">Certain astrologian spells and class actions provide additional effects specific to Nocturnal Sect.</content>
 
-    ========= 黑夜守御 =========
+    ========= 通用 =========
+    <content contentuid="hb072cae5g1d50g456fgadacgf83ac8d8a092" version="1">Regain [1] per turn.</content>
     <content contentuid="h7c3308f0ge106g43c6g8f05gf20f3d43112c" version="1">Nocturnal Ward</content>
 	<content contentuid="h0d04d713g49a1g473cg8b60gc124669d963c" version="1">Nocturnal ward blocks damage equal to its charges and then loses half of its charges.</content>
+    <content contentuid="h13c3e3fegfee6g4cd2gbcc5g3df765d5eaad" version="1">Lose all stacks of &lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;Nocturnal Ward&lt;/LSTag&gt; when the effect times out.</content>
+    <content contentuid="h240fc9ceg9e9bg441bg872agf20bf7e83015" version="1">Damage taken reduced by [1].</content>
 
     ========= 升环提示 =========
     <content contentuid="h79997b21gcbb8g4a24g8933g65d101da9feb" version="1">Deals an additional [1] and [2] per level.</content>
@@ -168,8 +171,14 @@
     <content contentuid="h11011152ge928g4058gab19g2b08e44646d5" version="1">Essential Dignity: Last Second</content>
 
     ========= 职业动作: 天星冲日 =========
+    ========= 职业动作: 天星交错 =========
     <content contentuid="h3e59f8b7g1de6g4df4g9bfag0b4756d1b436" version="1">Celestial Opposition</content>
     <content contentuid="haa0f2dd6gcc68g4d58g9760g8e6a283000f0" version="1">Extend the remaining duration of your Astrology effects on yourself and nearby allies by [1] turn.&lt;br&gt;&lt;br&gt;Nearby enemies must succeed on a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;.</content>
+    <content contentuid="h168a7e514eef4e5c98c4565c43bd31ea0c2c" version="1">Celestial Intersection</content>
+    <content contentuid="h9d8396f5e9ec4c8eb718d80326440d5dg7e8" version="1">Grant effects to target based on your sect.</content>
+    <content contentuid="h4230455e41a94a4ab073179f42a3c4cb8e64" version="1">Diurnal Sect: Grant &lt;LSTag Type="Status" Tooltip="EK_FF14_CELESTIAL_INTERSECTION_DIURNAL"&gt;Celestial Intersection: Diurnal&lt;/LSTag&gt;: regain [1] per turn.&lt;br&gt;Nocturnal Sect: Grant&lt;LSTag Type="Status" Tooltip="EK_FF14_CELESTIAL_INTERSECTION_NOCTURNAL"&gt;Celestial Intersection: Nocturnal&lt;/LSTag&gt;: damage taken reduced by [2].</content>
+    <content contentuid="he4901b363a3f46a48810a1ea67a4ab1fdaf1" version="1">Celestial Intersection: Diurnal</content>
+    <content contentuid="ha050edc5b6a64d1d9ff6308a6b1081fe8g83" version="1">Celestial Intersection: Nocturnal</content>
 
     ========= 职业动作: 命运之轮 =========
     <content contentuid="h39b73097g56cdg4253g9067g12806e46493c" version="1">Collective Unconscious</content>
@@ -177,9 +186,7 @@
     <content contentuid="h4c14d667gf3fag42c0g8f8dg40c9282b6aa4" version="1">You will be surrounded by &lt;LSTag Type="Status" Tooltip="EK_FF14_COLLECTIVE_UNCONSCIOUS_AURA"&gt;Aura of Collective Unconscious&lt;/LSTag&gt;, which affects yourself and nearby allies within [2]. Moving or casting will break &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.&lt;br&gt;Meanwhile, grant effects based on your sect to yourself and nearby allies within [1].&lt;br&gt;Diurnal Sect: Grant &lt;LSTag Type="Status" Tooltip="EK_FF14_COLLECTIVE_UNCONSCIOUS_DIURNAL"&gt;Collective Unconscious: Diurnal&lt;/LSTag&gt;: regain [3] per turn.&lt;br&gt;Nocturnal Sect: Grant &lt;LSTag Type="Status" Tooltip="EK_FF14_COLLECTIVE_UNCONSCIOUS_NOCTURNAL"&gt;Collective Unconscious: Nocturnal&lt;/LSTag&gt;: damage taken reduced by [4].</content>
     <content contentuid="h20797622g9cbfg4da6g81b6gb75db0c1a507" version="1">Grant effects on yourself and nearby allies within [1] based on your sect.&lt;br&gt;Diurnal Sect: Grant &lt;LSTag Type="Status" Tooltip="EK_FF14_COLLECTIVE_UNCONSCIOUS_NOCTURNAL"&gt;Collective Unconscious: Nocturnal&lt;/LSTag&gt;: damage taken reduced by [3].&lt;br&gt;Nocturnal Sect: Grant &lt;LSTag Type="Status" Tooltip="EK_FF14_COLLECTIVE_UNCONSCIOUS_DIURNAL"&gt;Collective Unconscious: Diurnal&lt;/LSTag&gt;: regain [2] per turn.&lt;br&gt;&lt;br&gt;Moving or casting will break &lt;LSTag Tooltip="Concentration"&gt;Concentration&lt;/LSTag&gt;.</content>
     <content contentuid="hce35fdc1gddafg4e90g8a95g3437ae7432c1" version="1">Collective Unconscious: Diurnal</content>
-    <content contentuid="hf17bb015g17dcg4e74gbdc9gcf508a96ec57" version="1">Regain [1] per turn.</content>
     <content contentuid="h67de08edg90ffg4ca2g9a43g736d2c3d00a3" version="1">Collective Unconscious: Nocturnal</content>
-    <content contentuid="h240fc9ceg9e9bg441bg872agf20bf7e83015" version="1">Damage taken reduced by [1].</content>
 
     ========= 职业动作: 沉稳咏唱 =========
     <content contentuid="h850868begc187g43c0g8375g3f0f60385d50" version="1">Surecast</content>
@@ -227,15 +234,6 @@
     <content contentuid="h29f829b4db694cabb3236bd7224838078e2d" version="1">Sun Sign</content>
     <content contentuid="h1e900ddb58b54207977fec51af238e26ac80" version="1">Grant yourself and nearby allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage types.</content>
     <content contentuid="h8ef6c49094f4473e85cb9ad8d60efd3c1575" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage types.</content>
-
-    ========= 职业动作: 天星交错 =========
-    <content contentuid="h168a7e514eef4e5c98c4565c43bd31ea0c2c" version="1">Celestial Intersection</content>
-    <content contentuid="h9d8396f5e9ec4c8eb718d80326440d5dg7e8" version="1">Grant effects to target based on your sect.</content>
-    <content contentuid="h4230455e41a94a4ab073179f42a3c4cb8e64" version="1">Diurnal Sect: Grant &lt;LSTag Type="Status" Tooltip="EK_FF14_CELESTIAL_INTERSECTION_DIURNAL"&gt;Celestial Intersection: Diurnal&lt;/LSTag&gt;: regain [1] per turn.&lt;br&gt;Nocturnal Sect: Grant&lt;LSTag Type="Status" Tooltip="EK_FF14_CELESTIAL_INTERSECTION_NOCTURNAL"&gt;Celestial Intersection: Nocturnal&lt;/LSTag&gt;: damage taken reduced by [2].</content>
-    <content contentuid="he4901b363a3f46a48810a1ea67a4ab1fdaf1" version="1">Celestial Intersection: Diurnal</content>
-    <content contentuid="h254b88e7b53243ad82fff6271b6bfb4cba5c" version="1">Regain [1] per turn.</content>
-    <content contentuid="ha050edc5b6a64d1d9ff6308a6b1081fe8g83" version="1">Celestial Intersection: Nocturnal</content>
-    <content contentuid="h29d7063274e4416e80c62dae90986298077b" version="1">Damage taken reduced by [2].</content>
 
     ========= 职业动作: 天宫图 =========
     <content contentuid="h9aa2a241ae14457fa5db8003b29a806820bc" version="1">Horoscope</content>
@@ -323,10 +321,8 @@
     <content contentuid="h10158b20g8c86g42cfgbe2dg0e2d3ac3d608" version="1">Diurnal Sect: regain [2] per turn in [1] turns.&lt;br&gt;Nocturnal Sect: gain [3] stack of &lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;Nocturnal Ward&lt;/LSTag&gt;, effective for [4] turns.</content>
     <content contentuid="h02a38829gd772g4cf7gb954g945b59c4d1a7" version="1">Aspected Benefic: Diurnal</content>
     <content contentuid="h540956f7g9f42g4d7bg93afgf2ef0de3fce2" version="1">Neutral Sect: Nocturnal</content>
-    <content contentuid="hb072cae5g1d50g456fgadacgf83ac8d8a092" version="1">Regain [1] per turn.</content>
     <content contentuid="h57092db1ga02ag41c2g834bg6610e7239c21" version="1">Aspected Benefic: Nocturnal</content>
     <content contentuid="hd89b13ffg68d4g4ae2g91f5gf20f3a71f38b" version="1">Neutral Sect: Diurnal</content>
-    <content contentuid="h13c3e3fegfee6g4cd2gbcc5g3df765d5eaad" version="1">Lose all stacks of &lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;Nocturnal Ward&lt;/LSTag&gt; when the effect times out.</content>
 
     ========= 法术: 阳星 =========
     <content contentuid="h082f5593g9841g42f9g9e14g9c5422122c69" version="1">Helios</content>
@@ -337,25 +333,18 @@
     <content contentuid="h6e52b4c9g725cg4b3ega46fg3b382f641a93" version="1">Restores own HP and the HP of all nearby allies. Grant effects based on your sect.</content>
     <content contentuid="h7b2f72a3g5166g47d0g9ee8g608e8b5d3864" version="1">Aspected Helios: Diurnal</content>
     <content contentuid="h2cbcea7ag8814g4f5dgb0ddgfaa650dedf6c" version="1">Neutral Sect: Nocturnal</content>
-    <content contentuid="hb726fd1fg1dccg4625gab7agbacced579832" version="1">Regain [1] per turn.</content>
     <content contentuid="h165e2f23g505bg4602g956fgbffbea0824d3" version="1">Aspected Helios: Nocturnal</content>
     <content contentuid="he0e5f8fag3627g427cg840cg198698b46c84" version="1">Neutral Sect: Diurnal</content>
-    <content contentuid="hc2b778ecgb493g4346gab15g1234062c2b67" version="1">Gain [1] when losing all &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary HP&lt;/LSTag&gt;.</content>
-    <content contentuid="he56987c3ga9d5g4cf9g8ac8g652a9e5a1e7a" version="1">Gain [1].</content>
 
     ========= 法术: 阳星合相 =========
     <content contentuid="h0cb631b4g4d04g4689ga41dg86a271f2545c" version="1">Aspected Helios Plus</content>
     <content contentuid="h634662d5g43a9g4ad1gbb18gef8ba9f1e83e" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_AspectedHelios"&gt;Aspected Helios&lt;/LSTag&gt; replaced with &lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_HeliosConjunction"&gt;Helios Conjunction&lt;/LSTag&gt;.</content>
     <content contentuid="he15e9d99g963ag45a8gbeccg72fea46942f3" version="1">Helios Conjunction</content>
     <content contentuid="h0caae0c4g2125g401bg99efg4a400a5580f0" version="1">Restores own HP and the HP of all nearby allies. Grant effects based on your sect.</content>
-    <content contentuid="h43b07d41gc9d6g4b73ga57aga7f38c0744ad" version="1">Diurnal Sect: regain [2] per turn in [1] turns.&lt;br&gt;Nocturnal Sect: gain [3].</content>
     <content contentuid="h5897cc05g1c05g4666ga84ag774d403ecad9" version="1">Helios Conjunction: Diurnal</content>
     <content contentuid="hc75bd2feg7b2fg45a9g813ege376e6d1bbb2" version="1">Neutral Sect: Nocturnal</content>
-    <content contentuid="h01134b06g2fd9g4376g8cebga9cc7f0b4f49" version="1">Regain [1] per turn.</content>
     <content contentuid="hacf590eegec2ag4d7agb1b7g8386e52e3173" version="1">Helios Conjunction: Nocturnal</content>
     <content contentuid="h8a65d3dcg19cdg4ecdgb420g4b1e04c2756a" version="1">Neutral Sect: Diurnal</content>
-    <content contentuid="h6c232370g38a5g4a58g8384gaad54cb88ce8" version="1">Gain [1] when losing all &lt;LSTag Tooltip="TemporaryHitPoints"&gt;Temporary HP&lt;/LSTag&gt;.</content>
-    <content contentuid="hd21531e6g354ag4513gbc9bgb4556f52aeaa" version="1">Gain [1].</content>
 
     ========= 法术: 生辰 =========
     <content contentuid="h240202b0ge534g4cb1gb620g05812d6d9dd4" version="1">Ascend</content>

@@ -11,9 +11,12 @@
     <content contentuid="h271f2ea5g6d2bg4985ga85cg71d71fcb46d5" version="1">你从夜星的轨迹中得到启示，可以通过多种方式支援和保护盟友。</content>
     <content contentuid="hd0304217f2e44b44bde17f7209c29067ff62" version="1">一部分占星术士法术和职业动作将提供黑夜学派专属的额外效果。</content>
 
-    ========= 黑夜守御 =========
+    ========= 通用 =========
+    <content contentuid="hb072cae5g1d50g456fgadacgf83ac8d8a092" version="1">每回合恢复[1]。</content>
     <content contentuid="h7c3308f0ge106g43c6g8f05gf20f3d43112c" version="1">黑夜守御</content>
 	<content contentuid="h0d04d713g49a1g473cg8b60gc124669d963c" version="1">黑夜守御能抵消等同于其层数的伤害，随后层数减半。</content>
+    <content contentuid="h13c3e3fegfee6g4cd2gbcc5g3df765d5eaad" version="1">效果时间结束时，失去所有的&lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;黑夜守御&lt;/LSTag&gt;层数。</content>
+    <content contentuid="h240fc9ceg9e9bg441bg872agf20bf7e83015" version="1">受到的所有伤害减少[1]。</content>
 
     ========= 升环提示 =========
     <content contentuid="h79997b21gcbb8g4a24g8933g65d101da9feb" version="1">每环额外造成[1]和[2]。</content>
@@ -168,8 +171,14 @@
     <content contentuid="h11011152ge928g4058gab19g2b08e44646d5" version="1">先天禀赋：紧急</content>
 
     ========= 职业动作: 天星冲日 =========
+    ========= 职业动作: 天星交错 =========
     <content contentuid="h3e59f8b7g1de6g4df4g9bfag0b4756d1b436" version="1">天星冲日</content>
     <content contentuid="haa0f2dd6gcc68g4d58g9760g8e6a283000f0" version="1">自身及附近盟友所拥有的来自你的占星术状态的剩余持续时间延长[1]回合。&lt;br&gt;&lt;br&gt;附近敌人将会陷入&lt;LSTag Type="Status" Tooltip="STUNNED"&gt;震慑&lt;/LSTag&gt;状态，除非其通过一次&lt;LSTag Tooltip="SavingThrow"&gt;豁免检定&lt;/LSTag&gt;。</content>
+    <content contentuid="h168a7e514eef4e5c98c4565c43bd31ea0c2c" version="1">天星交错</content>
+    <content contentuid="h9d8396f5e9ec4c8eb718d80326440d5dg7e8" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CelestialOpposition"&gt;天星冲日&lt;/LSTag&gt;追加基于学派的额外效果。&lt;br&gt;&lt;br&gt;白昼学派：自身及附近盟友在[1]回合内持续恢复[2]。&lt;br&gt;黑夜学派：自身及附近盟友获得[3]层&lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;黑夜守御&lt;/LSTag&gt;，有效期延长至[4]回合。</content>
+    <content contentuid="h4230455e41a94a4ab073179f42a3c4cb8e64" version="1">白昼学派：附加&lt;LSTag Type="Status" Tooltip="EK_FF14_CELESTIAL_INTERSECTION_DIURNAL"&gt;天星交错：日&lt;/LSTag&gt;：每回合恢复[1]。&lt;br&gt;黑夜学派：附加&lt;LSTag Type="Status" Tooltip="EK_FF14_CELESTIAL_INTERSECTION_NOCTURNAL"&gt;天星交错：夜&lt;/LSTag&gt;：受到的所有伤害减少[2]。</content>
+    <content contentuid="he4901b363a3f46a48810a1ea67a4ab1fdaf1" version="1">天星交错：日</content>
+    <content contentuid="ha050edc5b6a64d1d9ff6308a6b1081fe8g83" version="1">天星交错：夜</content>
 
     ========= 职业动作: 命运之轮 =========
     <content contentuid="h39b73097g56cdg4253g9067g12806e46493c" version="1">命运之轮</content>
@@ -177,9 +186,7 @@
     <content contentuid="h4c14d667gf3fag42c0g8f8dg40c9282b6aa4" version="1">自身获得&lt;LSTag Type="Status" Tooltip="EK_FF14_COLLECTIVE_UNCONSCIOUS_AURA"&gt;命运之轮&lt;/LSTag&gt;。命运之轮可以影响自身及[2]内的盟友。移动或施法均会导致&lt;LSTag Tooltip="Concentration"&gt;专注&lt;/LSTag&gt;被打断。&lt;br&gt;同时，立刻为自身及[1]内的所有盟友附加一次基于学派的效果。&lt;br&gt;白昼学派：附加&lt;LSTag Type="Status" Tooltip="EK_FF14_COLLECTIVE_UNCONSCIOUS_DIURNAL"&gt;命运之轮：日&lt;/LSTag&gt;：每回合恢复[3]。&lt;br&gt;黑夜学派：附加&lt;LSTag Type="Status" Tooltip="EK_FF14_COLLECTIVE_UNCONSCIOUS_NOCTURNAL"&gt;命运之轮：夜&lt;/LSTag&gt;：受到的所有伤害减少[4]。</content>
     <content contentuid="h20797622g9cbfg4da6g81b6gb75db0c1a507" version="1">根据学派，为自身及[1]内的盟友附加不同的效果。&lt;br&gt;白昼学派：附加&lt;LSTag Type="Status" Tooltip="EK_FF14_COLLECTIVE_UNCONSCIOUS_NOCTURNAL"&gt;命运之轮：夜&lt;/LSTag&gt;：受到的所有伤害减少[3]。&lt;br&gt;黑夜学派：附加&lt;LSTag Type="Status" Tooltip="EK_FF14_COLLECTIVE_UNCONSCIOUS_DIURNAL"&gt;命运之轮：日&lt;/LSTag&gt;：每回合恢复[2]。&lt;br&gt;&lt;br&gt;移动或施法均会导致&lt;LSTag Tooltip="Concentration"&gt;专注&lt;/LSTag&gt;被打断。</content>
     <content contentuid="hce35fdc1gddafg4e90g8a95g3437ae7432c1" version="1">命运之轮：日</content>
-    <content contentuid="hf17bb015g17dcg4e74gbdc9gcf508a96ec57" version="1">每回合恢复[1]。</content>
     <content contentuid="h67de08edg90ffg4ca2g9a43g736d2c3d00a3" version="1">命运之轮：夜</content>
-    <content contentuid="h240fc9ceg9e9bg441bg872agf20bf7e83015" version="1">受到的所有伤害减少[1]。</content>
 
     ========= 职业动作: 沉稳咏唱 =========
     <content contentuid="h850868begc187g43c0g8375g3f0f60385d50" version="1">沉稳咏唱</content>
@@ -227,15 +234,6 @@
     <content contentuid="h29f829b4db694cabb3236bd7224838078e2d" version="1">太阳星座</content>
     <content contentuid="h1e900ddb58b54207977fec51af238e26ac80" version="1">令自身与附近盟友获得对所有伤害的&lt;LSTag Tooltip="Resistant"&gt;抗性&lt;/LSTag&gt;。</content>
     <content contentuid="h8ef6c49094f4473e85cb9ad8d60efd3c1575" version="1">获得对所有伤害的&lt;LSTag Tooltip="Resistant"&gt;抗性&lt;/LSTag&gt;。</content>
-
-    ========= 职业动作: 天星交错 =========
-    <content contentuid="h168a7e514eef4e5c98c4565c43bd31ea0c2c" version="1">天星交错</content>
-    <content contentuid="h9d8396f5e9ec4c8eb718d80326440d5dg7e8" version="1">选择一名目标，根据所属的占星学派产生不同的效果。</content>
-    <content contentuid="h4230455e41a94a4ab073179f42a3c4cb8e64" version="1">白昼学派：附加&lt;LSTag Type="Status" Tooltip="EK_FF14_CELESTIAL_INTERSECTION_DIURNAL"&gt;天星交错：日&lt;/LSTag&gt;：每回合恢复[1]。&lt;br&gt;黑夜学派：附加&lt;LSTag Type="Status" Tooltip="EK_FF14_CELESTIAL_INTERSECTION_NOCTURNAL"&gt;天星交错：夜&lt;/LSTag&gt;：受到的所有伤害减少[2]。</content>
-    <content contentuid="he4901b363a3f46a48810a1ea67a4ab1fdaf1" version="1">天星交错：日</content>
-    <content contentuid="h254b88e7b53243ad82fff6271b6bfb4cba5c" version="1">每回合恢复[1]。</content>
-    <content contentuid="ha050edc5b6a64d1d9ff6308a6b1081fe8g83" version="1">天星交错：夜</content>
-    <content contentuid="h29d7063274e4416e80c62dae90986298077b" version="1">受到的所有伤害减少[2]。</content>
 
     ========= 职业动作: 天宫图 =========
     <content contentuid="h9aa2a241ae14457fa5db8003b29a806820bc" version="1">天宫图</content>
@@ -323,10 +321,8 @@
     <content contentuid="h10158b20g8c86g42cfgbe2dg0e2d3ac3d608" version="1">白昼学派：目标在[1]回合内持续恢复[2]。&lt;br&gt;黑夜学派：目标获得[3]层&lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;黑夜守御&lt;/LSTag&gt;，有效期延长至[4]回合。</content>
     <content contentuid="h02a38829gd772g4cf7gb954g945b59c4d1a7" version="1">吉星相位：日</content>
     <content contentuid="h540956f7g9f42g4d7bg93afgf2ef0de3fce2" version="1">中间学派：夜</content>
-    <content contentuid="hb072cae5g1d50g456fgadacgf83ac8d8a092" version="1">每回合恢复[1]。</content>
     <content contentuid="h57092db1ga02ag41c2g834bg6610e7239c21" version="1">吉星相位：夜</content>
     <content contentuid="hd89b13ffg68d4g4ae2g91f5gf20f3a71f38b" version="1">中间学派：日</content>
-    <content contentuid="h13c3e3fegfee6g4cd2gbcc5g3df765d5eaad" version="1">效果时间结束时，失去所有的&lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;黑夜守御&lt;/LSTag&gt;层数。</content>
 
     ========= 法术: 阳星 =========
     <content contentuid="h082f5593g9841g42f9g9e14g9c5422122c69" version="1">阳星</content>
