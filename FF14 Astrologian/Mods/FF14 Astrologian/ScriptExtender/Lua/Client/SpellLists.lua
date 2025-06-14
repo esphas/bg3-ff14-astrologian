@@ -19,6 +19,7 @@ local ModSpells = {
     ["fb5f528d-4d48-4bf2-a668-2274d3cfba96"] = { -- 5e Spells
         { -- Cantrips
             "Shout_Thunderclap",
+            "Target_BoomingBlade_5e",
             "Target_ControlFlames",
             "Target_CreateBonfire",
             "Target_Frostbite",
@@ -78,24 +79,25 @@ local ModSpells = {
     ["84958e84-fd62-474f-bd1f-cbabc132c4b3"] = { -- Homebrew Spells
         { -- Cantrips
             "Projectile_IllusionaryDart",
-            "Target_ThunderNote",
+            "Projectile_RockSlam",
+            "Shout_FistsOfFire",
+            "Shout_IceWeapon",
+            "Shout_StoneForming",
             "Target_Burn",
             "Target_DecayingTouch",
-            "Shout_FistsOfFire",
             "Target_Freeze",
-            "Shout_IceWeapon",
             "Target_Impact",
-            "Projectile_RockSlam",
-            "Shout_StoneForming",
+            "Target_Sparking_Blade",
+            "Target_ThunderNote",
             "Target_WaterBullet",
         }, { -- Level 1
+            "Projectile_GaleBolt",
+            "Projectile_WaterBlast",
+            "Shout_LightningTendril",
             "Target_BladeMirage",
             "Target_ThunderPunch",
             "Zone_ArcticBreath",
             "Zone_CrashingWave",
-            "Projectile_GaleBolt",
-            "Shout_LightningTendril",
-            "Projectile_WaterBlast",
         }, { -- Level 2
 	        "Projectile_Crackle",
         }, { -- Level 3
@@ -113,80 +115,80 @@ local ModSpells = {
     },
     ["1d81bac8-2e91-45df-bc3c-5aa1cd2ee201"] = { -- 2e Spells
         { -- Cantrips
-            "Shout_WarpStep",
             "Projectile_PhaseBolt",
+            "Shout_WarpStep",
         }, { -- Level 1
             "Projectile_FriendFetch",
-            "Target_HydraulicPush",
-            "Zone_ChillingSpray",
             "Projectile_SnowBall",
+            "Target_AntHaul",
+            "Target_HydraulicPush",
             "Wall_WallOfShrubs",
             "Zone_BuffettingWinds",
-            "Target_AntHaul",
+            "Zone_ChillingSpray",
         }, { -- Level 2
+            "Shout_MimicUndead",
             "Target_FeastOfAshes",
             "Target_FinalSacrifice",
-            "Shout_MimicUndead",
             "Target_SoundBurst",
             "Target_TelekineticManeuver",
             "Target_WarriorRegret",
         }, { -- Level 3
-            "Target_AgonzingDespair",
             "Shout_FocusingHum",
+            "Target_AgonzingDespair",
             "Target_GhostlyWeapon",
             "Projectile_MoonlightRay",
             "Projectile_SearingLight",
         }, { -- Level 4
-            "Shout_GirzanjesMarch",
             "Rush_MercurialStride",
-            "Target_BloodSprayCurse",
             "Shout_CloakOfLight",
-            "Zone_HydraulicTorrent",
+            "Shout_GirzanjesMarch",
             "Shout_VitalBeacon",
+            "Target_BloodSprayCurse",
+            "Zone_HydraulicTorrent",
         }, { -- Level 5
-            "Target_BloodFeast",
-            "Zone_CrushingDespair",
-            "Target_ForcefulHand",
-            "Shout_RepellingPulse",
-            "Target_ScouringPulse",
-            "Shout_SynapticPulse",
-            "Zone_BlazingFissure",
-            "Target_LightningStorm",
             "Shout_PlantForm",
+            "Shout_RepellingPulse",
+            "Shout_SynapticPulse",
+            "Target_BloodFeast",
+            "Target_ForcefulHand",
+            "Target_LightningStorm",
+            "Target_ScouringPulse",
             "Target_StormBurst",
+            "Zone_BlazingFissure",
+            "Zone_CrushingDespair",
         }, { -- Level 6
             "Target_ElementalConfluence",
         }, { -- Level 7
             "Target_EclipseBurst",
             "Target_MoonBurst",
         }, { -- Level 8
+            "Projectile_PolarRay",
             "Target_HypnoticTerror",
             "Target_SummonIrii",
-            "Projectile_PolarRay",
         }, { -- Level 9
         }
     },
     ["9deeb371-f01e-41b4-b20e-c5eee0751b12"] = { -- Valkrana Spellbook
         { -- Cantrips
         }, { -- Level 1
-            "Target_Valkrana_SkeletalLemmings",
             "Projectile_ValkranaShadowfellSalvo",
+            "Target_Valkrana_SkeletalLemmings",
         }, { -- Level 2
-            "Target_ValkranaCorpseGrenade",
             "Target_ValkranaBoneLiquefaction",
+            "Target_ValkranaCorpseGrenade",
             "Target_ValkranaSoulSecret",
         }, { -- Level 3
-            "Target_ValkranaSkeleport",
             "Target_ValkranaImpartUndeath",
+            "Target_ValkranaSkeleport",
         }, { -- Level 4
-            "Target_ValkranaUnsealSoul",
             "Shout_ValkranaNegativeEnergyField",
+            "Target_ValkranaUnsealSoul",
         }, { -- Level 5
             "Target_ValkranaDreadSkeleton",
             "Target_ValkranaRiggedGraveyard",
         }, { -- Level 6
-            "Zone_ValkranaArcVivisector",
             "Shout_ValkranaBoneEmperor",
+            "Zone_ValkranaArcVivisector",
         }, { -- Level 7
         }, { -- Level 8
         }, { -- Level 9
