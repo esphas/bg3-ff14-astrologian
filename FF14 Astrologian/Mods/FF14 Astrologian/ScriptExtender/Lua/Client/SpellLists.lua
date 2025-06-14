@@ -19,7 +19,6 @@ local ModSpells = {
     ["fb5f528d-4d48-4bf2-a668-2274d3cfba96"] = { -- 5e Spells
         { -- Cantrips
             "Shout_Thunderclap",
-            "Target_BoomingBlade_5e",
             "Target_ControlFlames",
             "Target_CreateBonfire",
             "Target_Frostbite",
