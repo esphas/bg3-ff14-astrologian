@@ -92,7 +92,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)" />
                     <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaRedraw;EK_FF14_EssentialDignity" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
-                    <attribute id="Selectors" type="LSString" value="AddSpells(524ba969-93e7-4f9a-8b20-2108853507c0,,,,AlwaysPrepared);SelectSpells(42448d75-a5a1-4f1c-89fe-79aec73ba9ac,1,1)" />
+                    <attribute id="Selectors" type="LSString" value="AddSpells(524ba969-93e7-4f9a-8b20-2108853507c0,,,,AlwaysPrepared);SelectSpells(72e4e1af-22cf-4054-b1bb-16c8591872ba,1,0,,,,AlwaysPrepared);SelectSpells(42448d75-a5a1-4f1c-89fe-79aec73ba9ac,1,1)" />
                     <attribute id="AllowImprovement" type="bool" value="true" />
                 </node>
                 <node id="Progression"> FF14 Astrologian 5
@@ -160,7 +160,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,5)" />
                     <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaSleeveDraw;EK_FF14_EssentialDignityPlusII" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
-                    <attribute id="Selectors" type="LSString" value="AddSpells(c418e842-bb8b-41db-98e8-0cfc05fd9c45,,,,AlwaysPrepared);SelectSpells(f95550e1-3a1d-4f3f-b722-7f408d0d4664,1,1)" />
+                    <attribute id="Selectors" type="LSString" value="AddSpells(c418e842-bb8b-41db-98e8-0cfc05fd9c45,,,,AlwaysPrepared);SelectSpells(72e4e1af-22cf-4054-b1bb-16c8591872ba,1,0,,,,AlwaysPrepared);SelectSpells(f95550e1-3a1d-4f3f-b722-7f408d0d4664,1,1)" />
                 </node>
                 <node id="Progression"> FF14 Astrologian 11
                     <attribute id="TableUUID" type="guid" value="38d4f3f4-802d-489e-9f64-cd0765d6c6ac" />
