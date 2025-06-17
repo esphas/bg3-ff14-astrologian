@@ -6882,3 +6882,6 @@ function _W()
 end
 
 _P = Ext.Utils.Print
+
+if Mods == nil then Mods = {} end
+if ModuleUUID == nil then ModuleUUID = {} end

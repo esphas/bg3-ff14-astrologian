@@ -53,7 +53,7 @@ data "Icon" "Icon_EK_FF14_AST_Gravity"
 data "DisplayName" "hcbe593e7g9487g47fcgac67gddc55591ad41"
 data "Description" "hcdba95bega48dg4177g92f9g3d96deeff227"
 data "StackId" "EK_FF14_GRAVITY"
-data "StackType" "Ignore"
+data "StackType" "Overwrite"
 data "StackPriority" "10"
 data "Boosts" "Advantage(AttackTarget);Disadvantage(AttackRoll);ActionResourceMultiplier(Movement,50,0);MovementSpeedLimit(Walk);Disadvantage(SavingThrow,Dexterity)"
 

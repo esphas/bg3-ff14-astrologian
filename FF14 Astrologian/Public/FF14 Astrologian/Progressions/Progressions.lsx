@@ -11,7 +11,7 @@
                     <attribute id="Level" type="uint8" value="1" />
                     <attribute id="ProgressionType" type="uint8" value="0" />
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(SimpleWeapons)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_Combust;EK_FF14_Malefic;EK_FF14_Benefic;UnlockedSpellSlotLevel1" />
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="SelectSkills(122ad112-158c-4160-968e-3f7a5d5e8466,3);AddSpells(6524eec8-98c9-4456-b8f0-bfa637ec077a,,,,AlwaysPrepared);SelectSpells(72e4e1af-22cf-4054-b1bb-16c8591872ba,2,0,,,,AlwaysPrepared);SelectSpells(94315fac-21b3-41fb-b2b9-182706f353f5,3,0);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)" />
                 </node>
@@ -23,7 +23,7 @@
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="IsMulticlass" type="bool" value="true" />
                     <attribute id="Boosts" type="LSString" value="" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_Combust;EK_FF14_Malefic;EK_FF14_Benefic;UnlockedSpellSlotLevel1" />
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="SelectSkills(122ad112-158c-4160-968e-3f7a5d5e8466,1);AddSpells(6524eec8-98c9-4456-b8f0-bfa637ec077a,,,,AlwaysPrepared);SelectSpells(72e4e1af-22cf-4054-b1bb-16c8591872ba,2,0,,,,AlwaysPrepared);SelectSpells(94315fac-21b3-41fb-b2b9-182706f353f5,3,0)" />
                 </node>
@@ -33,8 +33,8 @@
                     <attribute id="UUID" type="guid" value="bd24afa6-b1c3-48c4-8687-6520856e764e" />
                     <attribute id="Level" type="uint8" value="2" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(EK_FF14_Arcana,3,0);ActionResource(EK_FF14_SwiftcastPoint,1,0)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaDraw;EK_FF14_ArcanaContinueBreak;EK_FF14_Swiftcast" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(5d0c1069-8f44-45a4-a40e-ba5aec3ba9f6,,,,AlwaysPrepared);SelectSpells(94315fac-21b3-41fb-b2b9-182706f353f5,1,1)" />
                 </node>
@@ -68,7 +68,7 @@
                     <attribute id="Level" type="uint8" value="3" />
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Boosts" type="LSString" value="" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_DiurnalSect_X;EK_FF14_DiurnalSect" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="" />
                 </node>
@@ -79,7 +79,7 @@
                     <attribute id="Level" type="uint8" value="3" />
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Boosts" type="LSString" value="" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_NocturnalSect_X;EK_FF14_NocturnalSect" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="" />
                 </node>
@@ -90,7 +90,7 @@
                     <attribute id="Level" type="uint8" value="4" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaRedraw;EK_FF14_EssentialDignity" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(524ba969-93e7-4f9a-8b20-2108853507c0,,,,AlwaysPrepared);SelectSpells(72e4e1af-22cf-4054-b1bb-16c8591872ba,1,0,,,,AlwaysPrepared);SelectSpells(42448d75-a5a1-4f1c-89fe-79aec73ba9ac,1,1)" />
                     <attribute id="AllowImprovement" type="bool" value="true" />
@@ -101,9 +101,9 @@
                     <attribute id="UUID" type="guid" value="66a7ee0a-ef1a-4801-8bdf-8e2f349735c6" />
                     <attribute id="Level" type="uint8" value="5" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,3);ActionResource(EK_FF14_Arcana,1,0)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaMinorArcana_6_0;EK_FF14_CombustPlus;EK_FF14_CombustII;EK_FF14_MaleficPlus;EK_FF14_MaleficII;EK_FF14_BeneficPlus;EK_FF14_BeneficII;EK_FF14_Gravity;UnlockedSpellSlotLevel3" />
-                    <attribute id="PassivesRemoved" type="LSString" value="EK_FF14_Combust;EK_FF14_Malefic;EK_FF14_Benefic" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,3)" />
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel3" />
+                    <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(8677b3b0-3ede-4f06-b125-be4a314de53e,,,,AlwaysPrepared);SelectSpells(b08bb71b-3b07-482d-8d39-6a1fec98813a,1,1)" />
                 </node>
                 <node id="Progression"> FF14 Astrologian 6
@@ -113,7 +113,7 @@
                     <attribute id="Level" type="uint8" value="6" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,3)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaSpread;EK_FF14_ArcanaUndrawSpread" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(5bafd978-3359-4f66-bdd6-b6f9d190dccc,,,,AlwaysPrepared);SelectSpells(b08bb71b-3b07-482d-8d39-6a1fec98813a,1,1)" />
                 </node>
@@ -124,7 +124,7 @@
                     <attribute id="Level" type="uint8" value="7" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,4)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_AspectedHelios;EK_FF14_Surecast;EK_FF14_EssentialDignityPlus" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(bfda2f7a-675a-40e8-9115-7bff9c11c445,,,,AlwaysPrepared);SelectSpells(1b4a10f7-4574-4964-82c9-6228f28e362b,1,1)" />
                 </node>
@@ -134,8 +134,8 @@
                     <attribute id="UUID" type="guid" value="f256d918-173d-45d1-9c9b-1eaf9673b35a" />
                     <attribute id="Level" type="uint8" value="8" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,4);ActionResource(EK_FF14_Arcana,1,0)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaRoyalRoad;EK_FF14_ArcanaEmptyRoad" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,4)" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(fc16c4f7-e7a0-4085-8249-da513588f29e,,,,AlwaysPrepared);SelectSpells(1b4a10f7-4574-4964-82c9-6228f28e362b,1,1)" />
                     <attribute id="AllowImprovement" type="bool" value="true" />
@@ -147,8 +147,8 @@
                     <attribute id="Level" type="uint8" value="9" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,4);ActionResource(SpellSlot,1,5)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_MaleficPlusII;EK_FF14_MaleficIII" />
-                    <attribute id="PassivesRemoved" type="LSString" value="EK_FF14_MaleficII" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
+                    <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(cf25d6a7-ce6a-446f-9696-5745f897d262,,,,AlwaysPrepared);SelectSpells(f95550e1-3a1d-4f3f-b722-7f408d0d4664,1,1)" />
                 </node>
                 <node id="Progression"> FF14 Astrologian 10
@@ -158,7 +158,7 @@
                     <attribute id="Level" type="uint8" value="10" />
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,5)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_ArcanaSleeveDraw;EK_FF14_EssentialDignityPlusII" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(c418e842-bb8b-41db-98e8-0cfc05fd9c45,,,,AlwaysPrepared);SelectSpells(72e4e1af-22cf-4054-b1bb-16c8591872ba,1,0,,,,AlwaysPrepared);SelectSpells(f95550e1-3a1d-4f3f-b722-7f408d0d4664,1,1)" />
                 </node>
@@ -191,9 +191,9 @@
                     <attribute id="UUID" type="guid" value="bbb80eb2-53d5-4670-b433-0c8ffc032bbe" />
                     <attribute id="Level" type="uint8" value="13" /> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,7);ActionResource(EK_FF14_Arcana,1,0)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_CombustPlusII;EK_FF14_CombustIII;EK_FF14_MaleficPlusIII;EK_FF14_MaleficIV" />
-                    <attribute id="PassivesRemoved" type="LSString" value="EK_FF14_CombustII;EK_FF14_MaleficIII" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,7)" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
+                    <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(ebf08c55-e41e-4a29-a089-833a0ea94920,,,,AlwaysPrepared);SelectSpells(f50551a9-b7d6-4802-99fb-652c9c1fd2ef,1,1)" />
                 </node>
                 <node id="Progression"> FF14 Astrologian 14
@@ -203,7 +203,7 @@
                     <attribute id="Level" type="uint8" value="14" /> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Boosts" type="LSString" value="" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_CelestialIntersection" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(a2d85e8a-3f21-4acc-854f-94c437ffa569,,,,AlwaysPrepared);SelectSpells(f50551a9-b7d6-4802-99fb-652c9c1fd2ef,1,1)" />
                 </node>
@@ -225,7 +225,7 @@
                     <attribute id="Level" type="uint8" value="16" /> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Boosts" type="LSString" value="" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_DivinationPlus" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(790f21a1-4152-4241-8b0f-a978dff82a21,,,,AlwaysPrepared);SelectSpells(d7da2409-1e59-4287-865f-3fb2be0d919a,1,1)" />
                     <attribute id="AllowImprovement" type="bool" value="true" />
@@ -236,9 +236,9 @@
                     <attribute id="UUID" type="guid" value="0a15a32f-1222-492e-97e7-cb886f4d5723" />
                     <attribute id="Level" type="uint8" value="17" /> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,9);ActionResource(EK_FF14_Arcana,1,0)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_MaleficPlusIV;EK_FF14_FallMalefic;EK_FF14_GravityPlus;EK_FF14_GravityII;EK_FF14_AspectedHeliosPlus;EK_FF14_HeliosConjunction" />
-                    <attribute id="PassivesRemoved" type="LSString" value="EK_FF14_MaleficIV;EK_FF14_Gravity;EK_FF14_AspectedHelios" />
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,9)" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
+                    <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(db1fad64-bae7-43bc-a2ec-9d4c24369612,,,,AlwaysPrepared);SelectSpells(0b0428ed-ef15-49f6-9326-4aabe9c7e9e1,1,1)" />
                 </node>
                 <node id="Progression"> FF14 Astrologian 18
@@ -271,7 +271,7 @@
                     <attribute id="Level" type="uint8" value="20" /> 
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,7)" />
-                    <attribute id="PassivesAdded" type="LSString" value="EK_FF14_AstralStasis" />
+                    <attribute id="PassivesAdded" type="LSString" value="" />
                     <attribute id="PassivesRemoved" type="LSString" value="" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(9c3fc44e-abe8-4992-b268-4a683fff285a,,,,AlwaysPrepared);SelectSpells(0b0428ed-ef15-49f6-9326-4aabe9c7e9e1,1,1)" />
                 </node>

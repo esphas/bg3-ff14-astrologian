@@ -1,0 +1,36 @@
+{
+    "Optional": true,
+    "SchemaVersion": 1,
+    "Handles": {
+        "NameHandle": "hd969972ag2476g4b1egaf1ag1ee84cca55cc",
+        "DescriptionHandle": "hf1d39318g1346g442bg9013gc62682371ffa"
+    },
+    "Tabs": [
+        {
+            "TabId": "general",
+            "TabName": "General",
+            "Handles": {
+                "NameHandle": "hf0030181g796cg47bcgb987gb1efe40697a3"
+            },
+            "Settings": [
+                {
+                    "Id": "progression",
+                    "Name": "Progression",
+                    "Description": "Select the progression you want to use.",
+                    "Handles": {
+                        "NameHandle": "h9705b608g6f97g4056ga2b4gfc4667dc7ab5",
+                        "DescriptionHandle": "h0f2bce3cge1e1g4d5dgb0eagea9081e34e3f"
+                    },
+                    "Type": "enum",
+                    "Default": "20",
+                    "Options": {
+                        "Choices": [
+                            "12",
+                            "20"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

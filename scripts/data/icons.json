@@ -80,6 +80,7 @@
     "F_FallMalefic": { "name": "落陷凶星", "x": 7, "y": 3 },
     "F_Gravity": { "name": "重力", "x": 8, "y": 3 },
     "Gravity": { "name": "重力", "x": 4, "y": 8 },
+    "GravityPlus": { "name": "重力精通", "x": 7, "y": 7 },
     "F_GravityII": { "name": "中重力", "x": 9, "y": 3 },
 
     "F_Lightspeed": { "name": "光速", "x": 10, "y": 0 },
@@ -105,6 +106,7 @@
     "NeutralSect": { "name": "中间学派", "x": 4, "y": 9 },
     "F_SunSign": { "name": "太阳星座", "x": 10, "y": 1 },
     "F_CelestialIntersection": { "name": "天星交错", "x": 12, "y": 1 },
+    "CelestialIntersection": { "name": "天星交错", "x": 7, "y": 10 },
     "F_Horoscope": { "name": "天宫图", "x": 13, "y": 1 },
     "Horoscope_I": { "name": "天宫图", "x": 13, "y": 1 },
     "Horoscope_II": { "name": "天宫图", "x": 13, "y": 1 },
