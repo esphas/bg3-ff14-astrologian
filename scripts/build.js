@@ -276,10 +276,10 @@ stats('Astrologian', makeSpell({ txt: 'gravity/gravityII', fromLevel: 3 }, {
 
 // Esuna
 stats('Astrologian', makeSpell({ txt: 'esuna/esuna' }, {
-    scriptingStatus: p => {
-        if (p == 1) return 'EK_FF14_ESUNA_SCRIPTING1';
-        if (p == 2) return 'EK_FF14_ESUNA_SCRIPTING2';
-        return 'EK_FF14_ESUNA_SCRIPTING3';
+    technicalStatus: p => {
+        if (p == 1) return 'EK_FF14_ESUNA_TECHNICAL1';
+        if (p == 2) return 'EK_FF14_ESUNA_TECHNICAL2';
+        return 'EK_FF14_ESUNA_TECHNICAL3';
     },
     description: p => {
         if (p == 1) return 'h8a04f040gcf1fg47b2g855dg72d533f79cc6';

@@ -68,6 +68,7 @@ data "StatusType" "BOOST"
 data "StackId" "EK_FF14_ARCANA_SLOT_SPREAD"
 data "StackType" "Overwrite"
 data "Passives" "EK_FF14_ArcanaSlotSpread"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // 暂留 - 太阳神之衡
 new entry "EK_FF14_ARCANA_SLOT_SPREAD_THE_BALANCE"

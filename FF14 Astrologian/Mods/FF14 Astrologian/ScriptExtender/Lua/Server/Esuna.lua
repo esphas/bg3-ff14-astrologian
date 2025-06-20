@@ -3,11 +3,11 @@ local debug = true
 
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function (character, status, _, _)
     local groups = {};
-    if status == "EK_FF14_ESUNA_SCRIPTING1" then
+    if status == "EK_FF14_ESUNA_TECHNICAL1" then
         groups = { "SG_Poisoned", "SG_Disease", "SG_Paralyzed", "SG_Blinded" };
-    elseif status == "EK_FF14_ESUNA_SCRIPTING2" then
+    elseif status == "EK_FF14_ESUNA_TECHNICAL2" then
         groups = { "SG_Poisoned", "SG_Disease", "SG_Paralyzed", "SG_Blinded", "SG_Cursed" };
-    elseif status == "EK_FF14_ESUNA_SCRIPTING3" then
+    elseif status == "EK_FF14_ESUNA_TECHNICAL3" then
         groups = { "SG_Poisoned", "SG_Disease", "SG_Paralyzed", "SG_Blinded", "SG_Charmed", "SG_Petrified", "SG_Cursed", "SG_Stunned" };
     end
     if #groups <= 0 then return end

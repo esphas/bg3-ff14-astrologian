@@ -69,6 +69,7 @@ data "StatusType" "BOOST"
 data "StackId" "EK_FF14_ARCANA_SLOT_ROYAL_ROAD"
 data "StackType" "Overwrite"
 data "Passives" "EK_FF14_ArcanaSlotRoyalRoad"
+data "StatusGroups" "SG_RemoveOnRespec"
 
 // 神圣路 - 效果强化
 new entry "EK_FF14_ARCANA_SLOT_ROYAL_ROAD_POTENCY"

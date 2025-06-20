@@ -59,13 +59,13 @@ local function SleeveDraw(entity)
 end
 
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function (character, status, causee, _)
-    if status == "EK_FF14_DRAW_SCRIPTING" then
+    if status == "EK_FF14_DRAW_TECHNICAL" then
         DrawArcana(character, false)
-    elseif status == "EK_FF14_REDRAW_SCRIPTING" then
+    elseif status == "EK_FF14_REDRAW_TECHNICAL" then
         DrawArcana(character, true)
-    elseif status == "EK_FF14_MINOR_ARCANA_SCRIPTING" then
+    elseif status == "EK_FF14_MINOR_ARCANA_TECHNICAL" then
         DrawMinorArcana(character)
-    elseif status == "EK_FF14_SLEEVE_DRAW_SCRIPTING" then
+    elseif status == "EK_FF14_SLEEVE_DRAW_TECHNICAL" then
         SleeveDraw(character)
     end
 end)
