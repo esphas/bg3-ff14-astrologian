@@ -128,6 +128,8 @@
     <content contentuid="h1d656abdg1180g4367g9ce5g17102150ab44" version="1">选择自身或一名盟友，效果持续期间，目标的攻击能力得到强化。&lt;br&gt;&lt;br&gt;&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;获得&lt;LSTag Tooltip="Advantage"&gt;优势&lt;/LSTag&gt;。&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
     <content contentuid="h207fef72gf3f4g4bceg98f3gfb9d74657776" version="1">强化自身和附近盟友，效果持续期间，受影响个体的攻击能力得到强化。&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路（范围效果）&lt;/LSTag&gt;：&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;至少掷出5点。</content>（神圣路范围效果）
     <content contentuid="h687ef183g6d54g4391g8d95g6d4f8ae8348f" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;获得&lt;LSTag Tooltip="Advantage"&gt;优势&lt;/LSTag&gt;。</content>
+    <content contentuid="hc6cd180fgead0g4dc5gb92fg45933a051d44" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;获得&lt;LSTag Tooltip="Advantage"&gt;优势&lt;/LSTag&gt;。攻击触发&lt;LSTag Tooltip="CriticalHit"&gt;重击&lt;/LSTag&gt;所需的点数-1。</content>
+    <content contentuid="hc932360bg4e97g401eg8bf3g5e7316f401d1" version="1">&lt;LSTag Tooltip="AttackRoll"&gt;攻击掷骰&lt;/LSTag&gt;至少掷出5点。</content>
 
     <content contentuid="hdf169ef9g3bfeg47ccg96a9g602c90a6de8d" version="1">建筑神之塔</content>
     <content contentuid="hfd4b743bgcb28g442bgb8e1gdaa344be15d3" version="1">暂留：建筑神之塔</content>
@@ -137,6 +139,8 @@
     <content contentuid="h7e192e50gc413g4a43g8807g13ef528c2252" version="1">选择自身或一名盟友，效果持续期间，目标的移动能力得到强化。&lt;br&gt;&lt;br&gt;&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍，且移动不会触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_DURATION"&gt;神圣路（时间延长）&lt;/LSTag&gt;：持续时间增加。</content>（神圣路时间延长）
     <content contentuid="h25da2a31g000fg4b66ga6a1g3bbc043256aa" version="1">强化自身和附近盟友，效果持续期间，受影响个体的移动能力得到强化。&lt;br&gt;&lt;br&gt;&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍。&lt;br&gt;&lt;LSTag Type="Status" Tooltip="EK_FF14_ARCANA_SLOT_ROYAL_ROAD_AREA"&gt;神圣路（范围效果）&lt;/LSTag&gt;：移动仍有可能触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。</content>（神圣路范围效果）
     <content contentuid="ha5cd4642ga8a2g447dg8f04gcd7bb88fd80f" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍，且移动不会触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。</content>
+    <content contentuid="ha46de53bg23c5g44a8gbbcegade886180d1e" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍，且移动不会触发&lt;LSTag Tooltip="OpportunityAttack"&gt;借机攻击&lt;/LSTag&gt;。&lt;LSTag Type="Spell" Tooltip="Projectile_Jump"&gt;跳跃&lt;/LSTag&gt;不消耗&lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;附赠动作&lt;/LSTag&gt;。</content>
+    <content contentuid="h6d1f2ceeg7e0fg4046g9707g19d2254e1436" version="1">&lt;LSTag Tooltip="MovementSpeed"&gt;移动速度&lt;/LSTag&gt;翻倍。</content>
 
     ========= 神圣路 =========
     <content contentuid="ha741bf63g3978g4a61g8946g168483dca5a0" version="1">神圣路（效果强化）</content>
@@ -182,8 +186,7 @@
     <content contentuid="h3e59f8b7g1de6g4df4g9bfag0b4756d1b436" version="1">天星冲日</content>
     <content contentuid="haa0f2dd6gcc68g4d58g9760g8e6a283000f0" version="1">自身及附近盟友所拥有的来自你的占星术状态的剩余持续时间延长[1]回合。&lt;br&gt;&lt;br&gt;附近敌人将会陷入&lt;LSTag Type="Status" Tooltip="STUNNED"&gt;震慑&lt;/LSTag&gt;状态，除非其通过一次&lt;LSTag Tooltip="SavingThrow"&gt;豁免检定&lt;/LSTag&gt;。</content>
     <content contentuid="h168a7e514eef4e5c98c4565c43bd31ea0c2c" version="1">天星交错</content>
-    <content contentuid="h9d8396f5e9ec4c8eb718d80326440d5dg7e8" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CelestialOpposition"&gt;天星冲日&lt;/LSTag&gt;追加基于学派的额外效果。&lt;br&gt;&lt;br&gt;白昼学派：自身及附近盟友在[1]回合内持续恢复[2]。&lt;br&gt;黑夜学派：自身及附近盟友获得[3]层&lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;黑夜守御&lt;/LSTag&gt;，有效期延长至[4]回合。</content>
-    <content contentuid="h4230455e41a94a4ab073179f42a3c4cb8e64" version="1">白昼学派：附加&lt;LSTag Type="Status" Tooltip="EK_FF14_CELESTIAL_INTERSECTION_DIURNAL"&gt;天星交错：日&lt;/LSTag&gt;：每回合恢复[1]。&lt;br&gt;黑夜学派：附加&lt;LSTag Type="Status" Tooltip="EK_FF14_CELESTIAL_INTERSECTION_NOCTURNAL"&gt;天星交错：夜&lt;/LSTag&gt;：受到的所有伤害减少[2]。</content>
+    <content contentuid="h9d8396f5e9ec4c8eb718d80326440d5dg7e8" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CelestialOpposition"&gt;天星冲日&lt;/LSTag&gt;追加基于学派的额外效果。</content>
     <content contentuid="he4901b363a3f46a48810a1ea67a4ab1fdaf1" version="1">天星交错：日</content>
     <content contentuid="ha050edc5b6a64d1d9ff6308a6b1081fe8g83" version="1">天星交错：夜</content>
 
