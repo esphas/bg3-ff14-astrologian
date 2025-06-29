@@ -691,8 +691,8 @@
                     <attribute id="MapKey" type="FixedString" value="Icon_EK_FF14_AST_Oracle" />
                     <attribute id="U1" type="float" value="0.375"/>
                     <attribute id="U2" type="float" value="0.4375"/>
-                    <attribute id="V1" type="float" value="0.625"/>
-                    <attribute id="V2" type="float" value="0.6875"/>
+                    <attribute id="V1" type="float" value="0.6875"/>
+                    <attribute id="V2" type="float" value="0.75"/>
                 </node>
                 <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Icon_EK_FF14_AST_F_EarthlyStar" />
@@ -765,18 +765,18 @@
                     <attribute id="V2" type="float" value="0.125"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icon_EK_FF14_AST_Horoscope_I" />
-                    <attribute id="U1" type="float" value="0.8125"/>
-                    <attribute id="U2" type="float" value="0.875"/>
-                    <attribute id="V1" type="float" value="0.0625"/>
-                    <attribute id="V2" type="float" value="0.125"/>
+                    <attribute id="MapKey" type="FixedString" value="Icon_EK_FF14_AST_Horoscope" />
+                    <attribute id="U1" type="float" value="0.375"/>
+                    <attribute id="U2" type="float" value="0.4375"/>
+                    <attribute id="V1" type="float" value="0.5625"/>
+                    <attribute id="V2" type="float" value="0.625"/>
                 </node>
                 <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Icon_EK_FF14_AST_Horoscope_II" />
-                    <attribute id="U1" type="float" value="0.8125"/>
-                    <attribute id="U2" type="float" value="0.875"/>
-                    <attribute id="V1" type="float" value="0.0625"/>
-                    <attribute id="V2" type="float" value="0.125"/>
+                    <attribute id="U1" type="float" value="0.375"/>
+                    <attribute id="U2" type="float" value="0.4375"/>
+                    <attribute id="V1" type="float" value="0.625"/>
+                    <attribute id="V2" type="float" value="0.6875"/>
                 </node>
                 <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Icon_EK_FF14_AST_F_HoroscopeEnd" />

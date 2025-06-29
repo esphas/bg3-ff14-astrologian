@@ -178,7 +178,7 @@
     <content contentuid="h11011152ge928g4058gab19g2b08e44646d5" version="1">Essential Dignity: Last Second</content>
 
     ========= 职业动作: 天星冲日 =========
-    ========= 职业动作: 天星交错 =========
+    ========= 被动: 天星交错 =========
     <content contentuid="h3e59f8b7g1de6g4df4g9bfag0b4756d1b436" version="1">Celestial Opposition</content>
     <content contentuid="haa0f2dd6gcc68g4d58g9760g8e6a283000f0" version="1">Extend the remaining duration of your Astrology effects on yourself and nearby allies by [1] turn.&lt;br&gt;&lt;br&gt;Nearby enemies must succeed on a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or be &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt;.</content>
     <content contentuid="h168a7e514eef4e5c98c4565c43bd31ea0c2c" version="1">Celestial Intersection</content>
@@ -242,15 +242,9 @@
     <content contentuid="h1e900ddb58b54207977fec51af238e26ac80" version="1">Grant yourself and nearby allies &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage types.</content>
     <content contentuid="h8ef6c49094f4473e85cb9ad8d60efd3c1575" version="1">Gain &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to all damage types.</content>
 
-    ========= 职业动作: 天宫图 =========
+    ========= 被动: 天宫图 =========
     <content contentuid="h9aa2a241ae14457fa5db8003b29a806820bc" version="1">Horoscope</content>
-    <content contentuid="h82f5bd7c043a479a84547fa8c3d172c871fc" version="1">Grant &lt;LSTag Type="Status" Tooltip="EK_FF14_HOROSCOPE"&gt;Horoscope&lt;/LSTag&gt; to yourself and nearby allies.</content>
-    <content contentuid="h782cbba7720640d184e7ec9ec096f87540g8" version="1">Horoscope</content>
-    <content contentuid="h7b438205399c4e519f447ba635093ef4fe4a" version="1">Terminate &lt;LSTag Type="Status" Tooltip="EK_FF14_HOROSCOPE"&gt;Horoscope&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="EK_FF14_HOROSCOPE_II"&gt;Horoscope II&lt;/LSTag&gt; on yourself and nearby allies.</content>
-    <content contentuid="h68b23b4bd0cc42168e805dece178a4263cca" version="1">Horoscope</content>
-    <content contentuid="h68db8b4101ee48ee8b8db4fbd50237a20430" version="1">When affected by &lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_Helios"&gt;Helios&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_AspectedHelios"&gt;Aspected Helios&lt;/LSTag&gt; or &lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_HeliosConjunction"&gt;Helios Conjunction&lt;/LSTag&gt;, this effect turns into &lt;LSTag Type="Status" Tooltip="EK_FF14_HOROSCOPE_II"&gt;Horoscope II&lt;/LSTag&gt;.&lt;br&gt;When this effect ends, you resotre [1].</content>
-    <content contentuid="head6429ad2dc4572b3b35c45541f94859a65" version="1">Horoscope II</content>
-    <content contentuid="h869c5415582b4420b4a9f1a9e93bbf1c10d4" version="1">When this effect ends, you restores[1].</content>
+    <content contentuid="h82f5bd7c043a479a84547fa8c3d172c871fc" version="1">Gain a +[1] bonus to Initiative rolls. When you roll initiative: if you have no arcanum, gain a random one; if you have no spread arcanum, gain a random one.</content>
 
     ========= 职业动作: 大宇宙 =========
     <content contentuid="h9559706e66e34380a5bbc625f5e02138629f" version="1">Macrocosmos</content>
@@ -261,7 +255,7 @@
     <content contentuid="h88702e9691c4461d9c6c2e10dce5e3568b29" version="1">Tracks damage taken. When this effect ends, restore [1] * half the number of hits taken.</content>
 
     ========= 职业动作: 星河满天 =========
-    ========= 职业动作: 星天开门 =========
+    ========= 被动: 星天开门 =========
     <content contentuid="h774074c164ea4205b5917de3eec7b6a4dece" version="1">Celestial River</content>
     <content contentuid="h64e58863832f4e47a9717d54b6b13f87ef38" version="1">Reduces damage dealt by nearby enemies and imposes penalty to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;; increases damage dealt by yourself and nearby allies and grants bonus to their &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt;.</content>
     <content contentuid="h0b1b3cad53f6401c98e593da657b4c4f6736" version="1">For each remaining turn, damage dealt decreases/increases by [1], &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; gain [2] penalty/bonus.</content>

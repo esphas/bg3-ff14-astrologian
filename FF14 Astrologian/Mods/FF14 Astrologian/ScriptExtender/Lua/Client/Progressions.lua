@@ -76,6 +76,7 @@ local Progressions_20 = {
     },
     -- Level 15
     ["f5ee5f97-006f-4411-866b-7e7c6a7d9d23"] = {
+        PassivesAdded = "EK_FF14_Horoscope",
     },
     -- Level 16
     ["7939f310-6fa8-40f6-9033-80dcbd933b18"] = {
@@ -159,7 +160,6 @@ local SpellLists_20 = {
     },
     -- Level 15
     ["a431b690-b61c-47ee-ab06-1d29703dc101"] = {
-        "Shout_EK_FF14_Horoscope",
     },
     -- Level 16
     ["790f21a1-4152-4241-8b0f-a978dff82a21"] = {
@@ -235,7 +235,7 @@ local Progressions_12 = {
     },
     -- Level 9
     ["006495ad-ad3e-4af4-ba83-563547885a9c"] = {
-        PassivesAdded = "EK_FF14_CelestialIntersection;EK_FF14_MaleficPlusIV;EK_FF14_FallMalefic;EK_FF14_GravityPlus;EK_FF14_GravityII;EK_FF14_AspectedHeliosPlus;EK_FF14_HeliosConjunction",
+        PassivesAdded = "EK_FF14_CelestialIntersection;EK_FF14_Horoscope;EK_FF14_MaleficPlusIV;EK_FF14_FallMalefic;EK_FF14_GravityPlus;EK_FF14_GravityII;EK_FF14_AspectedHeliosPlus;EK_FF14_HeliosConjunction",
         PassivesRemoved = "EK_FF14_MaleficIV;EK_FF14_Gravity;EK_FF14_AspectedHelios",
     },
     -- Level 10
@@ -292,7 +292,6 @@ local SpellLists_12 = {
     },
     -- Level 9
     ["cf25d6a7-ce6a-446f-9696-5745f897d262"] = {
-        "Shout_EK_FF14_Horoscope",
     },
     -- Level 10
     ["c418e842-bb8b-41db-98e8-0cfc05fd9c45"] = {

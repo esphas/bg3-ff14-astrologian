@@ -195,10 +195,7 @@ stats('Astrologian', engine.renderFileSync(`${pathTemplate}/common.txt`, {
         nocturnalTurns: 10,
     },
     horoscope: {
-        radius1: 9, radius2: 18,
-        turns1: 1, turns2: 3,
-        healing1: 'LevelMapValue(EK_FF14_HoroscopeHealing1)',
-        healing2: 'LevelMapValue(EK_FF14_HoroscopeHealing2)',
+        initiativeBonus: 1,
     },
     macrocosmos: {
         radius1: 18, radius2: 18,

@@ -23,6 +23,17 @@ local function DrawArcana(entity, redraw)
     Osi.ApplyStatus(entity, statusArcanaDraw, -1, 1, entity)
 end
 
+-- 抽暂留卡
+--   一般而言，暂留卡应该是通过暂留技能将抽取的奥秘卡转换而来的
+--   该函数仅作为工具方法，用于在特定情况下直接补充暂留卡
+local function DrawSpread(entity)
+    local arcanaIndex = Osi.Random(6)
+    local arcana = arcanas[arcanaIndex+1]
+    local statusArcanaSpread = "EK_FF14_ARCANA_SLOT_SPREAD_THE_" .. arcana:upper()
+    if debug then _P("DrawSpread: " .. Osi.IntegerToString(arcanaIndex)  .. "|" .. statusArcanaSpread) end
+    Osi.ApplyStatus(entity, statusArcanaSpread, -1, 1, entity)
+end
+
 -- 抽小奥秘卡
 local function DrawMinorArcana(entity)
     local minorArcanaIndex = Osi.Random(6)
@@ -58,6 +69,18 @@ local function SleeveDraw(entity)
     end
 end
 
+-- 天宫图补充手卡
+local function HoroscopeDraw(entity)
+    if Osi.HasPassive(entity, "EK_FF14_ArcanaDraw") == 1 and Osi.HasPassive(entity, "EK_FF14_ArcanaSlotDraw") == 0 then
+        if debug then _P("HoroscopeDraw(Draw) ->") end
+        DrawArcana(entity, false)
+    end
+    if Osi.HasPassive(entity, "EK_FF14_ArcanaSpread") == 1 and Osi.HasPassive(entity, "EK_FF14_ArcanaSlotSpread") == 0 then
+        if debug then _P("HoroscopeDraw(Spread) ->") end
+        DrawSpread(entity)
+    end
+end
+
 Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function (character, status, causee, _)
     if status == "EK_FF14_DRAW_TECHNICAL" then
         DrawArcana(character, false)
@@ -67,5 +90,7 @@ Ext.Osiris.RegisterListener("StatusApplied", 4, "after", function (character, st
         DrawMinorArcana(character)
     elseif status == "EK_FF14_SLEEVE_DRAW_TECHNICAL" then
         SleeveDraw(character)
+    elseif status == "EK_FF14_HOROSCOPE_TECHNICAL" then
+        HoroscopeDraw(character)
     end
 end)

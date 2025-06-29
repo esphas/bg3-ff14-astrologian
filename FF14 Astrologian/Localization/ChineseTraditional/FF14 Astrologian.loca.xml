@@ -178,7 +178,7 @@
     <content contentuid="h11011152ge928g4058gab19g2b08e44646d5" version="1">先天稟賦：緊急</content>
 
     ========= 職業動作: 天星沖日 =========
-    ========= 職業動作: 天星交錯 =========
+    ========= 被動: 天星交錯 =========
     <content contentuid="h3e59f8b7g1de6g4df4g9bfag0b4756d1b436" version="1">天星沖日</content>
     <content contentuid="haa0f2dd6gcc68g4d58g9760g8e6a283000f0" version="1">自身及附近盟友所擁有的來自你的占星術狀態的剩餘持續時間延長[1]回合。&lt;br&gt;&lt;br&gt;附近敵人將會陷入&lt;LSTag Type="Status" Tooltip="STUNNED"&gt;震懾&lt;/LSTag&gt;狀態，除非其通過一次&lt;LSTag Tooltip="SavingThrow"&gt;豁免檢定&lt;/LSTag&gt;。</content>
     <content contentuid="h168a7e514eef4e5c98c4565c43bd31ea0c2c" version="1">天星交錯</content>
@@ -242,15 +242,9 @@
     <content contentuid="h1e900ddb58b54207977fec51af238e26ac80" version="1">令自身與附近盟友獲得對所有傷害的&lt;LSTag Tooltip="Resistant"&gt;抗性&lt;/LSTag&gt;。</content>
     <content contentuid="h8ef6c49094f4473e85cb9ad8d60efd3c1575" version="1">獲得對所有傷害的&lt;LSTag Tooltip="Resistant"&gt;抗性&lt;/LSTag&gt;。</content>
 
-    ========= 職業動作: 天宮圖 =========
+    ========= 被動: 天宮圖 =========
     <content contentuid="h9aa2a241ae14457fa5db8003b29a806820bc" version="1">天宮圖</content>
-    <content contentuid="h82f5bd7c043a479a84547fa8c3d172c871fc" version="1">為自身和周圍盟友附加&lt;LSTag Type="Status" Tooltip="EK_FF14_HOROSCOPE"&gt;天宮圖&lt;/LSTag&gt;狀態。</content>
-    <content contentuid="h782cbba7720640d184e7ec9ec096f87540g8" version="1">天宮圖</content>
-    <content contentuid="h7b438205399c4e519f447ba635093ef4fe4a" version="1">結束自身及附近盟友的&lt;LSTag Type="Status" Tooltip="EK_FF14_HOROSCOPE"&gt;天宮圖&lt;/LSTag&gt;或&lt;LSTag Type="Status" Tooltip="EK_FF14_HOROSCOPE_II"&gt;陽星天宮圖&lt;/LSTag&gt;狀態。</content>
-    <content contentuid="h68b23b4bd0cc42168e805dece178a4263cca" version="1">天宮圖</content>
-    <content contentuid="h68db8b4101ee48ee8b8db4fbd50237a20430" version="1">受到&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_Helios"&gt;陽星&lt;/LSTag&gt;、&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_AspectedHelios"&gt;陽星相位&lt;/LSTag&gt;或&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_HeliosConjunction"&gt;陽星合相&lt;/LSTag&gt;影響時，變為&lt;LSTag Type="Status" Tooltip="EK_FF14_HOROSCOPE_II"&gt;陽星天宮圖&lt;/LSTag&gt;。&lt;br&gt;因其他原因結束該狀態時，恢復[1]。</content>
-    <content contentuid="head6429ad2dc4572b3b35c45541f94859a65" version="1">陽星天宮圖</content>
-    <content contentuid="h869c5415582b4420b4a9f1a9e93bbf1c10d4" version="1">結束該狀態時，恢復[1]。</content>
+    <content contentuid="h82f5bd7c043a479a84547fa8c3d172c871fc" version="1">先攻擲骰獲得+[1]加值。進行先攻擲骰時：如果你沒有奧秘卡，隨機獲取一張；如果你沒有暫留奧秘卡，隨機獲取一張。</content>
 
     ========= 職業動作: 大宇宙 =========
     <content contentuid="h9559706e66e34380a5bbc625f5e02138629f" version="1">大宇宙</content>
@@ -261,7 +255,7 @@
     <content contentuid="h88702e9691c4461d9c6c2e10dce5e3568b29" version="1">持續時間內積蓄所受的傷害。效果結束後，恢復[1] * 所受傷害次數的一半。</content>
 
     ========= 職業動作: 星河滿天 =========
-    ========= 職業動作: 星天開門 =========
+    ========= 被動: 星天開門 =========
     <content contentuid="h774074c164ea4205b5917de3eec7b6a4dece" version="1">星河滿天</content>
     <content contentuid="h64e58863832f4e47a9717d54b6b13f87ef38" version="1">令自身周圍的敵人發動攻擊造成的傷害降低，&lt;LSTag Tooltip="AttackRoll"&gt;攻擊擲骰&lt;/LSTag&gt;獲得減值；自身及周圍盟友發動攻擊造成的傷害提高，&lt;LSTag Tooltip="AttackRoll"&gt;攻擊擲骰&lt;/LSTag&gt;獲得加值。</content>
     <content contentuid="h0b1b3cad53f6401c98e593da657b4c4f6736" version="1">效果每剩餘1回合，傷害降低/提高[1]，&lt;LSTag Tooltip="AttackRoll"&gt;攻擊擲骰&lt;/LSTag&gt;獲得[2]減值/加值。</content>
