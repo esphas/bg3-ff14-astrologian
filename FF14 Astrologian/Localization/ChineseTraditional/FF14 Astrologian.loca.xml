@@ -186,7 +186,7 @@
     <content contentuid="h3e59f8b7g1de6g4df4g9bfag0b4756d1b436" version="1">天星沖日</content>
     <content contentuid="haa0f2dd6gcc68g4d58g9760g8e6a283000f0" version="1">自身及附近盟友所擁有的來自你的占星術狀態的剩餘持續時間延長[1]回合。&lt;br&gt;&lt;br&gt;附近敵人將會陷入&lt;LSTag Type="Status" Tooltip="STUNNED"&gt;震懾&lt;/LSTag&gt;狀態，除非其通過一次&lt;LSTag Tooltip="SavingThrow"&gt;豁免檢定&lt;/LSTag&gt;。</content>
     <content contentuid="h168a7e514eef4e5c98c4565c43bd31ea0c2c" version="1">天星交錯</content>
-    <content contentuid="h9d8396f5e9ec4c8eb718d80326440d5dg7e8" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CelestialOpposition"&gt;天星沖日&lt;/LSTag&gt;追加基於學派的額外效果。&lt;br&gt;&lt;br&gt;白晝學派：自身及附近盟友在[1]回合內持續恢復[2]。&lt;br&gt;黑夜學派：自身及附近盟友獲得[3]層&lt;LSTag Type="Status" Tooltip="EK_FF14_NOCTURNAL_WARD"&gt;黑夜守御&lt;/LSTag&gt;，有效期延長至[4]回合。</content>
+    <content contentuid="h9d8396f5e9ec4c8eb718d80326440d5dg7e8" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_EK_FF14_CelestialOpposition"&gt;天星沖日&lt;/LSTag&gt;追加基於學派的額外效果。</content>
     <content contentuid="he4901b363a3f46a48810a1ea67a4ab1fdaf1" version="1">天星交錯：日</content>
     <content contentuid="ha050edc5b6a64d1d9ff6308a6b1081fe8g83" version="1">天星交錯：夜</content>
 
