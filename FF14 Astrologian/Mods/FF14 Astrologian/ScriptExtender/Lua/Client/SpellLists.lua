@@ -112,7 +112,62 @@ local ModSpells = {
         }, { -- Level 9
         }
     },
-    ["1d81bac8-2e91-45df-bc3c-5aa1cd2ee201"] = { -- 2e Spells
+    ["cb92db0c-634d-438c-8580-f45555555555"] = { -- 2e Spells
+        { -- Cantrips
+            "Projectile_PhaseBolt",
+            "Shout_WarpStep",
+        }, { -- Level 1
+            "Projectile_FriendFetch",
+            "Projectile_SnowBall",
+            "Target_AntHaul",
+            "Target_HydraulicPush",
+            "Wall_WallOfShrubs",
+            "Zone_BuffettingWinds",
+            "Zone_ChillingSpray",
+        }, { -- Level 2
+            "Shout_MimicUndead",
+            "Target_FeastOfAshes",
+            "Target_FinalSacrifice",
+            "Target_SoundBurst",
+            "Target_TelekineticManeuver",
+            "Target_WarriorRegret",
+        }, { -- Level 3
+            "Shout_FocusingHum",
+            "Target_AgonzingDespair",
+            "Target_GhostlyWeapon",
+            "Projectile_MoonlightRay",
+            "Projectile_SearingLight",
+        }, { -- Level 4
+            "Rush_MercurialStride",
+            "Shout_CloakOfLight",
+            "Shout_GirzanjesMarch",
+            "Shout_VitalBeacon",
+            "Target_BloodSprayCurse",
+            "Zone_HydraulicTorrent",
+        }, { -- Level 5
+            "Shout_PlantForm",
+            "Shout_RepellingPulse",
+            "Shout_SynapticPulse",
+            "Target_BloodFeast",
+            "Target_ForcefulHand",
+            "Target_LightningStorm",
+            "Target_ScouringPulse",
+            "Target_StormBurst",
+            "Zone_BlazingFissure",
+            "Zone_CrushingDespair",
+        }, { -- Level 6
+            "Target_ElementalConfluence",
+        }, { -- Level 7
+            "Target_EclipseBurst",
+            "Target_MoonBurst",
+        }, { -- Level 8
+            "Projectile_PolarRay",
+            "Target_HypnoticTerror",
+            "Target_SummonIrii",
+        }, { -- Level 9
+        }
+    },
+    ["1d81bac8-2e91-45df-bc3c-5aa1cd2ee201"] = { -- PF2e Spells Updated and Reduced
         { -- Cantrips
             "Projectile_PhaseBolt",
             "Shout_WarpStep",
