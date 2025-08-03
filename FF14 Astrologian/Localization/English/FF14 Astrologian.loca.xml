@@ -6,6 +6,8 @@
     <content contentuid="hf0030181g796cg47bcgb987gb1efe40697a3" version="1">General</content>
     <content contentuid="h9705b608g6f97g4056ga2b4gfc4667dc7ab5" version="1">Progressions</content>
     <content contentuid="h0f2bce3cge1e1g4d5dgb0eagea9081e34e3f" version="1">Select the type of progressions you want to use.&lt;br&gt; - 12-level progression allows you to obtain all abilities provided by this mod at Astrologian level 12, making the class more overpowered.&lt;br&gt; - 20-level progression is more balanced and aligned with the design expectations (although still overpowered compared to original classes).&lt;br&gt;This setting requires a game restart to take effect.&lt;br&gt;&lt;br&gt;Note: This mod itself does not provide the function to unlock the level cap, so you still need such mods in order to level up to 13 or higher.</content>
+    <content contentuid="h10c7e4dba16141b3a3958a5086d9d422fc63" version="1">Spell Casting Ability</content>
+    <content contentuid="hd5b12d5d44da416fbc197881e06fa0288f1d" version="1">Select the spell casting ability you want to use.&lt;br&gt;This setting requires a game restart to take effect.</content>
 
     ========= Class Description =========
     <content contentuid="ha3c9e1ddg14c1g46a5g8d55g491c437ab98f" version="1">Astrologian</content>

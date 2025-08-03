@@ -6,6 +6,8 @@
     <content contentuid="hf0030181g796cg47bcgb987gb1efe40697a3" version="1">通常</content>
     <content contentuid="h9705b608g6f97g4056ga2b4gfc4667dc7ab5" version="1">职业成长</content>
     <content contentuid="h0f2bce3cge1e1g4d5dgb0eagea9081e34e3f" version="1">选择要使用12级版本还是20级版本的占星术士。&lt;br&gt; - 12级版本允许你在占星术士12级时获取该模组提供的所有能力，因此也更加超模。&lt;br&gt; - 20级版本的职业成长更平缓、更符合设计预期（尽管整体强度仍然会高于游戏原版职业）。&lt;br&gt;该设置需要重启游戏后才能生效。&lt;br&gt;&lt;br&gt;注意：该模组本身并不提供解锁等级上限的功能，你仍然需要相关模组才能将等级突破到12级以上。</content>
+    <content contentuid="h10c7e4dba16141b3a3958a5086d9d422fc63" version="1">施法关键属性</content>
+    <content contentuid="hd5b12d5d44da416fbc197881e06fa0288f1d" version="1">选择要使用的施法关键属性。&lt;br&gt;该设置需要重启游戏后才能生效。</content>
 
     ========= 职业描述 =========
     <content contentuid="ha3c9e1ddg14c1g46a5g8d55g491c437ab98f" version="1">占星术士</content>

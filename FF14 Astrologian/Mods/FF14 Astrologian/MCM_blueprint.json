@@ -29,6 +29,23 @@
                             "20"
                         ]
                     }
+                }, {
+                    "Id": "spell_casting_ability",
+                    "Name": "Spell Casting Ability",
+                    "Description": "Select the spell casting ability you want to use.",
+                    "Handles": {
+                        "NameHandle": "h10c7e4dba16141b3a3958a5086d9d422fc63",
+                        "DescriptionHandle": "hd5b12d5d44da416fbc197881e06fa0288f1d"
+                    },
+                    "Type": "enum",
+                    "Default": "感知 Wisdom",
+                    "Options": {
+                        "Choices": [
+                            "智力 Intelligence",
+                            "感知 Wisdom",
+                            "魅力 Charisma"
+                        ]
+                    }
                 }
             ]
         }

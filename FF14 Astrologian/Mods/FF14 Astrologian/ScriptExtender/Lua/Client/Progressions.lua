@@ -307,6 +307,15 @@ local SpellLists_12 = {
 }
 
 
+-- ========= Class UUIDs ========= --
+
+local ClassUUIDs = {
+    "804a273d-d312-4cbe-83a9-ca54004d1e9a",
+    "fdd7807d-14e3-4b4b-9096-d4ddb429af3f",
+    "bb534bdc-15a8-46c0-b0bc-1449593d34ec",
+}
+
+
 -- ========= Apply ========= --
 
 local function GetSettingValue(settingID, default)
@@ -339,4 +348,21 @@ local function AstrologyProgressions()
     end
 end
 
-Ext.Events.StatsLoaded:Subscribe(AstrologyProgressions)
+local function AstrologySpellCastingAbility()
+    local choice = GetSettingValue("spell_casting_ability", "感知 Wisdom")
+    local ability = choice == "智力 Intelligence" and 4 or choice == "魅力 Charisma" and 6 or 5
+    for _, uuid in ipairs(ClassUUIDs) do
+        local data = Ext.StaticData.Get(uuid, "ClassDescription")
+        local table = Ext.Types.Serialize(data)
+        table.PrimaryAbility = ability
+        table.SpellCastingAbility = ability
+        Ext.Types.Unserialize(data, table)
+    end
+end
+
+local function OnStatsLoaded()
+    AstrologyProgressions()
+    AstrologySpellCastingAbility()
+end
+
+Ext.Events.StatsLoaded:Subscribe(OnStatsLoaded)
