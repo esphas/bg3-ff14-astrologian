@@ -234,6 +234,7 @@ local ModSpells = {
         }, { -- Level 3
             "Target_ValkranaImpartUndeath",
             "Target_ValkranaSkeleport",
+            "Target_ValkranaBoneDisc",
         }, { -- Level 4
             "Shout_ValkranaNegativeEnergyField",
             "Target_ValkranaUnsealSoul",
@@ -246,6 +247,7 @@ local ModSpells = {
         }, { -- Level 7
         }, { -- Level 8
         }, { -- Level 9
+            "Zone_ValkranaVerweskundir",
         }
     },
 }
