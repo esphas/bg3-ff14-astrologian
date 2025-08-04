@@ -7,7 +7,7 @@ type "PassiveData"
 data "Icon" "Icon_EK_FF14_AST_F_Benefic"
 data "DisplayName" "h928fc02dge64dg4e9cga3eag63882cffad68"
 data "Description" "hf3e2ffb8g5ea0g46aeg8dfdge6fc8db91518"
-data "Boosts" "UnlockSpell(Target_EK_FF14_Benefic,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+data "Boosts" "UnlockSpell(Target_EK_FF14_Benefic,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "Target_EK_FF14_Benefic"
 type "SpellData"

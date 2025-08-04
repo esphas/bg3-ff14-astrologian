@@ -14,7 +14,7 @@ data "Properties" "IsHidden"
 data "Icon" "Icon_EK_FF14_AST_F_MaleficII"
 data "DisplayName" "h27010aebg3d9bg4990g9bb6g5079a04ec10f"
 data "Description" "he7b1dab9gdb30g4114ga8a8g06505acd011d"
-data "Boosts" "UnlockSpell(Target_EK_FF14_MaleficII,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+data "Boosts" "UnlockSpell(Target_EK_FF14_MaleficII,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "Target_EK_FF14_MaleficII"
 type "SpellData"

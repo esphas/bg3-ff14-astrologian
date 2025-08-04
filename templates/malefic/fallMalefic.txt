@@ -14,7 +14,7 @@ data "Properties" "IsHidden"
 data "Icon" "Icon_EK_FF14_AST_F_FallMalefic"
 data "DisplayName" "h6d9d967eg847fg4ca2g8b00g86e551bccb16"
 data "Description" "h7fbff348g44bcg48ddg942fg6ea093c2f223"
-data "Boosts" "UnlockSpell(Target_EK_FF14_FallMalefic,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+data "Boosts" "UnlockSpell(Target_EK_FF14_FallMalefic,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "Target_EK_FF14_FallMalefic"
 type "SpellData"

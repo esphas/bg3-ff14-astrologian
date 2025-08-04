@@ -7,7 +7,7 @@ type "PassiveData"
 data "Icon" "Icon_EK_FF14_AST_F_Gravity"
 data "DisplayName" "hcbe593e7g9487g47fcgac67gddc55591ad41"
 data "Description" "h88695bfeg138ag4e8bg80c0ge24e0219a382"
-data "Boosts" "UnlockSpell(Target_EK_FF14_Gravity,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+data "Boosts" "UnlockSpell(Target_EK_FF14_Gravity,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "Target_EK_FF14_Gravity"
 type "SpellData"

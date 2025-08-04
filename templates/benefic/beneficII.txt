@@ -14,7 +14,7 @@ data "Properties" "IsHidden"
 data "Icon" "Icon_EK_FF14_AST_F_BeneficII"
 data "DisplayName" "h3c771a95g302dg44acg83bcg1431235bd785"
 data "Description" "h920a4c6dgbcdbg4b59g8a6fgb129f1ed435c"
-data "Boosts" "UnlockSpell(Target_EK_FF14_BeneficII,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+data "Boosts" "UnlockSpell(Target_EK_FF14_BeneficII,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "Target_EK_FF14_BeneficII"
 type "SpellData"

@@ -7,7 +7,7 @@ type "PassiveData"
 data "Icon" "Icon_EK_FF14_AST_AspectedHelios"
 data "DisplayName" "h53718448gdc09g43b9g91bfgd8ffe7a0871c"
 data "Description" "h6e52b4c9g725cg4b3ega46fg3b382f641a93"
-data "Boosts" "UnlockSpell(Shout_EK_FF14_AspectedHelios,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+data "Boosts" "UnlockSpell(Shout_EK_FF14_AspectedHelios,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "Shout_EK_FF14_AspectedHelios"
 type "SpellData"

@@ -7,7 +7,7 @@
     <content contentuid="h9705b608g6f97g4056ga2b4gfc4667dc7ab5" version="1">職業成長</content>
     <content contentuid="h0f2bce3cge1e1g4d5dgb0eagea9081e34e3f" version="1">選擇要使用12級版本還是20級版本的占星術士。&lt;br&gt; - 12級版本允許你在占星術士12級時獲取該模組提供的所有能力，因此也更加超模。&lt;br&gt; - 20級版本的職業成長更平緩、更符合設計預期（儘管整體強度仍然會高於遊戲原版職業）。&lt;br&gt;該設置需要重啟遊戲後才能生效。&lt;br&gt;&lt;br&gt;注意：該模組本身並不提供解鎖等級上限的功能，你仍然需要相關模組才能將等級突破到12級以上。</content>
     <content contentuid="h10c7e4dba16141b3a3958a5086d9d422fc63" version="1">施法關鍵屬性</content>
-    <content contentuid="hd5b12d5d44da416fbc197881e06fa0288f1d" version="1">選擇要使用的施法關鍵屬性。&lt;br&gt;該設置需要重啟遊戲後才能生效。</content>
+    <content contentuid="hd5b12d5d44da416fbc197881e06fa0288f1d" version="1">選擇要使用的施法關鍵屬性。&lt;br&gt;該設置需要重啟遊戲、並在守墓人處改變為占星術士以外的職業至少一次後才能完全生效。</content>
 
     ========= 職業描述 =========
     <content contentuid="ha3c9e1ddg14c1g46a5g8d55g491c437ab98f" version="1">占星術士</content>

@@ -14,7 +14,7 @@ data "Properties" "IsHidden"
 data "Icon" "Icon_EK_FF14_AST_HeliosConjunction"
 data "DisplayName" "he15e9d99g963ag45a8gbeccg72fea46942f3"
 data "Description" "h6e52b4c9g725cg4b3ega46fg3b382f641a93"
-data "Boosts" "UnlockSpell(Shout_EK_FF14_HeliosConjunction,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Wisdom)"
+data "Boosts" "UnlockSpell(Shout_EK_FF14_HeliosConjunction,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf)"
 
 new entry "Shout_EK_FF14_HeliosConjunction"
 type "SpellData"
